@@ -12,4 +12,8 @@ class Place(models.Model):
 
     def __str__(self):
         return self.name
+
+    @property
+    def lat_lng(self):
+        return f"({self.location[1]},{self.location[0]})"
     
