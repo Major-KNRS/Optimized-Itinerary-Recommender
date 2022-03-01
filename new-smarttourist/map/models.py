@@ -3,6 +3,8 @@ from django.db import models
 from location_field.models.spatial import LocationField
 from django.contrib.gis.db import models as gis_models
 from django.contrib.gis.geos import Point
+from tourist.models import User
+from django.core.validators import MaxValueValidator, MinValueValidator 
 
 # Create your models here.
 class Genre(models.Model):
@@ -20,4 +22,14 @@ class Place(models.Model):
 
     def __str__(self):
         return self.name
+
+class Rating(models.Model):
+    user_id = models.ForeignKey(User, on_delete=models.CASCADE)
+    place_id = models.ForeignKey(Place, on_delete=models.CASCADE)
+    rating = models.PositiveIntegerField(default=1, validators=[MinValueValidator(0), MaxValueValidator(5)])
+
+    def __str__(self):
+        return "user_id: {}, place_id: {}, rating: {}"\
+            .format(self.user_id, self.place_id, self.rating)
+
     
