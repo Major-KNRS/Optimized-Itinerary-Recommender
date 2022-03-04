@@ -1,7 +1,7 @@
 from rest_framework.response import Response
-from .models import Place
+from .models import Place, Rating
 from rest_framework import generics
-from .serializers import PlaceSerializer
+from .serializers import PlaceSerializer,RatingSerializer
 from rest_framework.views import APIView
 import content_recommender
 from django.http import Http404
@@ -28,3 +28,11 @@ class PlaceRecommend(APIView):
         place = self.get_place(pk)
         serializer = PlaceSerializer(place,many=True)
         return Response(serializer.data)
+
+class RatingList(generics.ListCreateAPIView):
+    queryset = Rating.objects.all()
+    serializer_class = RatingSerializer
+
+class RatingDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Rating.objects.all()
+    serializer_class = RatingSerializer

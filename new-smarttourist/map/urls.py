@@ -1,6 +1,6 @@
 from django.urls import path,include
 from .views import index,recommend,detail,search_recommend,searchcollaborative_recommend
-from .apiviews import PlaceList, PlaceDetail, PlaceRecommend
+from .apiviews import PlaceList, PlaceDetail, PlaceRecommend, RatingList, RatingDetail
 
 urlpatterns = [
     path('',index,name='home'),
@@ -11,4 +11,6 @@ urlpatterns = [
     path('api/places/',PlaceList.as_view(), name = "places_list"),
     path('api/places/<int:pk>', PlaceDetail.as_view(), name = "places_detail"),
     path('api/places/recommend/<int:pk>', PlaceRecommend.as_view(), name='places_recommend'),
+    path('api/rating/', RatingList.as_view(), name='rating_list'),
+    path('api/rating/<int:pk>', RatingDetail.as_view(), name='rating_detail'),
 ]
