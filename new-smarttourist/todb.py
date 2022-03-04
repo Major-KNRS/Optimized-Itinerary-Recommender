@@ -4,7 +4,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "smarttourist.settings")
 import django
 django.setup()
 
-from map.models import Place
+from map.models import Place,Genre
 from django.contrib.gis.geos import Point
 import uuid
 from django.core.files.base import ContentFile
@@ -21,6 +21,13 @@ def csv_to_image(data):
 with open('data_all.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
-        place = Place.objects.create(name=row['title'],description=row['genre'],photo=csv_to_image(row['img_url']),location=Point(float(row['longitude']),float(row['latitude'])))
-        place.save()
-
+        txt = row['genre'][1:-1]
+        genres = txt.split(",")
+        place, created = Place.objects.get_or_create(name=row['title'],description=row['genre'],photo=csv_to_image(row['img_url']),location=Point(float(row['longitude']),float(row['latitude'])))
+        if len(genres)>=1:
+            genre_list = []
+            for g in genres:
+                real_genre = g.strip() #neglecting the spaces before text
+                genre, created = Genre.objects.get_or_create(name=real_genre[1:-1])
+                genre_list.append(genre)
+            place.genres.set(genre_list)
