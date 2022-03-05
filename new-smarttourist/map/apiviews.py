@@ -1,3 +1,4 @@
+from unicodedata import name
 from rest_framework.response import Response
 from .models import Place, Rating
 from rest_framework import generics
@@ -16,17 +17,17 @@ class PlaceDetail(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = PlaceSerializer
 
 class PlaceRecommend(APIView):
-    def get_place(self,pk):
+    def get_place(self,place):
         try:
-            obj = Place.objects.get(pk=pk)
-            query = content_recommender.get_content_based_recommendations(obj.name)
+            # obj = Place.objects.get(name=place)
+            query = content_recommender.get_content_based_recommendations(place)
             place = Place.objects.filter(name__in=query).distinct()
             return place
         except:
             raise Http404
 
-    def get(self, request, pk, format=None):
-        place = self.get_place(pk)
+    def get(self, request, place, format=None):
+        place = self.get_place(place)
         serializer = PlaceSerializer(place,many=True)
         return Response(serializer.data)
 
