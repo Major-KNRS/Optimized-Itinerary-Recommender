@@ -3,8 +3,9 @@ from .models import Place, Rating
 from rest_framework import generics
 from .serializers import PlaceSerializer,RatingSerializer
 from rest_framework.views import APIView
-import content_recommender
+import content_recommender, collaborative_recommender
 from django.http import Http404
+from tourist.models import User
 
 class PlaceList(generics.ListCreateAPIView):
     queryset = Place.objects.all()
@@ -36,3 +37,20 @@ class RatingList(generics.ListCreateAPIView):
 class RatingDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Rating.objects.all()
     serializer_class = RatingSerializer
+
+class CollaborativeRecommend(APIView):
+    def get_collaborative_recommendation(self,pk):
+        try:
+            user = User.objects.get(id=pk)
+            ratings_by_user = Rating.objects.all().filter(user_id=user).order_by('-rating')
+            query = collaborative_recommender.recommender(ratings_by_user[0].id)
+            place = Place.objects.filter(name__in=query).distinct()
+            return place
+        except:
+            print("error eerrrro")
+            raise Http404
+        
+    def get(self, request, pk, format=None):
+        place = self.get_collaborative_recommendation(pk)
+        serializer = PlaceSerializer(place, many=True)
+        return Response(serializer.data)
