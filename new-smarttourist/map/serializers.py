@@ -14,10 +14,6 @@ class RatingSerializer(serializers.ModelSerializer):
         model = Rating
         fields = '__all__'
 
-# class HybridSerializer(serializers.ModelSerializer):
-#     place = serializers.CharField(max_length=300)
-#     user = serializers.IntegerField()
-#     lat_lng = serializers.ReadOnlyField()
-#     class Meta:
-#         model = Place
-#         fields = ('id','name','lat_lng','description','photo','location')
+class HybridSerializer(serializers.Serializer):
+    place = serializers.CharField(max_length=300)
+    user = serializers.IntegerField()

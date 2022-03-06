@@ -2,7 +2,7 @@ from unicodedata import name
 from rest_framework.response import Response
 from .models import Place, Rating
 from rest_framework import generics
-from .serializers import PlaceSerializer,RatingSerializer
+from .serializers import HybridSerializer, PlaceSerializer,RatingSerializer
 from rest_framework.views import APIView
 import content_recommender, collaborative_recommender
 from django.http import Http404
@@ -60,6 +60,7 @@ class CollaborativeRecommend(APIView):
 class HybridRecommend(APIView):
 
     def get(self,request,format=None):
+        HybridSerializer(data=request.data).is_valid(raise_exception=True)
         place_content = PlaceRecommend.get_place(self,place=request.data['place'])
         user_content = CollaborativeRecommend.get_collaborative_recommendation(self,pk=request.data['user'])
         result = list(chain(place_content,user_content))
