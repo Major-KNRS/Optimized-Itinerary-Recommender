@@ -10,8 +10,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 
-function Signup() {
-
+function Signup() {  
   const [isError, setIsError] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

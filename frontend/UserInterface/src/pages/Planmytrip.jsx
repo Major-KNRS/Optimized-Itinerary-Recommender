@@ -1,13 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import History from '../components/planmytrip/History';
 import AddHistory from '../components/planmytrip/AddHistory';
+import Login from './Login/Login';
 
 import { v4 as uuid } from "uuid";
 import api from '../api/base';
+import useToken from '../components/App/useToken';
+
 
 function Planmytrip() {
     // const LOCAL_STORAGE_KEY = "x";
-    const [x, setX] = useState([]);
+     const [x, setX] = useState([]);
 
     // Retrieve History
     const retrieveHistory = async () => {

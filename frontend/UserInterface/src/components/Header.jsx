@@ -88,7 +88,6 @@ export default function Header() {
               <Button variant="button" component={Link} to="/planmytrip"> PlanMyTrip </Button>
               <Button variant="button" component={Link} to="/login"> Login </Button>
               <Button variant="button" component={Link} to="/signup"> Signup </Button>
-              <Button variant="button" component={Link} to="/test1"> Test1 </Button>
 
             </div>
           )}
