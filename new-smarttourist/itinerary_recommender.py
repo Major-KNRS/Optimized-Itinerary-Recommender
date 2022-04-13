@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-top_dests_ktm=pd.read_csv("../../Datasets/destinations_of_kathmandu_updated_with_latlong.csv")
+top_dests_ktm=pd.read_csv("../Datasets/destinations_of_kathmandu_updated_with_latlong.csv")
 
 # select the first 95 destinations as they're the destinations having the latitude and longitude currently
 top_dests_ktm=top_dests_ktm[:95]
@@ -14,7 +14,7 @@ top_n_dests=top_dests_ktm[:n]
 print(top_n_dests)
 
 # define a starting point 
-starting_point=0 #Bouddhanath
+starting_point=1 #Bouddhanath
 
 duplicate_lat_long = top_n_dests[top_n_dests.duplicated(['latitude','longitude'])]
 
@@ -31,7 +31,6 @@ def create_graph():
         for another_lat,another_long in zip(top_n_dests['latitude'].astype(float),top_n_dests['longitude'].astype(float)):
             #edge weight(Euclidean distance)
             distance_between_the_places=np.sqrt((lat-another_lat)**2+(long-another_long)**2)
-            #print(distance_between_the_places)
 
             #and store it in the 'graph' matrix
             graph[i][j]=distance_between_the_places
@@ -94,24 +93,16 @@ def create_colony(graph,node_no,ant_no,tau,eta,alpha,beta,initial_node):
             
             #current node is the last node in the list
             current_node=int(colony[i][-1])
-#             print("current node:",current_node)
             
             #use the following formula to calculate the probability 
             p_all_nodes=(tau[current_node,:]**alpha)*(eta[current_node,:]**beta)
-#             print("Prob:",p_all_nodes)
             
             #make the probability of the visited nodes 0
-#             print("colony:",colony)
             for node in colony[i]:
                 p_all_nodes[node]=0
                 
             #calculate the final probability
             p=p_all_nodes/np.sum(p_all_nodes)
-#             print("Sum prob:",np.sum(p_all_nodes))
-#             print("final prob:",p)
-            
-            #Note: 'p'is a vector having size (1,node_no)   
-#             print("probability vector:",p)
             
             #select the next node based on roulette wheel
             next_node=roulette_wheel(p)
@@ -195,31 +186,11 @@ def update_pheromone(tau,colony,fitness_list):
 best_fitness=np.inf
 best_tour=[]
 
-# %matplotlib notebook
-
-# fig = plt.figure(figsize=(10,10))
-# ax1 = fig.add_subplot(131)
-# ax2 = fig.add_subplot(132)
-# ax3 = fig.add_subplot(133)
-
-# ax1.title.set_text('Initial Mesh')
-# ax2.title.set_text('Pheromone Graph Plot')
-# ax3.title.set_text('Best Tour Plot')
-# plt.ion()
-
-# # plt.title("Pheromone graph plot:")
-# fig.show()
-# fig.canvas.draw()
-
-#let's draw the initial graph (mesh) first
-# plot_graph(ax1,fig)
-
 for i in range(max_iter):
     # create ant colony
     colony=[] # store it as a list
     colony=create_colony(graph,n,ant_no,tau,eta,alpha,beta,starting_point)
     print(f"Iteration #{i}:")
-#     print(colony)
     
     # initializing fitness_list
     fitness_list=[0]*ant_no
@@ -227,8 +198,6 @@ for i in range(max_iter):
     # calculate the fitness value of all ants
     for ant_i in range(ant_no):
         fitness_list[ant_i]=fitness_function(colony[ant_i],graph)
-        
-#     print(fitness_list)
     
     # find the best ant 
     min_value=np.min(fitness_list)
@@ -245,36 +214,30 @@ for i in range(max_iter):
     # update phermone matrix
     tau=update_pheromone(tau,colony,fitness_list)
     
-    # print("Updated pheromone matrix:",tau)
     
     # apply evaporation
     tau=(1-rho)*tau
     
-    # print("Updated pheromone matrix:",tau)
-    
-    # plot the pheromone graph
-    # draw_pheromone(ax2,fig,tau,graph)
-    
-    # plot the best tour
-    # draw_best_tour(ax3,fig,best_tour,graph)
-
-#     plt.subplot(1,3,1)
-#     %matplotlib tk
-#     plt.figure(1)
-    
-#     draw_pheromone(tau,graph)
-
-    
-    
-# drawing the best tour plot 
-# draw_best_tour(ax3,fig,best_tour,graph)
-
-# drawing end pheromone graph
-# draw_pheromone(ax2,fig,tau,graph)
-
 # display the names of destinations in the last tour
 print("Best tour obtained:")
 print(best_tour)
 for i in best_tour:
     print(top_n_dests.iloc[i]["title"],end='')
     print("--->",end='')
+
+#actual distance given by Vincenty distance using more accurate ellipsoidal models such as WGS-84 than Haversine
+import geopy.distance
+total_distance=0 #total actual distance
+
+for i in range(len(best_tour)-1):
+    coords_1 = (top_n_dests.iloc[best_tour[i]]["latitude"],top_n_dests.iloc[best_tour[i]]["longitude"])
+    coords_2 = (top_n_dests.iloc[best_tour[i+1]]["latitude"],top_n_dests.iloc[best_tour[i+1]]["longitude"])
+    
+    #names of destinations connected
+    src=top_n_dests.iloc[best_tour[i]]["title"]
+    dest=top_n_dests.iloc[best_tour[i+1]]["title"]
+    distance=geopy.distance.geodesic(coords_1, coords_2).km
+    print (f'{str(src)+"->"+str(dest)}',distance)
+    total_distance=total_distance+distance
+
+print("Total distance(km): ",total_distance)
