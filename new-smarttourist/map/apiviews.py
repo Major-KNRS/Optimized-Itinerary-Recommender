@@ -8,6 +8,7 @@ import content_recommender, collaborative_recommender
 from django.http import Http404
 from tourist.models import User
 from itertools import chain
+import itinerary_recommender
 
 class PlaceList(generics.ListCreateAPIView):
     queryset = Place.objects.all()
@@ -65,5 +66,13 @@ class HybridRecommend(APIView):
         user_content = CollaborativeRecommend.get_collaborative_recommendation(self,pk=request.data['user'])
         result = list(chain(place_content,user_content))
         serializer = PlaceSerializer(result, many=True)
+        return Response(serializer.data)
+
+class ItineraryRecommend(APIView):
+
+    def get(self,request, pk, format=None):
+        query = itinerary_recommender.recommend(pk)
+        place = Place.objects.filter(name__in=query).distinct()
+        serializer = PlaceSerializer(place, many=True)
         return Response(serializer.data)
 
