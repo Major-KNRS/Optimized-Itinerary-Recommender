@@ -75,9 +75,10 @@ export default function Header() {
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/"> Home </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="recommendation" component={Link} to="/"> Recommendation </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/planmytrip"> PlanMyTrip </Button></MenuItem>
+                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/itinerary"> Itinerary </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/login"> Login </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/signup"> Signup </Button></MenuItem>
-                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/test"> Test1 </Button></MenuItem>
+                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/test1"> Test1 </Button></MenuItem>
 
               </Menu> 
             </div>
@@ -86,6 +87,7 @@ export default function Header() {
               <Button variant="button" component={Link} to="/"> Home </Button>
               <Button variant="button" component={Link} to="/recommendation"> Recommendation </Button>
               <Button variant="button" component={Link} to="/planmytrip"> PlanMyTrip </Button>
+              <Button variant="button" component={Link} to="/itinerary"> Itinerary </Button>
               <Button variant="button" component={Link} to="/login"> Login </Button>
               <Button variant="button" component={Link} to="/signup"> Signup </Button>
               <Button variant="button" component={Link} to="/test1"> Test1 </Button>

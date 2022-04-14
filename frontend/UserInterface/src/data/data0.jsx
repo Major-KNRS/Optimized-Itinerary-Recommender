@@ -1,31 +1,39 @@
 export const hotel = [
     {
         "id": 0,
-        "name": "Hari",
-        "Contact": "9841318793",
-        "coordinats": [27.672901, 85.313660],
-        "location": "Jawalakhel"
+        "name": "Pashupatinath temple",
+        "description": "Cultural Heritage",
+        "coordinats": [27.672901, 85.315660],
     },
     {
         "id": 1,
-        "name": "Gita",
-        "Contact": "9841318793",
+        "name": "Swayambhunath Temple",
+        "description": "Cultural Heritage",
         "coordinats": [27.690084, 85.317555],
-        "location": "Thapathali"
     },
     {
         "id": 2,
-        "name": "Sameep",
-        "Contact": "9841318793",
+        "name": "Jawalakhel Zoo",
+        "description": "Entertainment",
         "coordinats": [27.666874, 85.323639],
-        "location": "Lagankehel"
     },
     {
         "id": 3,
-        "name": "Durga",
-        "Contact": "984131793",
-        "coordinats": [27.682200, 85.323816],
-        "location": "Pulchowk Campus"
+        "name": "Thamel",
+        "description": "Hisotrical Place",
+        "coordinats": [27.682200, 85.373816],
+    },
+    {
+        "id": 4,
+        "name": "Basantapur",
+        "description": "Hisotrical Place",
+        "coordinats": [27.652200, 85.363816],
+    },
+    {
+        "id": 5,
+        "name": "RaniPokhari",
+        "description": "Hisotrical Place",
+        "coordinats": [27.682200, 85.333816],
     }
 
 ]

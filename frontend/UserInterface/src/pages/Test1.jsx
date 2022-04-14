@@ -1,201 +1,255 @@
-import * as React from 'react';
-import { useState } from 'react';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
-import AssignmentIcon from '@mui/icons-material/Assignment';
-import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
-import InputAdornment from '@mui/material/InputAdornment';
+import React, { useEffect } from 'react'
 
-import {Formik, Form, Field} from 'formik';
-import {
-  MenuItem,
-} from '@mui/material';
-import {LocalizationProvider} from '@mui/lab';
-import AdapterDateFns from '@mui/lab/AdapterDateFns';
+import { Button, Container, Grid, TextField, Typography } from "@mui/material";
+import { Box } from "@mui/system";
+import { makeStyles } from '@mui/styles';
+import { useState, useRef, useCallback } from 'react';
 
-import {DateTimePicker} from 'formik-mui-lab';
+import axios from 'axios';
 
-const luxuries = [
-  {
-      value: 'economy',
-      label: 'Economy',
-  },
-  {
-      value: 'business',
-      label: 'Business',
-  },
-  {
-      value: 'first',
-      label: 'First',
-  },
-];
+import 'mapbox-gl/dist/mapbox-gl.css'
+import 'react-map-gl-geocoder/dist/mapbox-gl-geocoder.css'
 
-const numbers = [
-  {
-      value: 'One',
-      label: '1',
-  },
-  {
-      value: 'Two',
-      label: '2',
-  },
-  {
-      value: 'Three',
-      label: '3',
-  },
-  {
-    value: 'Four',
-    label: '4',
-  },
-  {
-    value: 'Five',
-    label: '5',
-  },
-];
+import Geocoder from 'react-map-gl-geocoder'
 
-function Planmytrip() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [luxury, setLuxury] = useState("economy");
+import * as jsondata from '../data/data0'
+import * as jsondata2 from '../data/data2'
+// import jsondata1 from '../data/response.json'
 
-  const handleChange = (event) => {
-    setLuxury(event.target.value);
-  };
+import ReactMapGL, { Marker, Popup } from 'react-map-gl';
+import { Source, Layer } from 'react-map-gl';
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    // eslint-disable-next-line no-console
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
+const MAPBOX_TOKEN = 'pk.eyJ1Ijoia2FtYWxnb2RhciIsImEiOiJjazVpOGwxbWgwYnllM2ptbm43ajF0ZmQ0In0.f1zLLWQiv7d5tIc-Lu9n0w'
+
+const useStyles = makeStyles({
+  root: {
+    backgroundColor: 'red',
+    color: (props) => props.color,
+  },
+  cover: {
+      padding: 10,
+      margin: 10,
+    //   border: 5,
+    //   borderStyle: 'solid',
+    //   borderColor: '#4287f5',
+    //   borderWidth: 2,
+  },
+});
+
+function Test0() {
+
+    const classes = useStyles();
+
+    const [selectedMarker, setSelectedMarker] = useState(null);
+
+    const [starting, setStarting] = useState([]); //start place
+    const [destination, setDestination] = useState([]); //destination place
+
+    const [startlat, setStartlat] = useState(0);
+    const [startlong, setStartlong] = useState(0);
+    const [destlat, setDestlat] = useState(0);
+    const [destlong, setDestlong] = useState(0);
+
+    const [coordinatevalue, setCoordinatevalue] = useState([]);
+
+    const [fromapi, setFromapi] = useState([]);
+
+    const [viewport, setViewport] = useState({
+        latitude: 27.682200,
+        longitude: 85.323816,
+        width: '53vw',
+        height: '70vh',
+        zoom: 14,
+        pitch: 30,
     });
-  };
 
-  return (
-    <Formik
-    initialValues={{
-      tags: [],
-      date: new Date(),
-      time: new Date(),
-      dateTime: new Date(),
-    }}
-  >
-    <LocalizationProvider dateAdapter={AdapterDateFns}>
-      <Form>
-      <Container component="main" maxWidth="xs">
-        <Box
-          sx={{
-            marginTop: 6,
-            marginBottom: 6,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            border: 'blue solid 2px',
-          }}
-        >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-            <AssignmentIcon />
-          </Avatar>
-          <Typography component="h1" variant="h5">
-            Plan My Trip
-          </Typography>
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        mapboxGeocode();
+        mapboxGeocode2();
+        getCoordinates();
+        apiCall2();
+    };
 
-          <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
-            <Grid container spacing={2}>
-            <Grid item xs={12} sm={6}>
-                <TextField
-                  required
-                  fullWidth
-                  label="Destination"
-                />
-              </Grid>
-              <Grid item xs={12} sm={6} >
-                <TextField
-                  required
-                  fullWidth
-                  label="Places of Interest"
-                />
-              </Grid>
-              <Grid item xs={12} sm={6} >
-                <TextField
-                  required
-                  fullWidth
-                  label="Adults"
-                />
-              </Grid>
-              <Grid item xs={12} sm={6}>
-                <TextField
-                  required
-                  fullWidth
-                  label="Kids"
-                />
-              </Grid>
-              
-              <Grid item xs={12} sm={6} >
-                <TextField
-                  required
-                  fullWidth
-                  label="Budget"
-                  InputProps={{
-                    startAdornment: <InputAdornment position="start">NPR</InputAdornment>,
-                  }}
-                />
-              </Grid>
-              <Grid item xs={12} sm={6}>
-                <TextField
-                  required
-                  fullWidth
-                  select
-                  label="Luxury Level"
-                  value={luxury}
-                  onChange={handleChange}
-                >
-                {luxuries.map((option) => (
-                <MenuItem key={option.value} value={option.value}>
-                  {option.label}
-                </MenuItem>
-              ))}
-              </TextField>
-              </Grid>
+    const mapboxGeocode = async () => {
+        let response = await axios.get(`https://api.mapbox.com/geocoding/v5/mapbox.places/${starting}.json?access_token=pk.eyJ1IjoicmFuamFuNDM1IiwiYSI6ImNrNWIzdnNqeTE2ZjgzZG82OG40aG82ejcifQ.nrFTVyOERu6YhgS66Gxr8A`);
+        console.log(response.data.features[0].geometry.coordinates);
+        setStartlong(response.data.features[0].geometry.coordinates[0]);
+        setStartlat(response.data.features[0].geometry.coordinates[1]);
+    };
 
-              <Grid item>
-                <Field
-                  component={DateTimePicker}
-                  name="dateTime"
-                  label="Start Date"
-                />
-              </Grid>
-              <Grid item >
-                <Field
-                  component={DateTimePicker}
-                  name="dateTime"
-                  label="End Date"
-                />
-              </Grid>
+    const mapboxGeocode2 = async () => {
+        let response = await axios.get(`https://api.mapbox.com/geocoding/v5/mapbox.places/${destination}.json?access_token=pk.eyJ1IjoicmFuamFuNDM1IiwiYSI6ImNrNWIzdnNqeTE2ZjgzZG82OG40aG82ejcifQ.nrFTVyOERu6YhgS66Gxr8A`);
+        console.log(response.data.features[0].geometry.coordinates);
+        setDestlong(response.data.features[0].geometry.coordinates[0]);
+        setDestlat(response.data.features[0].geometry.coordinates[1]);
+    };
 
-            </Grid>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              href="/"
-              sx={{ mt: 3 }}
-            >
-              Plan
-            </Button>
+    const getCoordinates = async () => {
+        let response = await axios.get(`https://api.mapbox.com/directions/v5/mapbox/driving/${startlong},${startlat};${destlong},${destlat}?geometries=geojson&access_token=pk.eyJ1IjoicmFuamFuNDM1IiwiYSI6ImNrNWIzdnNqeTE2ZjgzZG82OG40aG82ejcifQ.nrFTVyOERu6YhgS66Gxr8A`);
+        let data = response.data.routes[0].geometry.coordinates;
+        console.log(data);
+        let data1 = JSON.stringify(data);
+        console.log(data1);
+        setCoordinatevalue(data);
+      };
 
-          </Box>
-        </Box>
-      </Container>
-      </Form>
-      </LocalizationProvider>
-    </Formik>
-  );
+    // points is an array of [[long, lat],[long, lat]]
+    // const coordinates = [[85.320351,27.694653],[85.317555,27.690084],[85.316131,27.688521],[85.318615,27.684670],[85.318749,27.683173],[85.319566,27.682085],[85.320894,27.682750]];\
+
+    const geocoderContainerRef = useRef();
+    const mapRef = useRef();
+    const handleViewportChange = useCallback(
+        (newViewport) => setViewport(newViewport),
+        []
+    );
+
+    const apiCall2 = async () => {
+        try {
+            let response = await axios.get('http://127.0.0.1:8000/api/itinerary/1');
+            console.log(response.data);
+            setFromapi(response.data);
+        } catch (err) {
+            console.log(err);
+        }
+    };
+
+    useEffect( () => {
+        apiCall2();
+        mapboxGeocode();
+        mapboxGeocode2();
+        getCoordinates();
+    },[]);
+
+    const dataOne = {
+        type: "Feature",
+        properties: {},
+        geometry: {
+            type: "LineString",
+            coordinates: coordinatevalue
+        }
+    };
+    
+    return (
+      <div>
+        <Container className={classes.cover}>
+            <Box>
+                <Grid container>
+                    <Grid item style={{ flexGrow:1 }}><Typography variant="h5" style={{ textAlign:'left' }}>Maps</Typography></Grid>
+                </Grid>
+            </Box>
+            <Box>
+                <Grid container>
+                    <Grid item xs={9}>
+                        <ReactMapGL
+                        ref={mapRef}
+                        {...viewport}
+                        mapStyle={'mapbox://styles/kamalgodar/ckz5h5lys00h215ldob7bu2fc'}
+                        mapboxApiAccessToken='pk.eyJ1Ijoia2FtYWxnb2RhciIsImEiOiJjazVpOGwxbWgwYnllM2ptbm43ajF0ZmQ0In0.f1zLLWQiv7d5tIc-Lu9n0w'
+                        onViewportChange={(viewport) => {
+                            setViewport(viewport);
+                        }}
+                        >
+                        <Geocoder
+                            mapRef={mapRef}
+                            containerRef={geocoderContainerRef}
+                            onViewportChange={handleViewportChange}
+                            mapboxApiAccessToken={MAPBOX_TOKEN}
+                            position="top-right"
+                        />
+
+                        {/* -ve indicates left and up */}
+                        {jsondata.hotel.map((x, index) => (
+                            <Marker key={x.id} latitude={x.coordinats[0]} longitude={x.coordinats[1]} offsetTop={-(viewport.zoom*2)} offsetLeft={-(viewport.zoom*2)}>
+                                <Button onClick={(e) => {
+                                    e.preventDefault();
+                                    setSelectedMarker(x);
+                                }}>
+                                <img src='/images/redmarker.png'
+                                    width={viewport.zoom * 2}
+                                    height={viewport.zoom * 2}
+                                />
+                                </Button>
+
+                            </Marker>
+                        ))}
+                        {selectedMarker && <Popup latitude={selectedMarker.coordinats[0]} longitude={selectedMarker.coordinats[1]} onClose={()=>{setSelectedMarker(null);}}>
+                            <Box>
+                                <h4>{selectedMarker.name}</h4>
+                            </Box>
+                        </Popup>}
+
+                        <Source id="polylineLayer" type="geojson" data={dataOne}>
+                            <Layer
+                              id="lineLayer"
+                              type="line"
+                              source="my-data"
+                              layout={{
+                                "line-join": "round",
+                                "line-cap": "round"
+                              }}
+                              paint={{
+                                "line-color": "rgba(255, 0, 0, 0.8)",
+                                "line-width": 5
+                              }}
+                            />
+                        </Source>  
+                        </ReactMapGL>
+                    </Grid>
+
+                    <Grid item xs={3}>
+                        <Box>
+                            <table border={1} cellSpacing={0} cellPadding={5}>
+                            <tr>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Distance</th>
+                                <th>Time</th>
+                            </tr>
+                            {fromapi.map((x, index) => (
+                            <tr>
+                                <td>{x.name}</td>
+                                <td>{x.name}</td>
+                                <td>{x.lat}</td>
+                                <td>{x.long}</td>
+                            </tr>
+                            ))}
+                            </table>
+                        </Box> 
+                    </Grid>
+                </Grid>
+                
+            </Box>
+
+            <Box >
+                <form className='ui form' onSubmit={e => {handleSubmit(e)}}>
+                    <div className='field' style={{margin:5}}>
+                    <label>Starting Point</label>
+                        <input 
+                        type="text"
+                        name="name"
+                        placeholder="Starting Point"
+                        value={starting}
+                        onChange={(e) => setStarting(e.target.value)}
+                        />
+                    </div>
+                    <div className='field' style={{margin:5}}>
+                        <label>Destination Point</label>
+                        <input 
+                        type="text"
+                        name="name"
+                        placeholder="Destination Point"
+                        value={destination}
+                        onChange={(e) => setDestination(e.target.value)}
+                        />
+                    </div>
+                    <button type='submit'>Enter</button>
+                </form>
+            </Box>
+
+        </Container>
+      </div>
+    )
 }
 
-export default Planmytrip;
+export default Test0;

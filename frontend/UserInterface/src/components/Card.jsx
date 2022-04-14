@@ -30,7 +30,8 @@ function CardComponent(props) {
                 <CardMedia
                     component="img"
                     height="200"
-                    image="/images/everest.jpg"
+                    // image="/images/everest.jpg"
+                    image= {`http://127.0.0.1:8000${props.photo}`}
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
@@ -41,9 +42,7 @@ function CardComponent(props) {
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     <ReadMore>
-                    This is the description of the place in few words. fkljdsa fdsak fkdasfkj fadsf dhas fdskfj hdksjf hasdkj 
-                    fhasd df hjdsa f shadfkjsdfh hdf hdjdskafha fhka hfkjsdahfdskfhadfddf  fsdakjfhdjfh  fsdajfh ds fdk ka fkdashf 
-                    jksd sadhfsadkf THis is the ending.
+                    {props.description}
                     </ReadMore>
                   </Typography>
                 </CardContent>
