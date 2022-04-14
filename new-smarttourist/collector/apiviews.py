@@ -3,7 +3,11 @@ from rest_framework import generics
 from .serializers import LogSerializer
 from django.db.models import Count
 from map.models import Place
-from django.http import JsonResponse
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from map.serializers import PlaceSerializer
+from map.models import Place
+
 
 class LogList(generics.ListCreateAPIView):
     queryset = Log.objects.all()
@@ -19,21 +23,17 @@ def PopularityBasedRecs(num=6):
     sorted_items = sorted(items, key=lambda item: -float(item['user_id__count']))
     return sorted_items[:num]
 
-def chart(request, take=10):
+def chart(take=10):
     sorted_items = PopularityBasedRecs(take)
-    ids = [i['content_id'] for i in sorted_items]
+    print(sorted_items)
+    places = []
+    for i in sorted_items:
+        places.append(Place.objects.get(id=i['content_id']))
+    print(places)
+    return places
 
-    ms = {m['id']: m['name'] for m in
-          Place.objects.filter(id__in=ids).values('name', 'id')}
-
-    if len(ms) > 0:
-        sorted_items = [{'id': i['content_id'],
-                          'name': ms[i['content_id']]} for i in sorted_items]
-    else:
-        print("No data for chart found. This can either be because of missing data, or missing movie data")
-        sorted_items = []
-    data = {
-        'data': sorted_items
-    }
-
-    return JsonResponse(data, safe=False)
+class PopularityRecommend(APIView):
+    def get(self,request,format=None):
+        place = chart()
+        serializer = PlaceSerializer(place, many=True)
+        return Response(serializer.data)
