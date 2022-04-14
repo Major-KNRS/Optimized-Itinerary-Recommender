@@ -26,6 +26,14 @@ class Place(models.Model):
     @property
     def lat_lng(self):
         return f"({self.location[1]},{self.location[0]})"
+    
+    @property
+    def lat(self):
+        return f"{self.location[1]}"
+    
+    @property 
+    def long(self):
+        return f"{self.location[0]}"
 
 class Rating(models.Model):
     user_id = models.ForeignKey(User, on_delete=models.CASCADE)
