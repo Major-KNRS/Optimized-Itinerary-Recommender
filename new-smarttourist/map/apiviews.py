@@ -72,7 +72,10 @@ class ItineraryRecommend(APIView):
 
     def get(self,request, pk, format=None):
         query = itinerary_recommender.recommend(pk)
-        place = Place.objects.filter(name__in=query).distinct()
-        serializer = PlaceSerializer(place, many=True)
+        places = []
+        for i in query:
+            place = Place.objects.get(name=i)
+            places.append(place)
+        serializer = PlaceSerializer(places, many=True)
         return Response(serializer.data)
 
