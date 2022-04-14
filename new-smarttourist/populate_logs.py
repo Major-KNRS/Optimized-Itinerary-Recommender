@@ -99,7 +99,7 @@ def main():
     Log.objects.all().delete()
     random.seed(SEED)
 
-    number_of_events = 100
+    number_of_events = 10000
 
     print("Generating Data")
     users = [
