@@ -75,7 +75,7 @@ himalayan arts gallery pltd,4.5,4,Art Galleries,27.7129525,85.3093281
 Guru Lhakhang Monastery,4,5,Religious Sites,27.7220231,85.3598993
 Rani Pokhari (Queen's Pond),3.5,41,Points of Interest & Landmarks • Scenic Walking Areas,27.7078387,85.3131603
 Woodcraft Gallery,5,4,Art Galleries,27.7154575,85.3066668
-Kashthamandap,4,112,Religious Sites,27.7038375,85.3036515
+Kashthamandap,4,112,,27.7038375,85.3036515
 Namkha Khyung Dzong Rigdin Choling Monastery,5,10,Religious Sites,27.7804877,85.3478869
 Casino Mahjong,3.5,12,Casinos,27.7007362,85.288259
 "The Tribhuvan, Mahendra, and Birendra Museums",3.5,24,Speciality Museums,27.7043039,85.3051176
@@ -94,112 +94,112 @@ Jamchen Lhakhang Monastery,3.5,3,Religious Sites,27.7215058,85.3591918
 Big Bell,3.5,9,Points of Interest & Landmarks,27.7268583,85.3006248
 Mrigasthali Deer Park,4,5,Nature & Wildlife Areas • Parks,27.711512,85.3497721
 Universal Crafts,5,3,Art Galleries • Antique Shops,27.7173331,85.3812516
-Mero Chitra Wears,5,3,Factory Outlets,,
-Casino Everest,3.5,9,Casinos,,
-Maju Dega Mandir Temple,3,11,Architectural Buildings • Religious Sites,,
-Gauri Gaht,4,7,Points of Interest & Landmarks • Architectural Buildings,,
-Monasterio Tibetano Boudhanat,4,3,Religious Sites,,
-Kalikasthan Temple,4,1,Religious Sites,,
-Kirateshwar Mahadev,4,1,Religious Sites,,
-Khawalung Monastery,4.5,6,Religious Sites,,
-Vishnu Mandir Temple,4,6,Points of Interest & Landmarks • Architectural Buildings,,
-Dolma Treks,5,3,Historic Sites • Historic Walking Areas,,
-Chyasin Dega Temple,3.5,5,Religious Sites,,
-Bhadrakali Temple,5,8,Religious Sites,,
-The City Museum Kathmandu,4,6,Speciality Museums,,
-Bachhareshwari　Mandir Temple,5,4,Points of Interest & Landmarks • Architectural Buildings,,
-Blue Moon Curio Shop,5,1,Antique Shops,,
-Chabdi Barahi Temple,3.5,3,Points of Interest & Landmarks,,
-Gorakhnath Mandir Temple,3.5,3,Points of Interest & Landmarks • Architectural Buildings,,
-Singha Sattal (Silyan Sattal),3.5,7,Points of Interest & Landmarks • Architectural Buildings,,
-Indoor Sports Arena,5,2,Sports Complexes,,
-Mahendreswor Mandir Temple,3.5,9,Architectural Buildings • Religious Sites,,
-Sara Enterprises,5,1,Art Galleries,,
-Pharping HydroPower Dam,3,1,Dams,,
-Ashok Stupa,3.5,2,Historic Sites • Monuments & Statues,,
-Dirghaman & Ganeshman Chitrakar Art Foundation,4,1,Art Galleries,,
-Stone Vishnu Mandir Temple,3,6,Points of Interest & Landmarks • Architectural Buildings,,
-Maha Vishnu Mandir Temple,3.5,4,Architectural Buildings • Religious Sites,,
-Rizvi Brothers Paper Mache Gift Shop,5,1,Art Galleries,,
-Itum bahal,4,1,Points of Interest & Landmarks • Religious Sites,,
-Pandra Shivalaya,3.5,3,Points of Interest & Landmarks • Architectural Buildings,,
-Woodcraft Gallery,5,1,Art Galleries,,
-Buddha Nepal Art Gallery,5,1,Art Galleries,,
-Aviation Museum,5,1,Speciality Museums,,
-Handy-Mandy Craft House,5,1,Points of Interest & Landmarks,,
-Karmaraja Mahavihara,3.5,5,Religious Sites,,
-Shree Tanadevi Temple,4,3,Religious Sites,,
-Bhimsen Sthan Temple,4,1,Religious Sites,,
-Chandragiri Hill,5,1,Points of Interest & Landmarks • Lookouts,,
-Tri Chandra Collage,4,1,Architectural Buildings,,
-Lokta Paper Craft,1,1,Points of Interest & Landmarks,,
-Kotilingeshwor Mahadev Mandir Temple,3.5,3,Architectural Buildings • Religious Sites,,
-Dharmadhaatu Stupa,3.5,2,Religious Sites,,
-Lucky Traders & Exporter,4,1,Shopping Malls,,
-Manjushree Temple,2.5,2,Religious Sites,,
-Shree Bhawani Shankar Temple,3,1,Religious Sites,,
-Direction Exhibition & Convention Center,4,2,Convention Centers,,
-The Charumati Vihara Stupa,4,1,Historic Sites • Religious Sites,,
-Brass and Bronze Museum,4,1,Art Museums • History Museums,,
-Buddha Park,3,1,Parks,,
-Krishna Temple,3,1,Religious Sites,,
-Bisnumati River,3,1,Bodies of Water,,
-Bijeshwari Temple,3,1,Points of Interest & Landmarks • Religious Sites,,
-Shobabaghwati,3,1,Points of Interest & Landmarks • Religious Sites,,
-Drugon Jangchu Monastery,3,1,Religious Sites,,
-Dhansa Dega,3,1,Points of Interest & Landmarks • Religious Sites,,
-Department of Immigration,1,3,Government Buildings,,
-Mahadev Mandir Temple,3,1,Architectural Buildings • Religious Sites,,
-Ram Chandra Temple,3,1,Points of Interest & Landmarks • Religious Sites,,
-Espace de visite,4,1,Points of Interest & Landmarks,,
-Manhal Healing,N,0,Sports Camps & Clinics,,
-Nepal Hiking Team,5,841,City Tours • Cultural Tours,,
-Nepal Eco Adventure,5,1304,Multi-day Tours • Historical & Heritage Tours,,
-Ace the Himalaya,5,1366,Multi-day Tours • Cultural Tours,,
-Adventure-Pulse,5,232,Multi-day Tours • Eco Tours,,
-Mountain Mart Treks & Expedition,5,765,Multi-day Tours • Historical & Heritage Tours,,
-Himalaya Holiday Service,5,294,Cultural Tours • Helicopter Tours,,
-Mountain Delights Treks & Expedition,5,187,Historical & Heritage Tours • Sightseeing Tours,,
-Nepal Horizon Treks & Expedition,5,149,Multi-day Tours • Hiking & Camping Tours,,
-The Great Adventure Treks & Expedition - Private Day Tours,5,369,Hiking & Camping Tours • Private Tours,,
-Himalayan Quests - Day Tours,5,134,Sightseeing Tours,,
-Incredible Treks,5,254,River Rafting & Tubing • Cultural Tours,,
-Magical Nepal,5,155,Multi-day Tours • Cultural Tours,,
-Visit Himalaya Treks,5,146,Hiking & Camping Tours • Nature & Wildlife Tours,,
-Thai Nepal Travels and Tours,5,134,City Tours • Multi-day Tours,,
-Himalayan Friends Trekking - Day Tours,5,134,Hiking & Camping Tours • Nature & Wildlife Tours,,
-Mountain Holiday Treks & Expedition,5,97,Multi-day Tours • Hiking & Camping Tours,,
-Third Rock Adventures,5,226,City Tours • Cultural Tours,,
-Himalayan Car Rental Nepal,5,156,Bus Services • Taxis & Shuttles,,
-Nepal Ayurveda Home,5,101,Yoga & Pilates • Spas,,
-Dream Heaven Adventure,5,123,Cultural Tours • Historical & Heritage Tours,,
-Exciting Nepal Treks and Expedition,5,366,Multi-day Tours • Helicopter Tours,,
-A1 Excursion - Private Day Tours,5,132,Private Tours,,
-Mosaic Adventure,5,588,Multi-day Tours • Walking Tours,,
-Tramping Himalaya,5,103,Climbing Tours • Hiking & Camping Tours,,
-Destination Unlimited Treks & Expeditions,5,247,City Tours • Multi-day Tours,,
-Pariwar Holidays,5,620,Multi-day Tours • Historical & Heritage Tours,,
-Vista Trek,5,190,Cultural Tours • Helicopter Tours,,
-Odea Services,5,179,Helicopter Tours • Historical & Heritage Tours,,
-Ambition Himalaya Treks & Expeditions,5,252,Multi-day Tours • Cultural Tours,,
-Osho Vision Treks and Expedition,5,212,City Tours • Multi-day Tours,,
-Landmark Discovery Treks –  Day Tours,5,189,Cultural Tours • Historical & Heritage Tours,,
-Friends Adventure Team,5,251,Canyoning & Rappelling Tours • Walking Tours,,
-Outshine Adventure,5,268,City Tours • Cultural Tours,,
-Osho Divine Zone,5,119,Yoga & Pilates • Spas,,
-Discovery World Trekking,5,555,Multi-day Tours • River Rafting & Tubing,,
-Nepal Gateway Trekking,5,147,Hiking & Camping Tours • Private Tours,,
-Access Nepal Tour & Trekking,5,294,Multi-day Tours • Hiking & Camping Tours,,
-Trekking Team Group,5,144,Cultural Tours • Eco Tours,,
-Destination Himalaya Treks and Expedition,5,153,Multi-day Tours • Sightseeing Tours,,
-Earthbound Expeditions,5,565,Multi-day Tours • Cultural Tours,,
-Unique Path Trekking & Expedition,5,140,City Tours • Cultural Tours,,
-Travel Maker South Asia,5,225,Cultural Tours • Adrenaline & Extreme Tours,,
-Nepal Alibaba Treks & Tours Pvt Ltd,5,105,Multi-day Tours • Hiking & Camping Tours,,
-Alpine Ramble Treks,5,240,Multi-day Tours • Cultural Tours,,
-Info Nepal Treks and Expedition,5,206,City Tours • River Rafting & Tubing,,
-Epic Adventures - Day Tours,5,259,Cultural Tours • Historical & Heritage Tours,,
-Hiking Adventure Treks,5,115,City Tours • Cultural Tours,,
+Mero Chitra Wears,5,3,Factory Outlets,28.2226156,83.9851983
+Casino Everest,3.5,9,Casinos,27.6900294,85.3309578
+Maju Dega Mandir Temple,3,11,Architectural Buildings • Religious Sites,27.6914868,85.1728308
+Gauri Gaht,4,7,Points of Interest & Landmarks • Architectural Buildings,27.7130359,85.2968027
+Monasterio Tibetano Boudhanat,4,3,Religious Sites,27.7399457,85.2770151
+Kalikasthan Temple,4,1,Religious Sites,27.7030659,85.3242809
+Kirateshwar Mahadev,4,1,Religious Sites,27.7125183,85.3478123
+Khawalung Monastery,4.5,6,Religious Sites,27.7339316,85.365787
+Vishnu Mandir Temple,4,6,Points of Interest & Landmarks • Architectural Buildings,27.7399457,85.2770151
+Dolma Treks,5,3,Historic Sites • Historic Walking Areas,27.7399457,85.2770151
+Chyasin Dega Temple,3.5,5,Religious Sites,27.7399457,85.2770151
+Bhadrakali Temple,5,8,Religious Sites,27.7590964,85.3429261
+The City Museum Kathmandu,4,6,Speciality Museums,27.7111324,85.3160804
+Bachhareshwari　Mandir Temple,5,4,Points of Interest & Landmarks • Architectural Buildings,27.7399457,85.2770151
+Blue Moon Curio Shop,5,1,Antique Shops,27.713511,85.3078963
+Chabdi Barahi Temple,3.5,3,Points of Interest & Landmarks,27.9022294,83.5675492
+Gorakhnath Mandir Temple,3.5,3,Points of Interest & Landmarks • Architectural Buildings,27.7399457,85.2770151
+Singha Sattal (Silyan Sattal),3.5,7,Points of Interest & Landmarks • Architectural Buildings,27.7010924,85.3052903
+Indoor Sports Arena,5,2,Sports Complexes,27.7399457,85.2770151
+Mahendreswor Mandir Temple,3.5,9,Architectural Buildings • Religious Sites,27.7399457,85.2770151
+Sara Enterprises,5,1,Art Galleries,27.7209668,85.3595106
+Pharping HydroPower Dam,3,1,Dams,27.6131265,85.2868407
+Ashok Stupa,3.5,2,Historic Sites • Monuments & Statues,27.6887733,85.2888736
+Dirghaman & Ganeshman Chitrakar Art Foundation,4,1,Art Galleries,27.7399457,85.2770151
+Stone Vishnu Mandir Temple,3,6,Points of Interest & Landmarks • Architectural Buildings,27.725285,85.2782888
+Maha Vishnu Mandir Temple,3.5,4,Architectural Buildings • Religious Sites,27.725285,85.2765562
+Rizvi Brothers Paper Mache Gift Shop,5,1,Art Galleries,27.7117442,85.3108705
+Itum bahal,4,1,Points of Interest & Landmarks • Religious Sites,27.7069934,85.3058861
+Pandra Shivalaya,3.5,3,Points of Interest & Landmarks • Architectural Buildings,27.710192,85.347121
+Woodcraft Gallery,5,1,Art Galleries,27.7154575,85.3066668
+Buddha Nepal Art Gallery,5,1,Art Galleries,27.716599,85.3079869
+Aviation Museum,5,1,Speciality Museums,27.6937953,85.35128
+Handy-Mandy Craft House,5,1,Points of Interest & Landmarks,27.7180359,85.304106
+Karmaraja Mahavihara,3.5,5,Religious Sites,27.7205436,85.3085733
+Shree Tanadevi Temple,4,3,Religious Sites,27.7051072,85.3062114
+Bhimsen Sthan Temple,4,1,Religious Sites,27.702488,85.3020341
+Chandragiri Hill,5,1,Points of Interest & Landmarks • Lookouts,27.6672261,85.203655
+Tri Chandra Collage,4,1,Architectural Buildings,27.7087135,85.3143317
+Lokta Paper Craft,1,1,Points of Interest & Landmarks,27.6699361,85.3071764
+Kotilingeshwor Mahadev Mandir Temple,3.5,3,Architectural Buildings • Religious Sites,27.7399457,85.2770151
+Dharmadhaatu Stupa,3.5,2,Religious Sites,27.7103301,85.3086585
+Lucky Traders & Exporter,4,1,Shopping Malls,27.7123623,85.3098838
+Manjushree Temple,2.5,2,Religious Sites,27.7399457,85.2770151
+Shree Bhawani Shankar Temple,3,1,Religious Sites,27.7068344,85.3077182
+Direction Exhibition & Convention Center,4,2,Convention Centers,27.6942093,85.3115184
+The Charumati Vihara Stupa,4,1,Historic Sites • Religious Sites,27.7399457,85.2770151
+Brass and Bronze Museum,4,1,Art Museums • History Museums,27.6736128,85.4334176
+Buddha Park,3,1,Parks,27.7223837,85.3592926
+Krishna Temple,3,1,Religious Sites,27.7399457,85.2770151
+Bisnumati River,3,1,Bodies of Water,27.7314142,85.2409942
+Bijeshwari Temple,3,1,Points of Interest & Landmarks • Religious Sites,27.7399457,85.2770151
+Shobabaghwati,3,1,Points of Interest & Landmarks • Religious Sites,27.7149298,85.2881456
+Drugon Jangchu Monastery,3,1,Religious Sites,27.7098228,85.3078516
+Dhansa Dega,3,1,Points of Interest & Landmarks • Religious Sites,27.703741,85.3037712
+Department of Immigration,1,3,Government Buildings,27.7012798,85.3228008
+Mahadev Mandir Temple,3,1,Architectural Buildings • Religious Sites,27.7399457,85.2770151
+Ram Chandra Temple,3,1,Points of Interest & Landmarks • Religious Sites,27.7399457,85.2770151
+Espace de visite,4,1,Points of Interest & Landmarks,27.7399457,85.2770151
+Manhal Healing,N,0,Sports Camps & Clinics,27.7159125,85.3078024
+Nepal Hiking Team,5,841,City Tours • Cultural Tours,27.719537,85.3056617
+Nepal Eco Adventure,5,1304,Multi-day Tours • Historical & Heritage Tours,27.7156595,85.3070302
+Ace the Himalaya,5,1366,Multi-day Tours • Cultural Tours,27.7165325,85.3095741
+Adventure-Pulse,5,232,Multi-day Tours • Eco Tours,27.7207647,85.3079674
+Mountain Mart Treks & Expedition,5,765,Multi-day Tours • Historical & Heritage Tours,27.7154321,85.3048131
+Himalaya Holiday Service,5,294,Cultural Tours • Helicopter Tours,27.7278725,85.309418
+Mountain Delights Treks & Expedition,5,187,Historical & Heritage Tours • Sightseeing Tours,27.7169309,85.3068902
+Nepal Horizon Treks & Expedition,5,149,Multi-day Tours • Hiking & Camping Tours,27.7117752,85.3071943
+The Great Adventure Treks & Expedition - Private Day Tours,5,369,Hiking & Camping Tours • Private Tours,27.7135871,85.3100565
+Himalayan Quests - Day Tours,5,134,Sightseeing Tours,27.7303254,85.2944871
+Incredible Treks,5,254,River Rafting & Tubing • Cultural Tours,27.7112688,85.3063913
+Magical Nepal,5,155,Multi-day Tours • Cultural Tours,27.7159565,85.3096105
+Visit Himalaya Treks,5,146,Hiking & Camping Tours • Nature & Wildlife Tours,27.7172172,85.3095414
+Thai Nepal Travels and Tours,5,134,City Tours • Multi-day Tours,27.7399457,85.2770151
+Himalayan Friends Trekking - Day Tours,5,134,Hiking & Camping Tours • Nature & Wildlife Tours,27.7174268,85.2944871
+Mountain Holiday Treks & Expedition,5,97,Multi-day Tours • Hiking & Camping Tours,27.7150688,85.3102277
+Third Rock Adventures,5,226,City Tours • Cultural Tours,27.7146744,85.3119581
+Himalayan Car Rental Nepal,5,156,Bus Services • Taxis & Shuttles,27.7529108,85.3157204
+Nepal Ayurveda Home,5,101,Yoga & Pilates • Spas,27.7492805,85.2867489
+Dream Heaven Adventure,5,123,Cultural Tours • Historical & Heritage Tours,27.7161628,85.3058627
+Exciting Nepal Treks and Expedition,5,366,Multi-day Tours • Helicopter Tours,27.7399457,85.2770151
+A1 Excursion - Private Day Tours,5,132,Private Tours,27.7399457,85.2770151
+Mosaic Adventure,5,588,Multi-day Tours • Walking Tours,27.7131935,85.3089179
+Tramping Himalaya,5,103,Climbing Tours • Hiking & Camping Tours,27.7211374,85.3033274
+Destination Unlimited Treks & Expeditions,5,247,City Tours • Multi-day Tours,27.7170491,85.3094663
+Pariwar Holidays,5,620,Multi-day Tours • Historical & Heritage Tours,27.7166515,85.3094898
+Vista Trek,5,190,Cultural Tours • Helicopter Tours,27.716617,85.3074125
+Odea Services,5,179,Helicopter Tours • Historical & Heritage Tours,27.7158305,85.3105169
+Ambition Himalaya Treks & Expeditions,5,252,Multi-day Tours • Cultural Tours,27.715113,85.3099993
+Osho Vision Treks and Expedition,5,212,City Tours • Multi-day Tours,27.7142979,85.3114168
+Landmark Discovery Treks –  Day Tours,5,189,Cultural Tours • Historical & Heritage Tours,27.7149733,85.3064019
+Friends Adventure Team,5,251,Canyoning & Rappelling Tours • Walking Tours,27.7254082,85.3102514
+Outshine Adventure,5,268,City Tours • Cultural Tours,27.715519,85.3065395
+Osho Divine Zone,5,119,Yoga & Pilates • Spas,27.764711,85.2696792
+Discovery World Trekking,5,555,Multi-day Tours • River Rafting & Tubing,27.7157974,85.306127
+Nepal Gateway Trekking,5,147,Hiking & Camping Tours • Private Tours,27.716027,85.3103583
+Access Nepal Tour & Trekking,5,294,Multi-day Tours • Hiking & Camping Tours,27.7132495,85.3101959
+Trekking Team Group,5,144,Cultural Tours • Eco Tours,27.7131201,85.3081462
+Destination Himalaya Treks and Expedition,5,153,Multi-day Tours • Sightseeing Tours,27.71527,85.3066013
+Earthbound Expeditions,5,565,Multi-day Tours • Cultural Tours,27.7116939,85.3070753
+Unique Path Trekking & Expedition,5,140,City Tours • Cultural Tours,27.7165406,85.3075593
+Travel Maker South Asia,5,225,Cultural Tours • Adrenaline & Extreme Tours,27.7134196,85.3112457
+Nepal Alibaba Treks & Tours Pvt Ltd,5,105,Multi-day Tours • Hiking & Camping Tours,27.7375441,85.3028408
+Alpine Ramble Treks,5,240,Multi-day Tours • Cultural Tours,27.7191624,85.306492
+Info Nepal Treks and Expedition,5,206,City Tours • River Rafting & Tubing,27.7160399,85.3088854
+Epic Adventures - Day Tours,5,259,Cultural Tours • Historical & Heritage Tours,27.7009722,85.2801793
+Hiking Adventure Treks,5,115,City Tours • Cultural Tours,27.717671,85.3096866
 Nepal Hiking Adventure Company - Private Day Tours,5,172,Hiking & Camping Tours,,
 Satori Adventures,5,179,City Tours • Helicopter Tours,,
 Happyland Treks,5,128,Multi-day Tours • Hiking & Camping Tours,,
