@@ -1,6 +1,6 @@
 from rest_framework import generics
 from .models import User
-from .serializers import UserSerializer, UserUpdateSerializer
+from .serializers import UserSerializer, UserUpdateSerializer, UserPasswordUpdateSerializer
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.authtoken.views import ObtainAuthToken
@@ -30,3 +30,10 @@ class CustomAuthToken(ObtainAuthToken):
             'user_id': user.pk,
             'email': user.email
         })
+
+class UserPasswordUpdate(generics.UpdateAPIView):
+    authentication_classes = [TokenAuthentication,]
+    permission_classes = [IsAuthenticated]
+    queryset = User.objects.all()
+    serializer_class = UserPasswordUpdateSerializer
+
