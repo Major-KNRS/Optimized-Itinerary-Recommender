@@ -143,6 +143,6 @@ def calculate_ratings():
 if __name__ == '__main__':
     print("Calculating implicit ratings...")
 
-    Rating.objects.filter(type='implicit').delete()
+    # Rating.objects.filter(type='implicit').delete()
 
     calculate_ratings()

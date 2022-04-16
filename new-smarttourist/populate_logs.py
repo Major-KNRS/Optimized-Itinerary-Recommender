@@ -14,45 +14,165 @@ from tourist.models import User as UserM
 
 SEED = 0
 
-places = {'Religious Sites':
+places = {'nature':
                  [
-                    '424',
-                    '427',
-                    '429',
-                    '430',
-                    '435',
-                    '440',
-                    '446',
-                    '454',
-                    '455',
-                    '456',
-                    '459',
-                    '465',
-                    '467',
-                    '468',
-                    '469',
-                    '470',
-                    '475',
-                    '476',
-                    '483',
-                    '484',
-                    '486',
-                    '487',
-                    '488',
-                    '491',
-                    '493'],
-            'Historic Sites': [
-                    '448',
-                    '469',
-                    '485'
+                  '2',
+'3',
+'5',
+'8',
+'9',
+'10',
+'11',
+'16',
+'19',
+'20',
+'21',
+'22',
+'23',
+'26',
+'27',
+'28',
+'29',
+'34',
+'35',
+'37',
+'39',
+'40',
+'41',
+'48',
+'49',
+'50',
+'51',
+'54',
+'55',
+'56',
+'57',
+'59',
+'65',
+'67',
+'68',
+'69',
+'75',
+'77',
+'78',
+'79',
+'82',
+'84',
+'87',
+'88',
+'89',
+'93',
+'97',
+'98',
+'99',
+'101',
+'104'  
+                ],
+            'history': [
+                    '1',
+'4',
+'6',
+'7',
+'8',
+'12',
+'13',
+'14',
+'15',
+'17',
+'18',
+'21',
+'22',
+'23',
+'25',
+'27',
+'30',
+'31',
+'32',
+'33',
+'36',
+'42',
+'43',
+'44',
+'45',
+'46',
+'47',
+'49',
+'50',
+'51'
              ], 
-            'Mountains': [
-                '426',
-                '428',
-                '432',
-                '433',
-                '458',
-                '460'
+            'religious': [
+                '81',
+'85',
+'91',
+'95',
+'96',
+'100',
+'102',
+'112',
+'120',
+'129',
+'133',
+'137',
+'144',
+'146',
+'148',
+'150',
+'153',
+'155',
+'158',
+'160',
+'166',
+'172',
+'173',
+'174',
+'175',
+'176',
+'177',
+'179',
+'180',
+'189',
+'191',
+'197',
+'198',
+'199',
+'200',
+'202',
+'205',
+'209',
+'216',
+'218',
+'219',
+'225',
+'226',
+'228',
+'229',
+'230',
+'231',
+'232',
+'247',
+'249',
+'251',
+'257',
+'258',
+'261',
+'263',
+'264',
+'266',
+'267',
+'269',
+'276',
+'281',
+'283',
+'287',
+'289',
+'294',
+'296',
+'299',
+'307',
+'308',
+'309',
+'310',
+'312'
             ]}
 
 class User:
@@ -60,9 +180,9 @@ class User:
     likes = {}
     events = {}
 
-    def __init__(self, user_id, Religious_Sites, Historic_Sites, Mountains):
+    def __init__(self, user_id, nature, history, religious):
         self.userId = user_id
-        self.likes = {'Religious Sites': Religious_Sites, 'Historic Sites': Historic_Sites, 'Mountains': Mountains}
+        self.likes = {'nature': nature, 'history': history, 'religious': religious}
 
     def select_genre(self):
         return sample(self.likes)
@@ -99,7 +219,7 @@ def main():
     Log.objects.all().delete()
     random.seed(SEED)
 
-    number_of_events = 10000
+    number_of_events = 100000
 
     print("Generating Data")
     users = [
@@ -115,9 +235,9 @@ def main():
         randomuser_id = random.randint(0, len(users) - 1)
         user = users[randomuser_id]
         selected_place = select_place(user)
+        print(selected_place)
         action = select_action(user)
         print("user id " + str(user.userId) + " selects place " + str(selected_place) + " and " + action)
-
         l = Log(user_id=UserM.objects.get(id=user.userId),
                 content_id=Place.objects.get(id=selected_place),
                 event=action,
