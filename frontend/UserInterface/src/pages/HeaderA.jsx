@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Header() {
+export default function HeaderA() {
   const classes = useStyles();
   const theme = useTheme();
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -70,18 +70,25 @@ export default function Header() {
                   horizontal: 'right',
                 }}
                 open={Boolean(anchorEl)}
-                //onClose={handleClose}
+                onClose={handleClose}
               >
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/"> Home </Button></MenuItem>
-                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/login"> Login </Button></MenuItem>
-                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/signup"> Signup </Button></MenuItem>
+                <MenuItem onClick={handleClose}><Button variant="recommendation" component={Link} to="/"> Recommendation </Button></MenuItem>
+                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/planmytrip"> PlanMyTrip </Button></MenuItem>
+                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/itinerary"> Itinerary </Button></MenuItem>
+                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/logout"> Logout </Button></MenuItem>
+                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/test1"> Test1 </Button></MenuItem>
+
               </Menu> 
             </div>
           ) : (
             <div>
               <Button variant="button" component={Link} to="/"> Home </Button>
-              <Button variant="button" component={Link} to="/login"> Login </Button>
-              <Button variant="button" component={Link} to="/signup"> Signup </Button>
+              <Button variant="button" component={Link} to="/recommendation"> Recommendation </Button>
+              <Button variant="button" component={Link} to="/planmytrip"> PlanMyTrip </Button>
+              <Button variant="button" component={Link} to="/itinerary"> Itinerary </Button>
+              <Button variant="button" component={Link} to="/logout"> Logout </Button>
+              <Button variant="button" component={Link} to="/test1"> Test1 </Button>
 
             </div>
           )}

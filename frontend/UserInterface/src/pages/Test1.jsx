@@ -21,6 +21,7 @@ import { Source, Layer } from 'react-map-gl';
 import { GeolocateControl, geolocateStyle } from 'react-map-gl';
 
 import Currentlocation from '../components/Currentlocation';
+import HeaderA from './HeaderA';
 
 const MAPBOX_TOKEN = 'pk.eyJ1Ijoia2FtYWxnb2RhciIsImEiOiJjazVpOGwxbWgwYnllM2ptbm43ajF0ZmQ0In0.f1zLLWQiv7d5tIc-Lu9n0w'
 
@@ -140,6 +141,7 @@ function Test0() {
     
     return (
       <div>
+        <HeaderA/> 
         <Container className={classes.cover}>
             <Box>
                 <Grid container>

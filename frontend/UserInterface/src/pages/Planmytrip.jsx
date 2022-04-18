@@ -4,6 +4,7 @@ import AddHistory from '../components/planmytrip/AddHistory';
 
 import { v4 as uuid } from "uuid";
 import api from '../api/base';
+import HeaderA from './HeaderA';
 
 function Planmytrip() {
     // const LOCAL_STORAGE_KEY = "x";
@@ -51,7 +52,7 @@ function Planmytrip() {
 
   return (
     <div>
-       
+      <HeaderA/>
       <div className='ui container'>
         <AddHistory addHistoryHandler={addHistoryHandlerr} />
         <History x={x} getHistoryId={removeHistoryHandler} />

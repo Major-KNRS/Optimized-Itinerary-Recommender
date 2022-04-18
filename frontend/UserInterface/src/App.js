@@ -4,12 +4,14 @@ import Header from './components/Header';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Planmytrip from './pages/Planmytrip';
-import Itinerary from './pages/Itinerary';
-import Test1 from './pages/Test1';
-import Login from './pages/Login';
+import PlanmytripA from './pages/AfterLoggedIn/PlanmytripA';
+import ItineraryA from './pages/AfterLoggedIn/ItineraryA';
+import Test1A from './pages/AfterLoggedIn/Test1A';
 import Signup from './pages/Signup';
-import Recommendation from './pages/Recommendation';
+import Homecheck from './pages/Homecheck';
+import LoginA from './pages/AfterLoggedIn/LoginA';
+import Logout from './pages/Logout';
+import RecommendationA from './pages/AfterLoggedIn/RecommendationA';
 
 function App() {
 
@@ -18,16 +20,16 @@ function App() {
     <BrowserRouter>
     <ThemeProvider theme={theme}>
       <div className="App">
-        <Header />
 
         <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/recommendation" element={<Recommendation />}></Route>
-          <Route exact path="/planmytrip" element={<Planmytrip />}></Route>
-          <Route exact path="/itinerary" element={<Itinerary />}></Route>
-          <Route exact path="/login" element={<Login />}></Route>
+          <Route exact path="/" element={<Homecheck />}></Route>
+          <Route exact path="/recommendation" element={<RecommendationA />}></Route>
+          <Route exact path="/planmytrip" element={<PlanmytripA />}></Route>
+          <Route exact path="/itinerary" element={<ItineraryA />}></Route>
+          <Route exact path="/login" element={<LoginA />}></Route>
           <Route exact path="/signup" element={<Signup />}></Route>
-          <Route exact path="/test1" element={<Test1 />}></Route>
+          <Route exact path="/test1" element={<Test1A />}></Route>
+          <Route exact path="/logout" element={<Logout />}></Route>
 
         </Routes>
 

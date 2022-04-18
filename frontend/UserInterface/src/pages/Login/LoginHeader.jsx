@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Header() {
+export default function LoginHeader() {
   const classes = useStyles();
   const theme = useTheme();
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -70,7 +70,7 @@ export default function Header() {
                   horizontal: 'right',
                 }}
                 open={Boolean(anchorEl)}
-                //onClose={handleClose}
+                onClose={handleClose}
               >
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/"> Home </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/login"> Login </Button></MenuItem>

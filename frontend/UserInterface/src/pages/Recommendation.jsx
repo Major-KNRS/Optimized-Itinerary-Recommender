@@ -8,7 +8,7 @@ import { useState, useRef, useCallback } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
 import users from './data';
-
+import HeaderA from './HeaderA';
 import api from '../api/base';
 
 const useStyles = makeStyles({
@@ -28,7 +28,7 @@ const useStyles = makeStyles({
 
 export default function Recommendation(props) {
   const classes = useStyles();
-    const [search1, setSearch1] = useState(['Kathmandu']);
+    const [search1, setSearch1] = useState(['Swayambhu']);
     const [posts, setPosts] = useState([]);
 
     const apiCall1 = async () => {
@@ -72,6 +72,8 @@ export default function Recommendation(props) {
   };
 
     return (
+      <>
+      <HeaderA/>
         <Container className={classes.cover}>
             <h3>Recommendation</h3>
             <form className='ui form' onSubmit={e => {handleSubmit(e)}}>
@@ -95,6 +97,7 @@ export default function Recommendation(props) {
                 </Grid>
             </Box> 
         </Container>
+        </>
     )
 }
 

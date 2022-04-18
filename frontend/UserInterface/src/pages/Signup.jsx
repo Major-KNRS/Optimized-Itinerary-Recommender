@@ -9,6 +9,7 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
+import Header from '../components/Header';
 
 function Signup() {
 
@@ -39,6 +40,8 @@ function Signup() {
   };
 
   return (
+    <>
+    <Header/>
       <Container component="main" maxWidth="xs">
         <Box
           sx={{
@@ -130,6 +133,7 @@ function Signup() {
           </Box>
         </Box>
       </Container>
+      </>
   );
 }
 

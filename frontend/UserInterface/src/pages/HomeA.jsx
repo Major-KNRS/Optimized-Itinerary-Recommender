@@ -18,7 +18,7 @@ import * as jsondata2 from '../data/data2'
 
 import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import { Source, Layer } from 'react-map-gl';
-import Header from '../components/Header';
+import HeaderA from './HeaderA';
 
 const MAPBOX_TOKEN = 'pk.eyJ1Ijoia2FtYWxnb2RhciIsImEiOiJjazVpOGwxbWgwYnllM2ptbm43ajF0ZmQ0In0.f1zLLWQiv7d5tIc-Lu9n0w'
 
@@ -37,7 +37,7 @@ const useStyles = makeStyles({
   },
 });
 
-function Test0() {
+function Test2() {
 
     const classes = useStyles();
 
@@ -90,8 +90,7 @@ function Test0() {
         let data1 = JSON.stringify(data);
         console.log(data1);
         setCoordinatevalue(data);
-    };
-
+      };
 
     // points is an array of [[long, lat],[long, lat]]
     // const coordinates = [[85.320351,27.694653],[85.317555,27.690084],[85.316131,27.688521],[85.318615,27.684670],[85.318749,27.683173],[85.319566,27.682085],[85.320894,27.682750]];\
@@ -120,7 +119,7 @@ function Test0() {
     
     return (
       <div>
-      <Header/>
+      <HeaderA/>
         <Container className={classes.cover}>
             <Box>
                 <Grid container>
@@ -217,4 +216,4 @@ function Test0() {
     )
 }
 
-export default Test0;
+export default Test2;
