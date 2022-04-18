@@ -74,10 +74,10 @@ export default function HeaderA() {
               >
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/"> Home </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="recommendation" component={Link} to="/"> Recommendation </Button></MenuItem>
-                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/planmytrip"> PlanMyTrip </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/itinerary"> Itinerary </Button></MenuItem>
+                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/planmytrip"> PlanMyTrip </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/logout"> Logout </Button></MenuItem>
-                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/test1"> Test1 </Button></MenuItem>
+                {/* <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/test1"> Test1 </Button></MenuItem> */}
 
               </Menu> 
             </div>
@@ -85,10 +85,10 @@ export default function HeaderA() {
             <div>
               <Button variant="button" component={Link} to="/"> Home </Button>
               <Button variant="button" component={Link} to="/recommendation"> Recommendation </Button>
-              <Button variant="button" component={Link} to="/planmytrip"> PlanMyTrip </Button>
               <Button variant="button" component={Link} to="/itinerary"> Itinerary </Button>
+              <Button variant="button" component={Link} to="/planmytrip"> PlanMyTrip </Button>
               <Button variant="button" component={Link} to="/logout"> Logout </Button>
-              <Button variant="button" component={Link} to="/test1"> Test1 </Button>
+              {/* <Button variant="button" component={Link} to="/test1"> Test1 </Button> */}
 
             </div>
           )}
