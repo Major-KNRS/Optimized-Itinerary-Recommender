@@ -23,6 +23,7 @@ urlpatterns = [
     path('',include('map.urls')),
     path('api/users/', include('tourist.urls')),
     path('api/log/', include('collector.urls')),
+    path('rec/', include('recommender.urls')),
 ]
 
 if settings.DEBUG:

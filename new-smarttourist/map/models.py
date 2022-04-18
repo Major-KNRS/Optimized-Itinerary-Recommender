@@ -5,6 +5,7 @@ from django.contrib.gis.db import models as gis_models
 from django.contrib.gis.geos import Point
 from tourist.models import User
 from django.core.validators import MaxValueValidator, MinValueValidator 
+from django.utils import timezone
 
 # Create your models here.
 class Genre(models.Model):
@@ -39,9 +40,11 @@ class Rating(models.Model):
     user_id = models.ForeignKey(User, on_delete=models.CASCADE)
     place_id = models.ForeignKey(Place, on_delete=models.CASCADE)
     rating = models.PositiveIntegerField(default=1, validators=[MinValueValidator(0), MaxValueValidator(5)])
+    rating_timestamp = models.DateTimeField(default=timezone.now)
+    type = models.CharField(max_length=8, default='explicit')
 
     def __str__(self):
-        return "user_id: {}, place_id: {}, rating: {}"\
-            .format(self.user_id, self.place_id, self.rating)
+        return "user_id: {}, place_id: {}, rating: {}, type: {}"\
+            .format(self.user_id, self.place_id, self.rating, self.type)
 
     
