@@ -4,11 +4,8 @@ import numpy as np
 import pandas as pd
 
 def recommend(places,place_id=1):
-    top_dests_ktm=pd.read_csv("../Datasets/final_dest_nepal_with_duplicates_removed.csv")
-    # print(top_dests_ktm.head)
-    # print(places)
+    top_dests_ktm=pd.read_csv("../Datasets/final_dest_ktm_with_duplicates_removed.csv")
     top_dests_ktm = top_dests_ktm[top_dests_ktm["title"].isin(places)]
-    # print(top_dests_ktm.shape)
 
     # select the first 95 destinations as they're the destinations having the latitude and longitude currently
     # top_dests_ktm=top_dests_ktm[:95]
@@ -18,7 +15,7 @@ def recommend(places,place_id=1):
     top_n_dests=top_dests_ktm[:n]
 
     # define a starting point 
-    starting_point=place_id #Bouddhanath
+    starting_point=1 #Bouddhanath
 
     duplicate_lat_long = top_n_dests[top_n_dests.duplicated(['latitude','longitude'])]
 
@@ -224,7 +221,7 @@ def recommend(places,place_id=1):
     # print("Best tour obtained:")
     # print(best_tour)
 
-    places = top_n_dests['dest_id'].iloc[best_tour]
+    places = top_n_dests['title'].iloc[best_tour]
     return places.tolist()
 
     # for i in best_tour:

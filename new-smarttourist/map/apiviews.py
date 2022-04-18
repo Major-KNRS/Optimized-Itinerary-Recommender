@@ -80,12 +80,16 @@ class ItineraryRecommend(APIView):
         place_content = content_recommender.get_content_based_recommendations(request.data['place'])
         result = place_content + places
         query = itinerary_recommender.recommend(result)
-        print(query)
         places = []
         for i in query:
-            place = Place.objects.get(id=i)
-            print(place)
-            places.append(place)
+            try:
+                place = Place.objects.get(name=i)
+                if place:
+                    print(place)
+                    places.append(place)
+            except:
+                pass
+            
         serializer = PlaceSerializer(places, many=True)
         return Response(serializer.data)
 
