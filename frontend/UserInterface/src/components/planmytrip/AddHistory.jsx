@@ -52,7 +52,7 @@ class AddHistory extends Component {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            border: 'blue solid 1px',
+            // border: 'blue solid 1px',
           }}
         >
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>

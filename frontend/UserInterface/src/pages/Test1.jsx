@@ -18,6 +18,9 @@ import * as jsondata2 from '../data/data2'
 
 import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import { Source, Layer } from 'react-map-gl';
+import { GeolocateControl, geolocateStyle } from 'react-map-gl';
+
+import Currentlocation from '../components/Currentlocation';
 
 const MAPBOX_TOKEN = 'pk.eyJ1Ijoia2FtYWxnb2RhciIsImEiOiJjazVpOGwxbWgwYnllM2ptbm43ajF0ZmQ0In0.f1zLLWQiv7d5tIc-Lu9n0w'
 
@@ -45,8 +48,13 @@ function Test0() {
     const [starting, setStarting] = useState([]); //start place
     const [destination, setDestination] = useState([]); //destination place
 
-    const [startlat, setStartlat] = useState(0);
-    const [startlong, setStartlong] = useState(0);
+    const [userLocation, setUserLocation] = useState({});
+    const location = Currentlocation();
+    var lat = Number(location.coordinates.lat);
+    var long = Number(location.coordinates.lng);
+
+    const [startlat, setStartlat] = useState(lat);
+    const [startlong, setStartlong] = useState(long);
     const [destlat, setDestlat] = useState(0);
     const [destlong, setDestlong] = useState(0);
 
@@ -57,7 +65,7 @@ function Test0() {
     const [viewport, setViewport] = useState({
         latitude: 27.682200,
         longitude: 85.323816,
-        width: '53vw',
+        width: '75vw',
         height: '70vh',
         zoom: 14,
         pitch: 30,
@@ -86,7 +94,7 @@ function Test0() {
     };
 
     const getCoordinates = async () => {
-        let response = await axios.get(`https://api.mapbox.com/directions/v5/mapbox/driving/${startlong},${startlat};${destlong},${destlat}?geometries=geojson&access_token=pk.eyJ1IjoicmFuamFuNDM1IiwiYSI6ImNrNWIzdnNqeTE2ZjgzZG82OG40aG82ejcifQ.nrFTVyOERu6YhgS66Gxr8A`);
+        let response = await axios.get(`https://api.mapbox.com/directions/v5/mapbox/driving/${long},${lat};${destlong},${destlat}?geometries=geojson&access_token=pk.eyJ1IjoicmFuamFuNDM1IiwiYSI6ImNrNWIzdnNqeTE2ZjgzZG82OG40aG82ejcifQ.nrFTVyOERu6YhgS66Gxr8A`);
         let data = response.data.routes[0].geometry.coordinates;
         console.log(data);
         let data1 = JSON.stringify(data);
@@ -179,6 +187,13 @@ function Test0() {
                             </Box>
                         </Popup>}
 
+                        <Marker latitude={Number(location.coordinates.lat)} longitude={Number(location.coordinates.lng)} offsetTop={-(viewport.zoom*2)} offsetLeft={-(viewport.zoom*2)}>
+                            <img src='/images/bluemarker.png'
+                                        width={viewport.zoom * 2}
+                                        height={viewport.zoom * 2}
+                                    />
+                        </Marker>
+
                         <Source id="polylineLayer" type="geojson" data={dataOne}>
                             <Layer
                               id="lineLayer"
@@ -195,27 +210,6 @@ function Test0() {
                             />
                         </Source>  
                         </ReactMapGL>
-                    </Grid>
-
-                    <Grid item xs={3}>
-                        <Box>
-                            <table border={1} cellSpacing={0} cellPadding={5}>
-                            <tr>
-                                <th>From</th>
-                                <th>To</th>
-                                <th>Distance</th>
-                                <th>Time</th>
-                            </tr>
-                            {fromapi.map((x, index) => (
-                            <tr>
-                                <td>{x.name}</td>
-                                <td>{x.name}</td>
-                                <td>{x.lat}</td>
-                                <td>{x.long}</td>
-                            </tr>
-                            ))}
-                            </table>
-                        </Box> 
                     </Grid>
                 </Grid>
                 
@@ -242,6 +236,14 @@ function Test0() {
                         value={destination}
                         onChange={(e) => setDestination(e.target.value)}
                         />
+                    </div>
+
+                    <div>
+                        {
+                            location.loaded 
+                            ? JSON.stringify(location)
+                            : "Location data unavailable"
+                        }
                     </div>
                     <button type='submit'>Enter</button>
                 </form>

@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Kommunicate from '@kommunicate/kommunicate-chatbot-plugin';
 
-Kommunicate.init("1f608c2b485419f8c0ef463842704f164") 
+Kommunicate.init("1c16e0093f5ba8c977fd3d49f1abdfd08") 
 
 ReactDOM.render(
   <React.StrictMode>

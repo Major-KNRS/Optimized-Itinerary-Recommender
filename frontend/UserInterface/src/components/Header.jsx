@@ -73,7 +73,7 @@ export default function Header() {
                 onClose={handleClose}
               >
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/"> Home </Button></MenuItem>
-                <MenuItem onClick={handleClose}><Button variant="recommendation" component={Link} to="/"> Recommendation </Button></MenuItem>
+                <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/recommendation"> Recommendation </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/planmytrip"> PlanMyTrip </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/itinerary"> Itinerary </Button></MenuItem>
                 <MenuItem onClick={handleClose}><Button variant="button" component={Link} to="/login"> Login </Button></MenuItem>

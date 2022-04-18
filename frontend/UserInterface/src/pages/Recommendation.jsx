@@ -26,7 +26,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Recommendation() {
+export default function Recommendation(props) {
   const classes = useStyles();
     const [search1, setSearch1] = useState(['Kathmandu']);
     const [posts, setPosts] = useState([]);
@@ -41,6 +41,27 @@ export default function Recommendation() {
       }
     };
 
+    const getData = (data) => {
+      console.log(data[0]);
+      console.log(data[1]);
+      console.log(data[2]);
+
+      const bodycontent = {
+        'rating': data[0],
+        'user_id': data[1],
+        'place_id': data[2]
+      };
+
+      axios
+      .post('http://127.0.0.1:8000/api/rating/', bodycontent)
+      .then(response => {
+        console.log(response)
+      })
+      .catch(error => {
+        console.log(error.response)
+      })
+    }
+    
     useEffect( () => {
       apiCall1();
     },[]);
@@ -66,14 +87,10 @@ export default function Recommendation() {
                 </div>
             </form>
             <Box >
-                {/* <Grid container spacing={3} justifyContent="center">
-                    {users.map((cheq) => (
-                        <Grid item lg={3} md ={6} sm={6}> <CardComponent title={cheq.title} rating={cheq.avg_rating}/> </Grid>
-                    ))}
-                </Grid> */}
+                
                 <Grid container spacing={3} justifyContent="center">
                     {posts.map((cheq) => (
-                        <Grid item lg={3} md ={6} sm={6}> <CardComponent title={cheq.name} description={cheq.description} photo={cheq.photo} rating={cheq.avg_rating}/> </Grid>
+                        <Grid item lg={3} md ={6} sm={6}> <CardComponent onSubmit={getData} id={cheq.id} title={cheq.name} description={cheq.description} photo={cheq.photo} rating={cheq.avg_rating}/> </Grid>
                     ))}
                 </Grid>
             </Box> 

@@ -26,6 +26,7 @@ export default function StarRating() {
                     onMouseEnter={() => setHover(ratingValue)}
                     onMouseLeave={() => setHover(null)}
                     />
+                    {console.log(rating)}
                 </label>
             );
         })}

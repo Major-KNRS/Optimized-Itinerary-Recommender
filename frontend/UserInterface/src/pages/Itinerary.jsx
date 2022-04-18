@@ -25,10 +25,10 @@ const useStyles = makeStyles({
   cover: {
       padding: 10,
       margin: 10,
-      border: 5,
-      borderStyle: 'solid',
-      borderColor: '#4287f5',
-      borderWidth: 2,
+    //   border: 5,
+    //   borderStyle: 'solid',
+    //   borderColor: '#4287f5',
+    //   borderWidth: 2,
   },
 });
 
@@ -36,22 +36,23 @@ function Itinerary() {
 
     const classes = useStyles();
 
-    let loo = [0,1,2,3,4,5,6,7,8,9];
-
     const [selectedMarker, setSelectedMarker] = useState(null);
     
     const [coordinatevalue, setCoordinatevalue] = useState([]);
 
     const [fromapi, setFromapi] = useState([]);
 
-    const [search1, setSearch1] = useState([]);
+    const [dis, setDistance] = useState([]);
+    const [tim, setTime] = useState([]);
+
+    const [search1, setSearch1] = useState([3]);
 
     const [viewport, setViewport] = useState({
         latitude: 27.682200,
         longitude: 85.323816,
-        width: '75vw',
-        height: '60vh',
-        zoom: 14,
+        width: '55vw',
+        height: '75vh',
+        zoom: 12,
         pitch: 30,
     });
 
@@ -73,8 +74,8 @@ function Itinerary() {
 
     const apiCall1 = async () => {
       try {
-        let response = await axios.get('http://127.0.0.1:8000/api/itinerary/3');
-        for (var i=0; i<9; i++){
+        let response = await axios.get(`http://127.0.0.1:8000/api/itinerary/${search1}`);
+        for (var i=0; i<(10); i++){
             let x = response.data[i].long;
             let y = response.data[i].lat;
             let startlong = Number(x);
@@ -96,7 +97,12 @@ function Itinerary() {
             // let data1 = JSON.stringify(data);
             // console.log(data1);
             setCoordinatevalue(coordinatevalue => [...coordinatevalue, ...data]);
-            // setCoordinatevalue(data);
+
+            let dist = response1.data.routes[0].distance;
+            setDistance(dis => [...dis, dist]);
+
+            let t = response1.data.routes[0].duration;
+            setTime(tim => [...tim, t]);
         }
       } catch (err) {
         console.log(err);
@@ -105,7 +111,7 @@ function Itinerary() {
 
     const apiCall2 = async () => {
         try {
-            let response = await axios.get('http://127.0.0.1:8000/api/itinerary/3');
+            let response = await axios.get(`http://127.0.0.1:8000/api/itinerary/${search1}`);
             console.log(response.data);
             setFromapi(response.data);
         } catch (err) {
@@ -117,6 +123,13 @@ function Itinerary() {
         apiCall1();
         apiCall2();
     },[]);
+
+    function indexplusone(index) {
+        if(index<=9){
+            console.log("this is index"+index);
+            return(fromapi[index+1].name);
+        }
+}
 
     const dataOne = {
         type: "Feature",
@@ -136,68 +149,96 @@ function Itinerary() {
                 </Grid>
             </Box>
             <Box>
-                <ReactMapGL
-                    ref={mapRef}
-                    {...viewport}
-                    mapStyle={'mapbox://styles/kamalgodar/ckz5h5lys00h215ldob7bu2fc'}
-                    mapboxApiAccessToken='pk.eyJ1Ijoia2FtYWxnb2RhciIsImEiOiJjazVpOGwxbWgwYnllM2ptbm43ajF0ZmQ0In0.f1zLLWQiv7d5tIc-Lu9n0w'
-                    onViewportChange={(viewport) => {
-                        setViewport(viewport);
-                    }}
-                >
-                    <Geocoder
-                        mapRef={mapRef}
-                        containerRef={geocoderContainerRef}
-                        onViewportChange={handleViewportChange}
-                        mapboxApiAccessToken={MAPBOX_TOKEN}
-                        position="top-right"
-                    />
+                <Grid container>
+                    <Grid item xs={9}>
+                        <ReactMapGL
+                            ref={mapRef}
+                            {...viewport}
+                            mapStyle={'mapbox://styles/kamalgodar/ckz5h5lys00h215ldob7bu2fc'}
+                            mapboxApiAccessToken='pk.eyJ1Ijoia2FtYWxnb2RhciIsImEiOiJjazVpOGwxbWgwYnllM2ptbm43ajF0ZmQ0In0.f1zLLWQiv7d5tIc-Lu9n0w'
+                            onViewportChange={(viewport) => {
+                                setViewport(viewport);
+                            }}
+                            >       
+                            <Geocoder
+                                mapRef={mapRef}
+                                containerRef={geocoderContainerRef}
+                                onViewportChange={handleViewportChange}
+                                mapboxApiAccessToken={MAPBOX_TOKEN}
+                                position="top-right"
+                            />
 
-                    {fromapi.map((x, index) => (
-                        <Marker key={x.id} latitude={Number(x.lat)} longitude={Number(x.long)} offsetTop={-(viewport.zoom*2)} offsetLeft={-(viewport.zoom*2)}>
-                        <Button onClick={(e) => {
-                            e.preventDefault();
-                            setSelectedMarker(x);
-                        }}>
-                        <img src='/images/redmarker.png'
-                            width={viewport.zoom * 2}
-                            height={viewport.zoom * 2}
-                        />
-                        </Button>
-                        
-                    </Marker>
+                            {fromapi.map((x, index) => (
+                                <Marker key={x.id} latitude={Number(x.lat)} longitude={Number(x.long)} offsetTop={-(viewport.zoom*2+20)} offsetLeft={-(viewport.zoom*2)}>
+                                <Button onClick={(e) => {
+                                    e.preventDefault();
+                                    setSelectedMarker(x);
+                                }}>
+                                
+                                <img src='/images/bluemarker.png'
+                                    width={viewport.zoom * 2}
+                                    height={viewport.zoom * 2}
+                                />
+                                <h5 style={{color:'black'}}>{index+1}</h5>
+                                </Button>
 
-                    ))}
+                            </Marker>
 
-                    {selectedMarker && <Popup latitude={Number(selectedMarker.lat)} longitude={Number(selectedMarker.long)} onClose={()=>{setSelectedMarker(null);}}>
-                        <Box>
-                            <h4>{selectedMarker.name}</h4>
-                            <h5>{selectedMarker.description}</h5>
-                        </Box>
-                    </Popup>}
+                            ))}
 
-                    {coordinatevalue.map((x, index) => {
-                        console.log(x);
-                    })}
+                            {selectedMarker && <Popup latitude={Number(selectedMarker.lat)} longitude={Number(selectedMarker.long)} onClose={()=>{setSelectedMarker(null);}}>
+                                <Box>
+                                    <h4>{selectedMarker.name}</h4>
+                                    <h5>{selectedMarker.description}</h5>
+                                </Box>
+                            </Popup>
+                            }
 
-                    <Source id="polylineLayer" type="geojson" data={dataOne}>
-                        <Layer
-                          id="lineLayer"
-                          type="line"
-                          source="my-data"
-                          layout={{
-                            "line-join": "round",
-                            "line-cap": "round"
-                          }}
-                          paint={{
-                            "line-color": "rgba(255, 0, 0, 0.8)",
-                            "line-width": 5
-                          }}
-                        />
-                    </Source>
-                    
+                            <Source id="polylineLayer" type="geojson" data={dataOne}>
+                                <Layer
+                                  id="lineLayer"
+                                  type="line"
+                                  source="my-data"
+                                  layout={{
+                                    "line-join": "round",
+                                    "line-cap": "round"
+                                  }}
+                                  paint={{
+                                    "line-color": "rgba(255, 0, 0, 0.8)",
+                                    "line-width": 5
+                                  }}
+                                />
+                            </Source>
                 
-                </ReactMapGL>
+                        </ReactMapGL>
+                    </Grid>
+
+                    <Grid item xs={3}>
+
+                        <Box>
+                            <table border={1} cellSpacing={0} cellPadding={5}>
+                            <tr>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Distance(km)</th>
+                                <th>Time(min)</th>
+                            </tr>
+
+                            {fromapi.map((x,index) => (
+                            <tr>
+                                <td>{x.name}</td>
+                                <td>{indexplusone(index)}</td>
+                                <td>{parseFloat(dis[index]/1000).toFixed(4)}</td>
+                                <td>{parseFloat(tim[index]/60).toFixed(3)}</td>
+                            </tr>
+
+                            ))}
+
+                            </table>
+                        </Box>
+                    </Grid>
+                </Grid>
+                
             </Box>
 
             <Box>

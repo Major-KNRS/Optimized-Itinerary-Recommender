@@ -5,7 +5,7 @@ export class Chatbot extends Component {
     componentDidMount() {
     (function(d, m){
         var kommunicateSettings = 
-            {"appId":"1f608c2b485419f8c0ef463842704f164","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            {"appId":"1c16e0093f5ba8c977fd3d49f1abdfd08","popupWidget":true,"automaticChatOpenOnNavigation":true};
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);

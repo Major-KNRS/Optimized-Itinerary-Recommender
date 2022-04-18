@@ -89,7 +89,8 @@ function Test0() {
         let data1 = JSON.stringify(data);
         console.log(data1);
         setCoordinatevalue(data);
-      };
+    };
+
 
     // points is an array of [[long, lat],[long, lat]]
     // const coordinates = [[85.320351,27.694653],[85.317555,27.690084],[85.316131,27.688521],[85.318615,27.684670],[85.318749,27.683173],[85.319566,27.682085],[85.320894,27.682750]];\
