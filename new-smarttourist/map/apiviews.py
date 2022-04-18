@@ -70,11 +70,21 @@ class HybridRecommend(APIView):
 
 class ItineraryRecommend(APIView):
 
-    def get(self,request, pk, format=None):
-        query = itinerary_recommender.recommend(pk)
+    def get(self,request,format=None):
+        HybridSerializer(data=request.data).is_valid(raise_exception=True)
+
+        user = User.objects.get(id=request.data['user'])
+        ratings_by_user = Rating.objects.all().filter(user_id=user).order_by('-rating')
+        places = collaborative_recommender.recommender(ratings_by_user[0].id)
+
+        place_content = content_recommender.get_content_based_recommendations(request.data['place'])
+        result = place_content + places
+        query = itinerary_recommender.recommend(result)
+        print(query)
         places = []
         for i in query:
-            place = Place.objects.get(name=i)
+            place = Place.objects.get(id=i)
+            print(place)
             places.append(place)
         serializer = PlaceSerializer(places, many=True)
         return Response(serializer.data)

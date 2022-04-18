@@ -15,5 +15,5 @@ urlpatterns = [
     path('api/rating/<int:pk>', RatingDetail.as_view(), name='rating_detail'),
     path('api/places/recommend/collaborative/<int:pk>', CollaborativeRecommend.as_view(), name='collaborative_recommend'),
     path('api/recommend/hybrid', HybridRecommend.as_view(), name='hybrid_recommend'),
-    path('api/itinerary/<int:pk>', ItineraryRecommend.as_view(), name='itinerary_recommend'),
+    path('api/itinerary/', ItineraryRecommend.as_view(), name='itinerary_recommend'),
 ]
