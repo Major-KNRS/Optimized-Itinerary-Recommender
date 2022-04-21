@@ -9,7 +9,7 @@ from django.http import Http404
 from tourist.models import User
 from itertools import chain
 import itinerary_recommender
-
+import difflib as dl
 class PlaceList(generics.ListCreateAPIView):
     queryset = Place.objects.all()
     serializer_class = PlaceSerializer
@@ -70,15 +70,25 @@ class HybridRecommend(APIView):
 
 class ItineraryRecommend(APIView):
 
-    def get(self,request,format=None):
+    def post(self,request,format=None):
         HybridSerializer(data=request.data).is_valid(raise_exception=True)
 
         user = User.objects.get(id=request.data['user'])
         ratings_by_user = Rating.objects.all().filter(user_id=user).order_by('-rating')
         places = collaborative_recommender.recommender(ratings_by_user[0].id)
 
-        place_content = content_recommender.get_content_based_recommendations(request.data['place'])
+        place = request.data['place']
+        place_content = content_recommender.get_content_based_recommendations(place)
         result = place_content + places
+
+        #making sure that the initial and final place is the interest of user sent from frontend
+        matches = dl.get_close_matches(place,result)
+        if len(matches)>0:
+            matched_content = matches[0]
+            if result[0]!= matched_content:
+                result.remove(matched_content)
+                result.insert(0,matched_content)
+        
         query = itinerary_recommender.recommend(result)
         places = []
         for i in query:
