@@ -81,6 +81,10 @@ class ItineraryRecommend(APIView):
         place_content = content_recommender.get_content_based_recommendations(place)
         result = place_content + places
 
+        #delete duplicate place from list
+        #convert to dictionary at first and convert it to list back
+        result = list(dict.fromkeys(result))
+
         #making sure that the initial and final place is the interest of user sent from frontend
         matches = dl.get_close_matches(place,result)
         if len(matches)>0:
@@ -88,7 +92,7 @@ class ItineraryRecommend(APIView):
             if result[0]!= matched_content:
                 result.remove(matched_content)
                 result.insert(0,matched_content)
-        
+
         query = itinerary_recommender.recommend(result)
         places = []
         for i in query:
