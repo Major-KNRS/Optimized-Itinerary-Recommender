@@ -22,12 +22,12 @@ def csv_to_image(data):
     data = ContentFile(base64.b64decode(imgstr),name=str(uuid.uuid4())+'.'+ext)
     return data
 
-with open('../Datasets/final_dest_nepal_with_duplicates_removed.csv') as csvfile:
+with open('../Datasets/final_dest_ktm_with_duplicates_removed.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         txt = row['genre'][1:-1]
         genres = txt.split(",")
-        place, created = Place.objects.get_or_create(id=row['dest_id'],name=row['title'],description=row['genre'],photo=csv_to_image(row['img_url']),location=Point(float(row['longitude']),float(row['latitude'])))
+        place, created = Place.objects.get_or_create(name=row['title'],description=row['genre'],photo=csv_to_image(row['img_url']),location=Point(float(row['longitude']),float(row['latitude'])))
         if row['genre']:
                 for genre in row['genre'].split(sep=":"):
                     g = Genre.objects.get_or_create(name=genre)[0]

@@ -5,7 +5,6 @@ import pandas as pd
 import sklearn
 import matplotlib.pyplot as plt
 
-
 #Step 2: Load the Data
 destinations = pd.read_csv("sample_destinations.csv")
 ratings=pd.read_csv("sample_user_ratings.csv")
@@ -74,7 +73,7 @@ def create_X(df):
     destination_inv_mapper = dict(zip(list(range(M)), np.unique(df["destination_id"])))
     
     user_index = [user_mapper[i] for i in df['user_id']]
-    destination_index = [movie_mapper[i] for i in df['destination_id']]
+    destination_index = [destination_mapper[i] for i in df['destination_id']]
 
     X = csr_matrix((df["rating"], (destination_index, user_index)), shape=(M, N))
     
@@ -120,15 +119,14 @@ def find_similar_destinations(destination_id, X, k, metric='cosine', show_distan
     neighbour_ids.pop(0)
     return neighbour_ids
 
-def recommender(destination_id):
-    
-
 destination_titles = dict(zip(destinations['destination_id'], destinations['title']))
 
-destination_id = 1
+def recommender(destination_id):
+    recommended_places = []
+    similar_ids = find_similar_destinations(destination_id, X, k=10)
+    for i in similar_ids:
+        recommended_places.append(destination_titles[i])
+    return recommended_places
+    
 
-similar_ids = find_similar_destinations(destination_id, X, k=10)
-destination_title = destination_titles[destination_id]
 
-for i in similar_ids:
-    print(destination_titles[i])
