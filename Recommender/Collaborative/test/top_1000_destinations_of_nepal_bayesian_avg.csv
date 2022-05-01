@@ -1,0 +1,1001 @@
+title,avg_rating,voted_by,genre,history,art_and_architecture,nature,adventure,entertainment,health_and_lifestyle,food,industries,religious,latitude,longitude,id,bayesian_avg
+Boudhanath Stupa,4.5,8897,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.7215062,85.3598087,0,4.5022323407518385
+Phewa Tal (Fewa Lake),4.5,2988,['Bodies of Water'],False,False,True,False,False,False,False,False,False,28.2116268,83.9322958,1,4.506428728955994
+Sarangkot,4.5,2199,['Mountains'],False,False,True,False,False,False,False,False,False,28.2443761,83.9445644,2,4.508583112269186
+Swayambhunath Temple,4.5,6203,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.7149298,85.2881456,3,4.503178165434211
+Poon Hill,4.5,1477,['Mountains'],False,False,True,False,False,False,False,False,False,28.400195,83.6717889,4,4.512379381465442
+Peace Temple,4.5,2411,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.6935931,85.2976854,5,4.507874094167886
+Pashupatinath Temple,4.5,4937,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.7104461,85.3465028,6,4.503968276615654
+Durbar (Central) Square,4.5,987,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,27.6881055,85.2981099,7,4.517689193069902
+Chandragiri Hills,4.5,399,['Mountains'],False,False,True,False,False,False,False,False,False,27.6672261,85.203655,8,4.536450661493267
+Mount Everest,5.0,425,['Mountains'],False,False,True,False,False,False,False,False,False,27.9902317,86.8616443,9,4.90094836960392
+Begnas Lake,4.5,552,['Bodies of Water'],False,False,True,False,False,False,False,False,False,28.1784397,84.0847821,10,4.528566863767431
+Golden Temple (Hiranya Varna Mahavihar),4.5,351,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.6752242,85.3223596,11,4.539905741434334
+Patan Museum,4.5,526,['Art Museums'],True,True,False,False,False,False,False,False,False,27.6728498,85.3234764,12,4.529656891648441
+International Mountain Museum,4.0,956,['Speciality Museums'],False,False,False,False,False,False,False,False,False,28.1899544,83.9806388,13,4.088092096977218
+Bhaktapur Durbar Square,4.5,1632,"['Ancient Ruins', 'Points of Interest & Landmarks']",True,True,False,False,False,False,False,False,False,27.6720744,85.4259136,14,4.5113058609505785
+Narayani River,4.5,410,['Bodies of Water'],False,False,True,False,False,False,False,False,False,28.4123787,82.8085131,15,4.535741497129255
+Kopan Monastery,4.5,787,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.7425438,85.3622082,16,4.521443290203353
+Thamel,4.0,5687,['Neighborhoods'],False,False,False,False,False,False,False,False,False,27.7150086,85.3078937,17,4.016757690088669
+Nagarkot Panoramic Hiking Trail,4.5,82,['Hiking Trails'],False,False,True,True,False,False,False,False,False,27.7305368,85.5256837,18,4.585124426177148
+Gokyo Lakes,5.0,122,['Bodies of Water'],False,False,True,False,False,False,False,False,False,27.9755456,86.6582663,19,4.792753368954981
+Patan Durbar Square,5.0,60,"['Points of Interest & Landmarks', 'Historic Walking Areas']",True,True,True,False,False,False,False,False,False,27.6726981,85.3231324,20,4.733098545121488
+Garden of Dreams,4.5,4021,['Gardens'],False,False,False,False,False,False,False,False,False,27.7141261,85.3123154,21,4.504838630653118
+Namo Buddha (Stupa),4.5,129,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,27.6931555,85.0525016,22,4.571056449952875
+Polar Trekking & Expedition  - Day Tours,5.0,175,"['Parasailing & Paragliding', 'River Rafting & Tubing']",False,False,False,True,False,False,False,False,False,27.6934331,85.2976855,23,4.82599874098167
+Kathmandu Durbar Square,4.0,4711,"['Historic Sites', 'Points of Interest & Landmarks']",True,True,False,False,False,False,False,False,False,27.7041718,85.3044636,24,4.020118598705303
+Chitwan National Park,4.5,555,"['National Parks', 'Nature & Wildlife Areas']",False,False,True,False,False,False,False,False,False,27.5341022,84.4502779,25,4.528446225654916
+Gupteswar Gupha,4.0,480,['Caverns & Caves'],False,False,True,False,False,False,False,False,False,28.1895731,83.9556493,26,4.154085540669094
+Trisuli River,4.5,29,['Bodies of Water'],False,False,True,False,False,False,False,False,False,28.1169245,84.3567621,27,4.6095915703759225
+Devi's Fall,3.0,1459,['Waterfalls'],False,False,False,False,False,False,False,False,False,28.1901905,83.9570246,28,3.156900377496384
+Gurkha Memorial Museum,4.5,310,['History Museums'],True,True,False,False,False,False,False,False,False,28.2462382,83.9863958,29,4.5434213333818185
+Muktinath Temple,4.5,134,['Religious Sites'],True,True,False,False,False,False,False,False,True,28.8166048,83.8692402,30,4.569828773325978
+Barahi temple,4.0,388,['Religious Sites'],True,True,False,False,False,False,False,False,True,28.2074625,83.9513582,31,4.180173185622031
+Maya Devi Temple,4.5,446,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.4696415,83.2735961,32,4.533601978117337
+Annapurna Base Camp Trek,5.0,25,['Hiking Trails'],False,False,True,True,False,False,False,False,False,27.6934331,85.2976855,33,4.681314389768495
+Annapurna Mountain Range,5.0,537,"['Mountains', 'Hiking Trails']",False,False,True,False,False,False,False,False,False,28.5739679,83.8388281,34,4.9169707248010495
+Bindhya Basini Temple,4.0,222,['Religious Sites'],True,True,False,False,False,False,False,False,True,28.2378194,83.9820218,35,4.259423912483765
+Kala Patthar,5.0,60,['Mountains'],False,False,True,False,False,False,False,False,False,27.9833317,86.799157,36,4.733098545121488
+Asan,4.5,243,['Flea & Street Markets'],False,False,False,False,True,False,False,False,False,27.7074924,85.3100657,37,4.550723725828949
+Bishazari Tal,5.0,4,['Bodies of Water'],False,False,True,False,False,False,False,False,False,27.6178328,84.435374,38,4.639327879518036
+Jomsom Muktinath Trek,4.5,56,['Hiking Trails'],False,False,True,True,False,False,False,False,False,27.6934331,85.2976855,39,4.59559414187677
+Shivapuri Nagarjun National Park,4.5,135,['National Parks'],False,False,True,False,False,False,False,False,False,27.8120756,85.3671918,40,4.569588311149328
+Mahaboudha Temple,4.5,61,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.6934331,85.2976855,41,4.59338534353031
+Kailashnath Mahadev,4.5,112,['Monuments & Statues'],True,True,False,False,False,False,False,False,True,27.6461062,85.4720758,42,4.575573977082126
+Dakshinkali Temple,4.5,235,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.605107,85.2612812,43,4.551763162415145
+Budhanilkantha,4.5,372,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.7677291,85.2909879,44,4.538316757543503
+Krisnhna Mandir Temple (Chayasim Deval),4.5,114,"['Historic Sites', 'Religious Sites']",True,True,False,False,False,False,False,False,False,27.6735983,85.3227425,45,4.5750129105618464
+Jangchub Choeling Tibetan Monastery,4.5,18,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.6934331,85.2976855,46,4.616543986688685
+Nagarkot Nature Trail,4.5,67,"['Nature & Wildlife Areas', 'Hiking Trails']",False,False,True,True,False,False,False,False,False,27.7150971,85.4919422,47,4.590865886795048
+Pokhara Lakeside,4.5,47,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,28.2112292,83.9531099,48,4.599844995542841
+Hanuman Dhoka,4.5,589,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,27.7047458,85.3049407,49,4.527146951786148
+Mahendra Cave,3.0,183,['Caverns & Caves'],False,False,True,False,False,False,False,False,False,28.2716656,83.9773229,50,3.7485328582300452
+Changu Narayan,4.5,497,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.7023114,85.4016892,51,4.530975189882032
+The Crematoria,4.0,1468,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.7063725,85.3462654,52,4.0603088517192365
+Seti River Gourge,3.5,111,['Nature & Wildlife Areas'],False,False,True,True,False,False,False,False,False,28.2453882,83.9871301,53,4.159181618309339
+Seti Gandaki (Seti River),4.0,158,['Bodies of Water'],False,False,True,False,False,False,False,False,False,27.8204495,84.2343924,54,4.312402368992061
+Bat Cave,3.5,198,"['Nature & Wildlife Areas', 'Caverns & Caves']",False,False,True,True,False,False,False,False,False,28.2674636,83.9737408,55,3.9969015547176747
+Tiger Residency Resort,4.0,22,['Nature & Wildlife Areas'],False,False,True,True,False,False,False,False,False,27.577886,84.4965698,56,4.55190721235159
+Sherpa Museum,4.5,80,['Speciality Museums'],False,False,False,False,False,False,False,False,False,27.8050873,86.7121605,57,4.585847676779774
+Langtang Valley,5.0,52,['Valleys'],False,False,True,False,False,False,False,False,False,28.0490282,84.9966267,58,4.722803109192637
+Thrangu Tashi Monastery,4.5,169,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.6931555,85.0525016,59,4.562294703440563
+Pathibhara Devi Temple,5.0,8,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.4291137,87.7660256,60,4.648157386610879
+Patan Royal Palace,4.5,30,['Historic Sites'],True,True,False,False,False,False,False,False,False,27.6726981,85.3231324,61,4.60900044245174
+Janaki Temple,4.5,64,['Religious Sites'],True,True,False,False,False,False,False,False,True,26.7304199,85.9235043,62,4.5921083895999795
+Kumari Chowk,4.0,785,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.6934331,85.2976855,63,4.104110647269015
+Thani Mai Temple,4.5,31,"['Lookouts', 'Religious Sites']",True,True,True,False,False,False,False,False,False,27.999726,84.3313466,64,4.6084156573060175
+Sagarmatha National Park Museum,4.5,11,['Speciality Museums'],False,False,False,False,False,False,False,False,False,27.8030238,86.7126631,65,4.621446855222531
+Rupa Lake,4.0,43,['Bodies of Water'],False,False,True,False,False,False,False,False,False,28.1537215,84.1054594,66,4.493487847555359
+Tushita-Nepal,4.5,16,"['Mysterious Sites', 'Religious Sites']",True,True,True,True,False,False,False,False,False,28.2009937,83.9395307,67,4.617903940790797
+Kali Gandaki River,4.5,18,['Bodies of Water'],False,False,True,False,False,False,False,False,False,28.4123787,82.8085131,68,4.616543986688685
+Matepani Gumba,4.5,8,['Religious Sites'],True,True,False,False,False,False,False,False,True,28.2164788,84.0052148,69,4.623676683525086
+Rudra Varna Mahavihar,4.5,29,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.6682072,85.3250058,70,4.6095915703759225
+Khumbeshwar Temple,4.5,55,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.6765402,85.3238034,71,4.596048499614523
+Annapurna Butterfly Museum,4.0,42,['Speciality Museums'],False,False,False,False,False,False,False,False,False,28.2389619,83.9883666,72,4.495987861981103
+Narayanhiti Palace Museum,4.0,298,['Speciality Museums'],False,False,False,False,False,False,False,False,False,27.7149634,85.3161398,73,4.215938075995488
+Babar Mahal Revisted,4.5,90,['Architectural Buildings'],True,True,False,False,False,False,False,False,False,27.6942629,85.3204241,74,4.582349315907878
+"Pandeli Park, Sarangkot",4.5,11,['Parks'],False,False,False,False,False,False,False,False,False,28.2385847,83.9380856,75,4.621446855222531
+Labim Mall,4.5,21,['Shopping Malls'],False,False,False,False,True,False,False,False,False,27.6772126,85.3148293,76,4.614561878680101
+Basantapur Tower,4.5,308,['Lookouts'],True,True,True,False,False,False,False,False,False,27.6934331,85.2976855,77,4.543608739059845
+Tatopani Hot Spring,3.5,14,['Hot Springs & Geysers'],False,False,False,False,False,True,False,False,False,28.4960928,83.6366962,78,4.536648452884387
+The Central Zoo,3.5,88,['Zoos'],False,False,True,False,True,False,False,False,False,27.672704,85.3096407,79,4.221472296062754
+yogconnection,5.0,9,['Sports Camps & Clinics'],False,False,False,True,False,True,False,False,False,28.2222151,83.9563447,80,4.650297626603756
+Buddhasubba Temple,4.5,13,['Religious Sites'],True,True,False,False,False,False,False,False,True,26.8232426,87.2914322,81,4.620004442129161
+Adam Tribe Organic Farm,5.0,17,['Farms'],False,False,False,False,False,True,False,True,False,28.2130843,83.848955,82,4.666525679709839
+Mangal Bazar,4.0,28,['Flea & Street Markets'],False,False,False,False,True,False,False,False,False,27.6740932,85.3187229,83,4.533850769533888
+Phulchoki,4.5,33,['Mountains'],False,False,True,False,False,False,False,False,False,27.5711011,85.3880407,84,4.60726471133846
+Kedareshwar Mahadev Mani Temple,4.0,8,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.6934331,85.2976855,85,4.599195980439293
+Makwanpur Gadhi,4.5,11,['Historic Sites'],True,True,False,False,False,False,False,False,False,27.4082132,85.0592719,86,4.621446855222531
+Dudh Koshi River,5.0,18,['Bodies of Water'],False,False,True,False,False,False,False,False,False,27.3835589,86.2999803,87,4.6684488968931905
+Machapuchare,5.0,81,['Mountains'],False,False,True,False,False,False,False,False,False,28.5043724,83.9295385,88,4.756808667004653
+Mt Ama Dablam,5.0,36,['Mountains'],False,False,True,False,False,False,False,False,False,27.8618732,86.8436534,89,4.699630228888564
+Bhimsen Temple,4.0,40,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.6934331,85.2976855,90,4.501064659241829
+Klod Fashion Exquisite,5.0,5,['Shopping Malls'],False,False,False,False,True,False,False,False,False,28.2221901,83.9858168,91,4.641576542937378
+Manakamana Temple,4.5,145,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.9041371,84.5820892,92,4.567271743203586
+Pokhara Museum,4.0,57,['History Museums'],True,True,False,False,False,False,False,False,False,28.2054279,83.9006171,93,4.460959481095972
+Kala Pattar,5.0,84,['Mountains'],False,False,True,False,False,False,False,False,False,27.9833317,86.799157,94,4.759856253823814
+BIG Splash,4.0,4,['Water Parks'],False,False,False,False,True,False,False,False,False,27.9318865,84.0734891,95,4.6142328320256585
+Budhanilakantha Temple,4.5,130,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.7702644,85.34212,96,4.570807473275185
+Pullahari Monastery,4.5,60,['Religious Sites'],True,True,False,False,False,False,False,False,True,27.7367119,85.3674093,97,4.593818899448907
+Everest View Point,5.0,18,['Lookouts'],True,True,True,False,False,False,False,False,False,27.7935331,86.7137458,98,4.6684488968931905
+Khumbu Glacier,5.0,29,"['Points of Interest & Landmarks', 'Geologic Formations']",True,True,True,False,False,False,False,False,False,27.9684111,86.798214,99,4.688227534669772
+Kulekhani Dam,4.5,13,['Dams'],False,False,True,False,False,False,False,False,False,,,100,4.620004442129161
+Shree Gaden Dhargay Ling Monastery,4.0,15,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,101,4.57458025533703
+National Botanical Gardens,4.0,61,['Gardens'],False,False,False,False,False,False,False,False,False,,,102,4.45243873687763
+Muktinath Temple,5.0,23,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,103,4.677741560971209
+Tharu Cultural Museum and Research Center,4.5,15,"['Speciality Museums', 'Natural History Museums']",False,False,False,False,False,False,False,False,False,,,104,4.6185958896903525
+Shree Gahawamai Temple,4.5,12,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,105,4.620721340238586
+Kyanjin Gompa,5.0,58,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,106,4.730597055343158
+Chitwan Tharu Village,4.0,203,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,107,4.273177084515639
+Ilam Tea Garden,4.5,16,['Nature & Wildlife Areas'],False,False,True,True,False,False,False,False,False,,,108,4.617903940790797
+World Peace Pagoda,4.5,116,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,109,4.574460113443547
+Koshi Tappu Wildlife Reserve,4.0,13,['Nature & Wildlife Areas'],False,False,True,True,False,False,False,False,False,,,110,4.581404492012173
+Rara Lake,5.0,43,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,111,4.710228273173069
+Kriayt Social Business,4.5,9,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,112,4.62292436480588
+Jaganath (Krishna) Temple,4.0,139,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,113,4.332564617580175
+Dipang Lake,3.5,11,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,114,4.555338702284324
+Kafuche Lake,4.0,1,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,115,4.626015243729925
+Indra Chowk,4.0,83,['Historic Walking Areas'],True,True,False,False,False,False,False,False,False,,,116,4.410685789188897
+Gurunghe Hill,5.0,9,"['Mountains', 'Lookouts']",False,False,True,False,False,False,False,False,False,,,117,4.650297626603756
+Ramgram Stupa,5.0,6,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,118,4.643797340842274
+Kathesimbu Stupa,4.5,91,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,119,4.582015097883463
+Basundhara Park,3.5,3,['Parks'],False,False,False,False,False,False,False,False,False,,,120,4.608640655756518
+Nuwakot Durbar,4.5,39,['Historic Sites'],True,True,False,False,False,False,False,False,False,,,121,4.603953969916241
+Nyatapola Temple,4.5,267,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,122,4.547841655013798
+Whoopee Land Amusement and Water Park,3.5,8,['Water Parks'],False,False,False,False,True,False,False,False,False,,,123,4.5747152773535005
+Sun Kosi,5.0,1,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,124,4.632409350920738
+Dhumba Lake,4.5,11,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,125,4.621446855222531
+Nagarkot Buddha Peace Park Hiking Trail,4.0,13,['Hiking Trails'],False,False,True,True,False,False,False,False,False,,,126,4.581404492012173
+Nagarkot to Dhulikhel Hiking,4.0,2,['Scenic Walking Areas'],False,False,True,False,False,False,False,False,False,,,127,4.622037866932017
+Taleju Mandir Temple,4.5,18,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,128,4.616543986688685
+Daman,4.5,13,"['Historic Walking Areas', 'Biking Trails']",True,True,False,False,False,False,False,False,False,,,129,4.620004442129161
+The White Gallery,5.0,1,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,130,4.632409350920738
+Mera Peak,4.5,14,['Mountains'],False,False,True,False,False,False,False,False,False,,,131,4.619296008287766
+Akash Bhairav Temple,4.5,87,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,132,4.58336851583743
+Pokhara Trade Mall,2.5,2,['Shopping Malls'],False,False,False,False,True,False,False,False,False,,,133,4.602977419900999
+MidTown Galleria,4.0,1,['Shopping Malls'],False,False,False,False,True,False,False,False,False,,,134,4.626015243729925
+Mandala Street,4.5,46,"['Neighborhoods', 'Points of Interest & Landmarks']",False,False,False,False,False,False,False,False,False,,,135,4.600340765007388
+Bageshwori Temple,4.5,16,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,136,4.617903940790797
+Ghar Gompa,4.5,9,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,137,4.62292436480588
+Memorial to Scott Fischer,4.5,22,"['Points of Interest & Landmarks', 'Cemeteries']",True,True,True,False,False,False,False,False,False,,,138,4.613916073981633
+Sauraha Tharu Culture House,4.0,72,['Theaters'],False,True,False,False,True,False,False,False,False,,,139,4.430552380572477
+Mount Climber Trekking Garment Pvt Ltd,5.0,2,['Factory Outlets'],False,False,False,False,False,False,False,True,False,,,140,4.634744831619362
+Red Cliffs,4.5,10,['Caverns & Caves'],False,False,True,False,False,False,False,False,False,,,141,4.622181143378223
+Tilichol Lake,5.0,22,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,142,4.675924935611677
+Gosainkunda,4.5,65,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,143,4.591690463569325
+Miteri Park,3.0,2,['Parks'],False,False,False,False,False,False,False,False,False,,,144,4.609330902244672
+Bagh Bhairab Temple,4.5,24,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,145,4.6126460641264355
+Sankhu Village,4.5,41,"['Points of Interest & Landmarks', 'Historic Walking Areas']",True,True,True,False,False,False,False,False,False,,,146,4.60289534317697
+Bhat Bhateni,4.0,1,['Department Stores'],False,False,False,False,False,True,False,False,False,,,147,4.626015243729925
+Amideva Buddha Park,4.5,15,['Parks'],False,False,False,False,False,False,False,False,False,,,148,4.6185958896903525
+Baha Bahi,4.5,19,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,149,4.615875706893
+Patan Gate,3.5,42,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,150,4.389601649634224
+Kala Bairav,4.5,156,"['Religious Sites', 'Monuments & Statues']",True,True,False,False,False,False,False,False,True,,,151,4.564895367373482
+Vishwanath Mandir Temple,4.0,28,"['Architectural Buildings', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,152,4.533850769533888
+Vajrayogini Temple,4.5,64,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,153,4.5921083895999795
+Kanchenjunga,5.0,15,['Mountains'],False,False,True,False,False,False,False,False,False,,,154,4.662611524043674
+Dolakha Bhimsen Mandir,5.0,7,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,155,4.64599078800878
+Phoksundo Lake,5.0,8,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,156,4.648157386610879
+Astrek Climbing Wall,4.5,37,['Sports Complexes'],False,False,False,False,True,False,False,False,False,,,157,4.6050346062138
+Old Gurung Museum,4.5,15,['Speciality Museums'],False,False,False,False,False,False,False,False,False,,,158,4.6185958896903525
+The Ashokan Stupas,4.0,16,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,159,4.571227861114729
+Templo de Changu Narayan,4.5,58,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,160,4.594698201579697
+Sauraha Art Gallery,4.5,8,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,161,4.623676683525086
+Mardi Himal,5.0,11,['Geologic Formations'],False,False,True,False,False,False,False,False,False,,,162,4.654500931691635
+Pindeshwor Temple,4.5,2,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,163,4.628391349275689
+Siddha Baba Temple,4.0,3,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,164,4.618110711440445
+Taleju Bell,4.0,23,"['Historic Sites', 'Points of Interest & Landmarks']",True,True,False,False,False,False,False,False,False,,,165,4.548813458008105
+Ranighat Palace,4.5,45,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,166,4.600841482419123
+Lumbini Monastic Site,4.5,209,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,167,4.555456533389402
+Valle del Naar,4.5,6,['Geologic Formations'],False,False,True,False,False,False,False,False,False,,,168,4.625209289241842
+Mt Taboche,4.5,8,['Mountains'],False,False,True,False,False,False,False,False,False,,,169,4.623676683525086
+White Monastery,4.0,92,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,170,4.395745361762605
+Taudaha Lake,4.0,34,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,171,4.516938382567019
+Shechen Monastery,4.5,11,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,172,4.621446855222531
+55 Window Palace,4.5,189,['Historic Sites'],True,True,False,False,False,False,False,False,False,,,173,4.558677061818434
+Elephant Breeding Centre,3.0,677,['Nature & Wildlife Areas'],False,False,True,True,False,False,False,False,False,,,174,3.3043018426705357
+The National Museum,4.0,90,"['Art Museums', 'History Museums']",True,True,False,False,False,False,False,False,False,,,175,4.398970749194756
+Aircrafts Museum,4.0,4,['Speciality Museums'],False,False,False,False,False,False,False,False,False,,,176,4.6142328320256585
+Nagarjun Forest Reserve,4.0,39,"['Nature & Wildlife Areas', 'Forests']",False,False,True,True,False,False,False,False,False,,,177,4.503642231899636
+Indreshwar Mahadev Temple,4.5,23,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,178,4.613277509489657
+Degu Taleju Temple,4.0,91,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,179,4.397351510296103
+Dattatreya Temple,4.5,139,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,180,4.5686427985213625
+Rato Machhendranath Temple,4.0,15,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,181,4.57458025533703
+Shiv Jatta,4.5,2,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,182,4.628391349275689
+Cathedral of the Assumption of the Blessed Virgin Mary,5.0,12,"['Religious Sites', 'Churches & Cathedrals']",True,True,False,False,False,False,False,False,True,,,183,4.656564918861475
+Image Ark,4.5,5,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,184,4.625989924984088
+Seto Machindranath Temple,4.5,59,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,185,4.594256499845601
+Panchakanya Temple,4.5,2,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,186,4.628391349275689
+Nagi Gompa,4.5,15,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,187,4.6185958896903525
+Ambulapcha-La,4.5,3,['Hiking Trails'],False,False,True,True,False,False,False,False,False,,,188,4.627580767124372
+Datankali Temple,4.5,6,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,189,4.625209289241842
+Halesi Mahadev Temple,4.5,5,"['Historic Sites', 'Points of Interest & Landmarks']",True,True,False,False,False,False,False,False,False,,,190,4.625989924984088
+Casino Royale,3.5,51,['Casinos'],False,False,False,False,True,False,False,False,False,,,191,4.350809752356647
+Taumadhi Square,4.5,241,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,192,4.550979651629182
+Freak Street (Jhhonchen Tole),3.0,171,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,193,3.7760529544902726
+ISKCON,4.5,3,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,194,4.627580767124372
+Aarya Ghat,4.0,18,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,195,4.5646390764841795
+Eternal Peace Flame,4.0,61,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,196,4.45243873687763
+Tengboche Gompa,4.5,93,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,197,4.581354734928774
+Bhat-Bhateni Supermarket and Departmental Store,3.5,7,['Shopping Malls'],False,False,False,False,True,False,False,False,False,,,198,4.581333226768833
+Basantpur Dabali,4.0,14,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,199,4.577972230586076
+Banepa Chnadeshwori Temple,5.0,2,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,200,4.634744831619362
+Taragaon Museum,4.5,10,['History Museums'],True,True,False,False,False,False,False,False,False,,,201,4.622181143378223
+Boudha Farmers Market at Utpala Cafe,5.0,15,['Farmers Markets'],False,False,False,False,True,False,True,False,False,,,202,4.662611524043674
+Shukla Phanta National Park,4.0,11,"['National Parks', 'Nature & Wildlife Areas']",False,False,True,False,False,False,False,False,False,,,203,4.588392778753428
+Chhango Adventure Canyoning In Nepal,5.0,20,['Sports Camps & Clinics'],False,False,False,True,False,True,False,False,False,,,204,4.672229540508215
+Jumla,4.5,3,['Nan'],False,False,False,False,False,False,False,False,False,,,205,4.627580767124372
+Kwa Bahal,5.0,3,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,206,4.6370508228083
+Kalika Bhagwati Temple,4.5,4,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,207,4.626780355771848
+Boudha Stupa Thanka Center,4.0,11,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,208,4.588392778753428
+Jagan Narayan Temple,3.5,21,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,209,4.495510210256006
+Kaiser Library,4.0,40,['Libraries'],True,True,False,False,False,False,False,False,False,,,210,4.501064659241829
+Royal Thai Monastery,4.5,57,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,211,4.5951440625813245
+The Natural History Museum,4.0,20,['Natural History Museums'],True,True,False,False,False,False,False,False,False,,,212,4.558200554339931
+Ganesh Mandir,3.5,7,"['Architectural Buildings', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,213,4.581333226768833
+Manjushree Park,3.0,1,['Parks'],False,False,False,False,False,False,False,False,False,,,214,4.619621136539112
+Dharapani Temple,4.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,215,4.626015243729925
+Guhyeshwari Temple,4.0,22,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,216,4.55190721235159
+Manakamana Mandir Temple,4.0,21,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,217,4.5550360444680535
+Kag Chode Thupten Samphel Ling Monastery,4.5,11,"['Universities & Schools', 'Religious Sites']",False,False,False,False,False,True,False,False,False,,,218,4.621446855222531
+Shey Phoksundo National Park,5.0,5,['National Parks'],False,False,True,False,False,False,False,False,False,,,219,4.641576542937378
+Maula Kalika,4.5,2,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,220,4.628391349275689
+Ghadiarwa Pokhari,4.5,10,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,221,4.622181143378223
+Durbar Marg Street,3.5,39,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,222,4.403330493883031
+Bara Gaon,4.0,2,"['Neighborhoods', 'Hiking Trails']",False,False,False,False,False,False,False,False,False,,,223,4.622037866932017
+Gumba Danda,5.0,2,['Historic Walking Areas'],True,True,False,False,False,False,False,False,False,,,224,4.634744831619362
+Tea Garden,5.0,1,"['Nature & Wildlife Areas', 'Scenic Walking Areas']",False,False,True,True,False,False,False,False,False,,,225,4.632409350920738
+Tribhuvan Park,4.0,13,['Parks'],False,False,False,False,False,False,False,False,False,,,226,4.581404492012173
+Shiva Parvati Temple,4.0,19,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,227,4.561401355711193
+Thubchen Gompa,4.5,17,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,228,4.617220019420037
+Hari Shanker Temple,3.5,18,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,229,4.5127341662796745
+Bulbule Lake,4.0,4,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,230,4.6142328320256585
+Ambikeshwori Temple,4.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,231,4.626015243729925
+Manakamana Mandir,4.5,2,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,232,4.628391349275689
+Santaneshwar Mahadev Temple,4.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,233,4.626015243729925
+Bishal Bazaar,3.5,46,['Shopping Malls'],False,False,False,False,True,False,False,False,False,,,234,4.371932768741362
+Pottery Square,4.0,356,"['Neighborhoods', 'Points of Interest & Landmarks']",False,False,False,False,False,False,False,False,False,,,235,4.191447353758351
+Marpha Monastery,4.5,7,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,236,4.6244382675954645
+Khaptad National Park,5.0,8,['National Parks'],False,False,True,False,False,False,False,False,False,,,237,4.648157386610879
+Crocodile Breeding Centre,4.0,4,['Nature & Wildlife Areas'],False,False,True,True,False,False,False,False,False,,,238,4.6142328320256585
+Dhaulagiri of Nepal,5.0,12,['Mountains'],False,False,True,False,False,False,False,False,False,,,239,4.656564918861475
+Ram Sita Vivah Mandap,4.5,2,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,240,4.628391349275689
+Myanmar Golden Monastery,4.5,54,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,241,4.596507197092074
+Changu Museum,4.0,1,['History Museums'],True,True,False,False,False,False,False,False,False,,,242,4.626015243729925
+Ram Mandir,4.0,18,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,243,4.5646390764841795
+Degutalle Mandir Temple,3.5,10,"['Points of Interest & Landmarks', 'Historic Walking Areas']",True,True,True,False,False,False,False,False,False,,,244,4.56171945794828
+Annapurna Temple,4.0,18,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,245,4.5646390764841795
+Maru Ganesh Shrine,4.0,23,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,246,4.548813458008105
+Temples of Machchhendra Nath and Min Nath,4.0,7,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,247,4.602885747182149
+Dae Sung Shakya (Korean Temple),4.0,45,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,248,4.488562671676287
+Ratna Park,2.5,16,['Parks'],False,False,False,False,False,False,False,False,False,,,249,4.431199622086525
+Vijayapur Hill,4.5,3,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,250,4.627580767124372
+Banke National Park,4.0,1,['National Parks'],False,False,True,False,False,False,False,False,False,,,251,4.626015243729925
+Char Narayan Temple,2.5,11,"['Historic Sites', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,252,4.489230549346117
+Thahiti Chowk,3.5,18,"['Points of Interest & Landmarks', 'Monuments & Statues']",True,True,True,False,False,False,False,False,False,,,253,4.5127341662796745
+Temple and Statue of King Narasimha,3.5,6,"['Religious Sites', 'Monuments & Statues']",True,True,False,False,False,False,False,False,True,,,254,4.588033186040979
+Nara Devi Temple,4.5,11,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,255,4.621446855222531
+Bhinchhebahal,4.5,4,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,256,4.626780355771848
+Kathmandu Contemporary Arts Centre,5.0,3,['Art Museums'],True,True,False,False,False,False,False,False,False,,,257,4.6370508228083
+Military Museum,3.5,8,"['Military Museums', 'History Museums']",True,True,False,False,False,False,False,False,False,,,258,4.5747152773535005
+Shanti Spa,5.0,15,['Sports Camps & Clinics'],False,False,False,True,False,True,False,False,False,,,259,4.662611524043674
+Kudan Stupa,4.5,22,"['Ancient Ruins', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,260,4.613916073981633
+Narasingha Mandir Temple,3.0,10,"['Historic Sites', 'Points of Interest & Landmarks']",True,True,False,False,False,False,False,False,False,,,261,4.531488615233308
+Nagarkot View Tower,4.0,77,"['Points of Interest & Landmarks', 'Lookouts']",True,True,True,False,False,False,False,False,False,,,262,4.421288966272356
+Gokarneshwor Mahadev Temple,4.5,9,"['Architectural Buildings', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,263,4.62292436480588
+Gorakha Nath Temple Gorkha,4.5,46,['Speciality Museums'],False,False,False,False,False,False,False,False,False,,,264,4.600340765007388
+Rolwaling Valley,5.0,5,['Valleys'],False,False,True,False,False,False,False,False,False,,,265,4.641576542937378
+Makhan Tole,4.0,10,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,266,4.591950300663251
+Kakre Bihar Temple,4.5,2,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,267,4.628391349275689
+Shashwat Dham,3.5,6,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,268,4.588033186040979
+Vaisha Dev (Toothache Tree),4.0,28,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,269,4.533850769533888
+Chilancho Bahal,4.5,16,"['Historic Sites', 'Ancient Ruins']",True,True,False,False,False,False,False,False,False,,,270,4.617903940790797
+Gallery Mcube,4.77190569744597,0,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,271,4.630043811394892
+Music Museum of Nepal,5.0,7,"['Art Museums', 'History Museums']",True,True,False,False,False,False,False,False,False,,,272,4.64599078800878
+Kathmandu Fun Park,4.0,4,['Amusement & Theme Parks'],False,False,False,False,True,False,False,False,False,,,273,4.6142328320256585
+Destination Agro Farm Pvt Ltd,5.0,4,['Farms'],False,False,False,False,False,True,False,True,False,,,274,4.639327879518036
+Tharu Cultural Museum and Research Cente,4.5,2,['History Museums'],True,True,False,False,False,False,False,False,False,,,275,4.628391349275689
+Bhimsen Tower,3.5,83,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,276,4.236604226733466
+Tridevi Temple,4.0,17,"['Architectural Buildings', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,277,4.567914359130236
+himalayan arts gallery pltd,4.5,4,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,278,4.626780355771848
+Guru Lhakhang Monastery,4.0,5,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,279,4.610403307030798
+Jyapu Museum,3.0,1,['History Museums'],True,True,False,False,False,False,False,False,False,,,280,4.619621136539112
+Rani Pokhari (Queen's Pond),3.5,41,"['Points of Interest & Landmarks', 'Scenic Walking Areas']",True,True,True,False,False,False,False,False,False,,,281,4.394131327983023
+Peace Pagoda,4.5,27,['Monuments & Statues'],True,True,False,False,False,False,False,False,True,,,282,4.610793271861453
+Taleju Temple,4.0,94,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,283,4.392571705926758
+Cambodia Lumbini Buddhist Temple,4.0,2,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,284,4.622037866932017
+Woodcraft Gallery,5.0,4,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,285,4.639327879518036
+Chobhar Caves,2.5,3,['Caverns & Caves'],False,False,True,False,False,False,False,False,False,,,286,4.589700544388663
+Kashthamandap,4.0,112,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,287,4.366145194087743
+Macchhermo,4.5,15,['Hiking Trails'],False,False,True,True,False,False,False,False,False,,,288,4.6185958896903525
+Khadga Devi temple,3.0,10,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,289,4.531488615233308
+Namkha Khyung Dzong Rigdin Choling Monastery,5.0,10,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,290,4.6524119860931945
+Kali Temple,3.5,34,"['Lookouts', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,291,4.427178411290209
+Panch Pokhari,4.5,3,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,292,4.627580767124372
+Root Art Gallery,5.0,2,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,293,4.634744831619362
+Minnath temple,3.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,294,4.619621136539112
+Mount Manaslu,4.5,9,['Mountains'],False,False,True,False,False,False,False,False,False,,,295,4.62292436480588
+Casino Mahjong,3.5,12,['Casinos'],False,False,False,False,True,False,False,False,False,,,296,4.5490341829928065
+"The Tribhuvan, Mahendra, and Birendra Museums",3.5,24,['Speciality Museums'],False,False,False,False,False,False,False,False,False,,,297,4.478862325539861
+Vatsala Durga Temple,4.5,63,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,298,4.592530142897231
+Chhairo Gompa,4.5,2,"['Historic Sites', 'Points of Interest & Landmarks']",True,True,False,False,False,False,False,False,False,,,299,4.628391349275689
+Hidden Valley (Khumjung Green Valley),4.5,4,['Valleys'],False,False,True,False,False,False,False,False,False,,,300,4.626780355771848
+Kashmiri Mosque,5.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,301,4.632409350920738
+Divine Yoga Studio,5.0,4,['Sports Camps & Clinics'],False,False,False,True,False,True,False,False,False,,,302,4.639327879518036
+Aviation Museum,3.5,3,"['Speciality Museums', ""Children's Museums""]",False,False,False,False,False,False,False,False,False,,,303,4.608640655756518
+Woodcraft Gallery,5.0,3,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,304,4.6370508228083
+Manimandap Pati,2.5,4,"['Historic Sites', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,305,4.576590260787093
+Martyr Memorial Park,4.0,1,"['Points of Interest & Landmarks', 'Parks']",True,True,True,False,False,False,False,False,False,,,306,4.626015243729925
+Millionaire's Club and Casino,4.0,6,['Casinos'],False,False,False,False,True,False,False,False,False,,,307,4.606621237641411
+Nepal Art Council Gallery,5.0,3,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,308,4.6370508228083
+Gaddhi Baithak,3.0,13,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,309,4.504204591778198
+Kalinchowk Bhagwati Shrine,5.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,310,4.632409350920738
+Siddha Pokhari,4.0,61,"['Bodies of Water', 'Points of Interest & Landmarks']",False,False,True,False,False,False,False,False,False,,,311,4.45243873687763
+Casino Rad,3.0,10,['Casinos'],False,False,False,False,True,False,False,False,False,,,312,4.531488615233308
+Pujari Math,4.5,65,['Architectural Buildings'],True,True,False,False,False,False,False,False,False,,,313,4.591690463569325
+The Thrangu Monastery,4.5,10,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,314,4.622181143378223
+Fikkal Bazar,3.5,6,"['Points of Interest & Landmarks', 'Scenic Drives']",True,True,True,False,False,False,False,False,False,,,315,4.588033186040979
+Bhairavnath Temple,4.0,73,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,316,4.428667250575312
+Sundarijal Water Falls,5.0,7,['Waterfalls'],False,False,False,False,False,False,False,False,False,,,317,4.64599078800878
+Sindhuli Gadhi,4.0,2,"['Historic Sites', 'Points of Interest & Landmarks']",True,True,False,False,False,False,False,False,False,,,318,4.622037866932017
+Shiva Mandir Temple,3.5,11,"['Architectural Buildings', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,319,4.555338702284324
+Bagwati Mandir Temple,4.5,6,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,320,4.625209289241842
+Ghanta Ghar Clock Tower,3.5,11,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,321,4.555338702284324
+Jamchen Lhakhang Monastery,3.5,3,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,322,4.608640655756518
+Big Bell,3.5,9,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,323,4.568177841210129
+Mother Temple of the Graduated Path to Enlightenment,4.5,12,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,324,4.620721340238586
+Rupse Falls,5.0,2,['Waterfalls'],False,False,False,False,False,False,False,False,False,,,325,4.634744831619362
+Mrigasthali Deer Park,4.0,5,"['Nature & Wildlife Areas', 'Parks']",False,False,True,True,False,False,False,False,False,,,326,4.610403307030798
+Universal Crafts,5.0,3,"['Art Galleries', 'Antique Shops']",True,True,False,False,False,False,False,False,True,,,327,4.6370508228083
+Kathmandu Fun Valley,4.0,26,['Water Parks'],False,False,False,False,True,False,False,False,False,,,328,4.539736860248397
+Mero Chitra Wears,5.0,3,['Factory Outlets'],False,False,False,False,False,False,False,True,False,,,329,4.6370508228083
+Janakpur Dham Rail Station,3.0,22,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,330,4.427889489091502
+Thorong La Pass,4.5,6,"['Historic Sites', 'Points of Interest & Landmarks']",True,True,False,False,False,False,False,False,False,,,331,4.625209289241842
+Casino Everest,3.5,9,['Casinos'],False,False,False,False,True,False,False,False,False,,,332,4.568177841210129
+Maju Dega Mandir Temple,3.0,11,"['Architectural Buildings', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,333,4.522284625815221
+Gauri Gaht,4.0,7,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,334,4.602885747182149
+Annapurna Circuit,5.0,4,['Hiking Trails'],False,False,True,True,False,False,False,False,False,,,335,4.639327879518036
+Khumjung Gompa,4.0,8,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,336,4.599195980439293
+Kala Patthar,5.0,2,"['Mountains', 'Geologic Formations']",False,False,True,False,False,False,False,False,False,,,337,4.634744831619362
+Monasterio Tibetano Boudhanat,4.0,3,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,338,4.618110711440445
+Kalikasthan Temple,4.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,339,4.626015243729925
+Kirateshwar Mahadev,4.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,340,4.626015243729925
+Khawalung Monastery,4.5,6,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,341,4.625209289241842
+Vishnu Mandir Temple,4.0,6,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,342,4.606621237641411
+Dolma Treks,5.0,3,"['Historic Sites', 'Historic Walking Areas']",True,True,False,False,False,False,False,False,False,,,343,4.6370508228083
+Chyasin Dega Temple,3.5,5,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,344,4.594816689077509
+Bhadrakali Temple,5.0,8,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,345,4.648157386610879
+The City Museum Kathmandu,4.0,6,['Speciality Museums'],False,False,False,False,False,False,False,False,False,,,346,4.606621237641411
+Chua Viet Nam Tai Lumbini,3.5,3,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,347,4.608640655756518
+Bachhareshwari　Mandir Temple,5.0,4,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,348,4.639327879518036
+Blue Moon Curio Shop,5.0,1,['Antique Shops'],True,True,False,False,False,False,False,False,True,,,349,4.632409350920738
+Gokyo Ri,5.0,2,['Geologic Formations'],False,False,True,False,False,False,False,False,False,,,350,4.634744831619362
+Chabdi Barahi Temple,3.5,3,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,351,4.608640655756518
+Drigung Kagyud Dharmaraja Foundation,4.0,2,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,352,4.622037866932017
+Chinese Temple,4.5,3,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,353,4.627580767124372
+Gorakhnath Mandir Temple,3.5,3,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,354,4.608640655756518
+Ugrachandi and Bhairav Statues,4.5,33,['Monuments & Statues'],True,True,False,False,False,False,False,False,True,,,355,4.60726471133846
+Singha Sattal (Silyan Sattal),3.5,7,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,356,4.581333226768833
+Indoor Sports Arena,5.0,2,['Sports Complexes'],False,False,False,False,True,False,False,False,False,,,357,4.634744831619362
+Mahendreswor Mandir Temple,3.5,9,"['Architectural Buildings', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,358,4.568177841210129
+Sara Enterprises,5.0,1,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,359,4.632409350920738
+Pharping HydroPower Dam,3.0,1,['Dams'],False,False,True,False,False,False,False,False,False,,,360,4.619621136539112
+Manaslu,5.0,5,"['Mountains', 'Ski & Snowboard Areas']",False,False,True,False,False,False,False,False,False,,,361,4.641576542937378
+Ashok Stupa,3.5,2,"['Historic Sites', 'Monuments & Statues']",True,True,False,False,False,False,False,False,False,,,362,4.615684384588344
+Dirghaman & Ganeshman Chitrakar Art Foundation,4.0,1,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,363,4.626015243729925
+Nyatapola,4.5,22,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,364,4.613916073981633
+Nepal Vajrayana Mahavihara,3.5,3,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,365,4.608640655756518
+Stone Vishnu Mandir Temple,3.0,6,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,366,4.5694451344405485
+Maha Vishnu Mandir Temple,3.5,4,"['Architectural Buildings', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,367,4.60168530827947
+Bansha Gopal Krishna Temple,4.5,2,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,368,4.628391349275689
+Rizvi Brothers Paper Mache Gift Shop,5.0,1,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,369,4.632409350920738
+Itum bahal,4.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,370,4.626015243729925
+Pandra Shivalaya,3.5,3,"['Points of Interest & Landmarks', 'Architectural Buildings']",True,True,True,False,False,False,False,False,False,,,371,4.608640655756518
+Woodcraft Gallery,5.0,1,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,372,4.632409350920738
+Kapilvastu,4.5,6,"['Ancient Ruins', 'Historic Walking Areas']",True,True,False,False,False,False,False,False,False,,,373,4.625209289241842
+Buddha Nepal Art Gallery,5.0,1,['Art Galleries'],True,True,False,False,False,False,False,False,True,,,374,4.632409350920738
+Aviation Museum,5.0,1,['Speciality Museums'],False,False,False,False,False,False,False,False,False,,,375,4.632409350920738
+Handy-Mandy Craft House,5.0,1,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,376,4.632409350920738
+Sri Lanka Temple,3.5,2,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,377,4.615684384588344
+Karmaraja Mahavihara,3.5,5,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,378,4.594816689077509
+Shree Tanadevi Temple,4.0,3,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,379,4.618110711440445
+Bhimsen Sthan Temple,4.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,380,4.626015243729925
+Chandragiri Hill,5.0,1,"['Points of Interest & Landmarks', 'Lookouts']",True,True,True,False,False,False,False,False,False,,,381,4.632409350920738
+Tri Chandra Collage,4.0,1,['Architectural Buildings'],True,True,False,False,False,False,False,False,False,,,382,4.626015243729925
+Lokta Paper Craft,1.0,1,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,383,4.606832922157486
+Kotilingeshwor Mahadev Mandir Temple,3.5,3,"['Architectural Buildings', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,384,4.608640655756518
+Dharmadhaatu Stupa,3.5,2,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,385,4.615684384588344
+Lucky Traders & Exporter,4.0,1,['Shopping Malls'],False,False,False,False,True,False,False,False,False,,,386,4.626015243729925
+Manjushree Temple,2.5,2,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,387,4.602977419900999
+Shree Bhawani Shankar Temple,3.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,388,4.619621136539112
+Direction Exhibition & Convention Center,4.0,2,['Convention Centers'],True,True,False,False,False,False,False,False,False,,,389,4.622037866932017
+Shree Amar Narayan Temple,4.5,3,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,390,4.627580767124372
+Doleshwor Mahadeva Temple,5.0,13,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,391,4.658604392246148
+National Art Gallery,4.0,57,['Art Museums'],True,True,False,False,False,False,False,False,False,,,392,4.460959481095972
+Kagyu Institute of Buddhist Studies,5.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,393,4.632409350920738
+Laprak,4.5,4,"['Mountains', 'National Parks']",False,False,True,False,False,False,False,False,False,,,394,4.626780355771848
+The Charumati Vihara Stupa,4.0,1,"['Historic Sites', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,395,4.626015243729925
+Traditional Thangka Paintings Gallery & Workshop,4.5,18,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,396,4.616543986688685
+Brass and Bronze Museum,4.0,1,"['Art Museums', 'History Museums']",True,True,False,False,False,False,False,False,False,,,397,4.626015243729925
+Buddha Park,3.0,1,['Parks'],False,False,False,False,False,False,False,False,False,,,398,4.619621136539112
+Little Buddha Statue,3.0,2,"['Points of Interest & Landmarks', 'Monuments & Statues']",True,True,True,False,False,False,False,False,False,,,399,4.609330902244672
+Krishna Temple,3.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,400,4.619621136539112
+Indian Monastery,3.5,2,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,401,4.615684384588344
+Bisnumati River,3.0,1,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,402,4.619621136539112
+Bijeshwari Temple,3.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,403,4.619621136539112
+Shobabaghwati,3.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,404,4.619621136539112
+Drugon Jangchu Monastery,3.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,405,4.619621136539112
+Dhansa Dega,3.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,406,4.619621136539112
+Department of Immigration,1.0,3,['Government Buildings'],True,True,False,False,False,False,False,False,False,,,407,4.5612903773368805
+Mahadev Mandir Temple,3.0,1,"['Architectural Buildings', 'Religious Sites']",True,True,False,False,False,False,False,False,False,,,408,4.619621136539112
+Ram Chandra Temple,3.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,409,4.619621136539112
+Espace de visite,4.0,1,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,410,4.626015243729925
+Gorkha Museum,4.0,6,"['Historic Sites', 'Points of Interest & Landmarks']",True,True,False,False,False,False,False,False,False,,,411,4.606621237641411
+Dharmodaya Mahachaitya,3.5,2,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,412,4.615684384588344
+Dhagpo Sheydrub Ling Monastery,4.5,8,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,413,4.623676683525086
+Gautami Nuns Temple,3.0,2,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,414,4.609330902244672
+Til Mahadev Narayan Mandir,4.0,11,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,415,4.588392778753428
+Manang Samaj Stupa,4.0,2,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,416,4.622037866932017
+Bhupatindra Malla Statue,4.0,21,['Monuments & Statues'],True,True,False,False,False,False,False,False,True,,,417,4.5550360444680535
+Tamur River,4.0,3,['Bodies of Water'],False,False,True,False,False,False,False,False,False,,,418,4.618110711440445
+Manhal Healing,4.77190569744597,0,['Sports Camps & Clinics'],False,False,False,True,False,True,False,False,False,,,419,4.630043811394892
+Panauti Museum,3.5,5,['History Museums'],True,True,False,False,False,False,False,False,False,,,420,4.594816689077509
+Nepalganj,2.5,6,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,421,4.550857082840117
+Kailashnath Mahadev Statue,4.0,3,"['Religious Sites', 'Monuments & Statues']",True,True,False,False,False,False,False,False,True,,,422,4.618110711440445
+Thorangla Pass,3.5,3,['Mountains'],False,False,True,False,False,False,False,False,False,,,423,4.608640655756518
+Siddhi Lakshmi Temple,4.5,3,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,424,4.627580767124372
+Bigu Gompa,4.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,425,4.626015243729925
+Oldest Royal Palace Gurkha,5.0,1,"['Historic Sites', 'Ancient Ruins']",True,True,False,False,False,False,False,False,False,,,426,4.632409350920738
+Living Traditions Museum,3.5,10,['Speciality Museums'],False,False,False,False,False,False,False,False,False,,,427,4.56171945794828
+Indrayani Temple,4.0,2,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,428,4.622037866932017
+Palpa Durbar Museum,3.0,1,['History Museums'],True,True,False,False,False,False,False,False,False,,,429,4.619621136539112
+Uma Maheshwor Temple,4.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,430,4.626015243729925
+Tempio Degli Elefanti Erotici,3.5,2,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,431,4.615684384588344
+Naga Pokhari,4.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,432,4.626015243729925
+Chyasilin Mandap,4.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,433,4.626015243729925
+Tempio di Fasidega,4.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,434,4.626015243729925
+Piazza Tachupal,4.0,1,['Points of Interest & Landmarks'],True,True,True,False,False,False,False,False,False,,,435,4.626015243729925
+Jal Binayak Temple,3.5,2,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,436,4.615684384588344
+Tansen View Tower,2.5,2,"['Points of Interest & Landmarks', 'Lookouts']",True,True,True,False,False,False,False,False,False,,,437,4.602977419900999
+Bhimsen Temple,3.0,1,['Religious Sites'],True,True,False,False,False,False,False,False,True,,,438,4.619621136539112
+Gopi Nath Temple,3.0,1,"['Points of Interest & Landmarks', 'Religious Sites']",True,True,True,False,False,False,False,False,False,,,439,4.619621136539112
+Nepal Hiking Team,5.0,841,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,440,4.942302972546902
+Nepal Eco Adventure,5.0,1304,"['Multi-day Tours', 'Historical & Heritage Tours']",True,False,False,False,False,False,False,False,False,,,441,4.960607641272952
+Ace the Himalaya,5.0,1366,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,442,4.9622129626039655
+Adventure-Pulse,5.0,232,"['Multi-day Tours', 'Eco Tours']",True,False,False,False,False,False,False,False,False,,,443,4.851600768282157
+Open Sky Paragliding,5.0,423,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,444,4.900605863871164
+Happy Treks Nepal - Day Tours,5.0,767,"['Walking Tours', 'Hiking & Camping Tours']",False,False,False,False,False,False,False,False,False,,,445,4.9376741696367255
+Mountain Mart Treks & Expedition,5.0,765,"['Multi-day Tours', 'Historical & Heritage Tours']",True,False,False,False,False,False,False,False,False,,,446,4.93753873670178
+Ethical Trekking Nepal,5.0,544,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,447,4.917801736972147
+Himalaya Holiday Service,5.0,294,"['Cultural Tours', 'Helicopter Tours']",False,True,False,False,False,False,False,False,True,,,448,4.8720744558848095
+Saara Tourism Nepal-Travel Advisor in Nepal,5.0,210,"['Parasailing & Paragliding', 'Multi-day Tours']",False,False,False,True,False,False,False,False,False,,,449,4.842665801923124
+Eastern Light Trek,5.0,677,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,450,4.93093538399832
+Lovely Nepal Treks and Expedition - Day Tours,5.0,188,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,451,4.832585974210085
+Mountain Delights Treks & Expedition,5.0,187,"['Historical & Heritage Tours', 'Sightseeing Tours']",True,True,False,False,False,False,False,False,False,,,452,4.832097022809681
+Nepal Horizon Treks & Expedition,5.0,149,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,453,4.811136316839025
+Dreams Spa,5.0,105,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,454,4.779223131208469
+2Sisters Nepal Cooking School,5.0,137,['Cooking Classes'],False,False,False,False,False,False,True,False,False,,,455,4.803385254238794
+The Great Adventure Treks & Expedition - Private Day Tours,5.0,369,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,456,4.8903706526541075
+Himalayan Quests - Day Tours,5.0,134,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,457,4.801347049447805
+Incredible Treks,5.0,254,"['River Rafting & Tubing', 'Cultural Tours']",False,False,False,True,False,False,False,False,False,,,458,4.8595754408415806
+Magical Nepal,5.0,155,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,459,4.814787102933362
+Visit Himalaya Treks,5.0,146,"['Hiking & Camping Tours', 'Nature & Wildlife Tours']",False,False,False,True,False,False,False,False,False,,,460,4.80925641528331
+Thai Nepal Travels and Tours,5.0,134,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,461,4.801347049447805
+Himalayan Friends Trekking - Day Tours,5.0,134,"['Hiking & Camping Tours', 'Nature & Wildlife Tours']",False,False,False,True,False,False,False,False,False,,,462,4.801347049447805
+Mountain Holiday Treks & Expedition,5.0,97,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,463,4.772225282803466
+Third Rock Adventures,5.0,226,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,464,4.849266186746247
+Peace Himalaya Treks and Travels Pvt Ltd,5.0,95,"['City Tours', 'Adrenaline & Extreme Tours']",True,True,False,False,True,False,False,False,False,,,465,4.7704059523307185
+Himalayan Car Rental Nepal,5.0,156,"['Bus Services', 'Taxis & Shuttles']",False,False,False,False,False,False,False,False,False,,,466,4.815381889271785
+Nepal Ayurveda Home,5.0,101,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,467,4.775778793684322
+Dream Heaven Adventure,5.0,123,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,468,4.793497805369002
+Exciting Nepal Treks and Expedition,5.0,366,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,469,4.889739866641921
+A1 Excursion - Private Day Tours,5.0,132,['Private Tours'],False,False,True,False,False,False,False,False,False,,,470,4.799964606177923
+Mosaic Adventure,5.0,588,"['Multi-day Tours', 'Walking Tours']",True,False,False,False,False,False,False,False,False,,,471,4.9226668873139925
+Himalayan Sky Adventure Paragliding,5.0,158,"['Parasailing & Paragliding', 'Adrenaline & Extreme Tours']",False,False,False,True,False,False,False,False,False,,,472,4.816560074627779
+Tramping Himalaya,5.0,103,"['Climbing Tours', 'Hiking & Camping Tours']",False,False,True,True,False,False,False,False,False,,,473,4.777514292235493
+Destination Unlimited Treks & Expeditions,5.0,247,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,474,4.857132631271584
+Pariwar Holidays,5.0,620,"['Multi-day Tours', 'Historical & Heritage Tours']",True,False,False,False,False,False,False,False,False,,,475,4.925858373972326
+Vista Trek,5.0,190,"['Cultural Tours', 'Helicopter Tours']",False,True,False,False,False,False,False,False,True,,,476,4.833555383208446
+Couch Adventure Nepal (CAN),5.0,255,"['City Tours', 'Hiking & Camping Tours']",True,True,False,False,True,False,False,False,False,,,477,4.859917610949229
+Odea Services,5.0,179,"['Helicopter Tours', 'Historical & Heritage Tours']",False,False,True,True,False,False,False,False,False,,,478,4.828080133100169
+Ambition Himalaya Treks & Expeditions,5.0,252,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,479,4.858886061227946
+Osho Vision Treks and Expedition,5.0,212,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,480,4.84352228949819
+Landmark Discovery Treks –  Day Tours,5.0,189,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,481,4.833072086121994
+Friends Adventure Team,5.0,251,"['Canyoning & Rappelling Tours', 'Walking Tours']",False,False,False,True,False,False,False,False,False,,,482,4.858538826921406
+Outshine Adventure,5.0,268,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,483,4.8642187372232435
+Flying Buddha Paragliding,5.0,777,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,484,4.938342619137294
+Osho Divine Zone,5.0,119,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,485,4.790487503472736
+A One Trek,5.0,142,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,486,4.806690881550731
+Discovery World Trekking,5.0,555,"['Multi-day Tours', 'River Rafting & Tubing']",True,False,False,False,False,False,False,False,False,,,487,4.919074524880416
+Breathe Nepal Trekking,5.0,405,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,488,4.897413298550481
+Nepal Gateway Trekking,5.0,147,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,489,4.809887193621229
+THE SU4E HOME,5.0,157,"['Eco Tours', 'Nature & Wildlife Tours']",False,False,False,True,False,False,False,False,False,,,490,4.815972867685993
+Friendly Trekkers Adventure,5.0,208,"['Literary, Art & Music Tours', 'Climbing Tours']",True,True,False,False,True,False,False,False,False,,,491,4.841799886701206
+Access Nepal Tour & Trekking,5.0,294,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,492,4.8720744558848095
+Trekking Team Group,5.0,144,"['Cultural Tours', 'Eco Tours']",False,True,False,False,False,False,False,False,True,,,493,4.807982217505688
+Destination Himalaya Treks and Expedition,5.0,153,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,494,4.8135859583127365
+Earthbound Expeditions,5.0,565,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,495,4.920197875090434
+Unique Path Trekking & Expedition,5.0,140,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,496,4.80538205931027
+Travel Maker South Asia,5.0,225,"['Cultural Tours', 'Adrenaline & Extreme Tours']",False,True,False,False,False,False,False,False,True,,,497,4.84886992967265
+Nepal Alibaba Treks & Tours Pvt Ltd,5.0,105,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,498,4.779223131208469
+Alpine Ramble Treks,5.0,240,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,499,4.854603327384578
+Info Nepal Treks and Expedition,5.0,206,"['City Tours', 'River Rafting & Tubing']",True,True,False,False,True,False,False,False,False,,,500,4.840924387311073
+Mountain Overview Paragliding,5.0,250,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,501,4.858189879544093
+Epic Adventures - Day Tours,5.0,259,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,502,4.861269777139384
+Hiking Adventure Treks,5.0,115,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,503,4.787388137413914
+Village to Village Trekking - Day Tours,5.0,160,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,504,4.8177233175897385
+Nepal Hiking Adventure Company - Private Day Tours,5.0,172,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,505,4.824404320262125
+Satori Adventures,5.0,179,"['City Tours', 'Helicopter Tours']",True,True,False,False,True,False,False,False,False,,,506,4.828080133100169
+Happyland Treks,5.0,128,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,507,4.79714118163369
+The Tibetan Encounter Day Tours,5.0,540,"['Cultural Tours', 'Walking Tours']",False,True,False,False,False,False,False,False,True,,,508,4.91732892148609
+Adventure Nepal Eco Treks - Private Kathmandu Day Tour,5.0,141,['Eco Tours'],False,False,False,True,False,False,False,False,False,,,509,4.806038678339973
+Nepal Cooking School,5.0,723,['Cooking Classes'],False,False,False,False,False,False,True,False,False,,,510,4.9345521804883665
+White Hill Adventure,5.0,190,"['Sightseeing Tours', 'Day Trips']",False,True,True,True,False,False,False,False,False,,,511,4.833555383208446
+Apex Himalaya Trek and Tour – Private Day Tours,5.0,142,"['Cultural Tours', 'Sightseeing Tours']",False,True,False,False,False,False,False,False,True,,,512,4.806690881550731
+Mountain Monarch Adventures - Private Day Tours,5.0,529,"['Walking Tours', 'Climbing Tours']",False,False,False,False,False,False,False,False,False,,,513,4.916000181222947
+Into Nepal,5.0,122,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,514,4.792753368954981
+Himalayan Adventure,5.0,179,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,515,4.828080133100169
+Sisne Rover Trekking,5.0,170,"['City Tours', 'Helicopter Tours']",True,True,False,False,True,False,False,False,False,,,516,4.823325039883643
+Nepal Trekking Experts Pvt Ltd,5.0,308,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,517,4.875939325990189
+Nepal Explore Summit Trek Pvt Ltd,5.0,217,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,518,4.8456232593111
+Third Eye Adventure,5.0,207,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,519,4.841363344944723
+Base Camp Adventure,5.0,288,"['Multi-day Tours', 'Adrenaline & Extreme Tours']",True,False,False,False,False,False,False,False,False,,,520,4.87034336961686
+Backpacker Treks and Expedition,5.0,125,"['Historical & Heritage Tours', 'Sightseeing Tours']",True,True,False,False,False,False,False,False,False,,,521,4.794970748403667
+AID Journeys & Adventure,5.0,88,"['City Tours', 'Climbing Tours']",True,True,False,False,True,False,False,False,False,,,522,4.763802838311125
+Peak to Peak Tours and Treks Pvt Ltd,5.0,109,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,523,4.782563250406204
+Gokyo Treks and Expedition,5.0,315,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,524,4.877785490520496
+Himalayas On Foot - Day Tours,5.0,182,['Private Tours'],False,False,True,False,False,False,False,False,False,,,525,4.829608789806274
+Fewa Trail Treks - Kathmandu,5.0,95,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,526,4.7704059523307185
+High Venture Plus,5.0,334,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,527,4.882530288536226
+Four Brothers Adventure Travel,5.0,296,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,528,4.87264125803156
+Hearts & Tears Motorcycle Club,5.0,141,['Motorcycle Tours'],False,False,False,False,False,False,False,False,False,,,529,4.806038678339973
+Mountain World Treks - Day Tours,5.0,356,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,530,4.887583796501128
+Nepal Peak Adventure,5.0,96,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,531,4.77131923605137
+Escape Himalaya Trek and Expedition,5.0,86,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,532,4.76184589520824
+Advance Paragliding,5.0,392,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,533,4.894976978242177
+Good Vibe Adventure,5.0,242,"['Sightseeing Tours', 'Hiking & Camping Tours']",False,True,True,True,False,False,False,False,False,,,534,4.8553350781035896
+Adventure Himalaya Circuit Treks and Tours - Private Day Tours,5.0,375,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,535,4.891610817671199
+Adventure Treks Nepal,5.0,271,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,536,4.865174059737937
+City Motorbike,5.0,162,"['4WD, ATV & Off-Road Tours', 'Motorcycle Tours']",False,False,False,True,False,False,False,False,False,,,537,4.8188719006279195
+Nepal Yoga Home,5.0,325,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,538,4.880329537895765
+Nepal Dynamic Eco Tours and Services,5.0,241,"['Multi-day Tours', 'Walking Tours']",True,False,False,False,False,False,False,False,False,,,539,4.854970125753412
+Freedom Adventures,5.0,234,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,540,4.852362974334216
+Himalayan Glacier Trekking - Private Day Tours,5.0,479,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,541,4.909379704139538
+Trek Nepal Int'l - Day Tours,5.0,188,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,542,4.832585974210085
+Trekking Planner - Private One Day Activities,5.0,285,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,543,4.869460138030713
+Index Adventure,5.0,222,"['City Tours', 'River Rafting & Tubing']",True,True,False,False,True,False,False,False,False,,,544,4.847668558662559
+Himkala Adventure,5.0,614,"['City Tours', 'Adrenaline & Extreme Tours']",True,True,False,False,True,False,False,False,False,,,545,4.925280191979529
+Mission Himalaya Treks - Private Day Tour,5.0,102,"['Helicopter Tours', 'Sightseeing Tours']",False,False,True,True,False,False,False,False,False,,,546,4.776649914247799
+ABC Trek and Tour,5.0,146,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,547,4.80925641528331
+Sunrise Paragliding,5.0,577,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,548,4.921505402867716
+Purna Yoga & Treks,5.0,270,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,549,4.864857116056874
+Mission Eco Trek - Day Tours,5.0,182,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,550,4.829608789806274
+Atmashree Yoga Retreat,5.0,310,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,551,4.87647246854901
+Adventure Bound,5.0,255,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,552,4.859917610949229
+Himalayan Partner Treks & Expedition,5.0,166,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,553,4.821126181658332
+Adventure Mountain Explore Trek & Expedition,5.0,269,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,554,4.864538678746396
+World Himalayan Destination Pvt Ltd,5.0,132,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,555,4.799964606177923
+Bliss Spa,5.0,89,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,556,4.764769298869441
+Nepal Ascent Treks,5.0,98,"['Multi-day Tours', 'Adrenaline & Extreme Tours']",True,False,False,False,False,False,False,False,False,,,557,4.773124178267433
+Breakfree Adventures - Private Day Tours,5.0,395,"['City Tours', 'Helicopter Tours']",True,True,False,False,True,False,False,False,False,,,558,4.895549421010945
+Mountain Adventure Trekking (Pvt) Ltd,5.0,119,['Bike Tours'],False,False,False,True,False,False,False,False,False,,,559,4.790487503472736
+Trekking Team Pvt Ltd - Day Tours,5.0,545,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,560,4.917919097005254
+Actual Adventure Trekking and Expedition,5.0,263,"['Cultural Tours', 'Eco Tours']",False,True,False,False,False,False,False,False,True,,,561,4.862596088920725
+Himalaya Hub Adventure,5.0,514,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,562,4.914117885771157
+Nepal Travel Advisor (S/N),5.0,106,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,563,4.780067744584413
+Peace Nepal Treks - Day Tours,5.0,183,"['Climbing Tours', 'Hiking & Camping Tours']",False,False,True,True,False,False,False,False,False,,,564,4.83011231885878
+Himalayan Abode Travels and Tours Treks and Expeditions - Private Kathmandu Day Tour,5.0,204,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,565,4.840039143747247
+Nepal Wilderness Trekking,5.0,171,"['Multi-day Tours', 'Historical & Heritage Tours']",True,False,False,False,False,False,False,False,False,,,566,4.8238663334126795
+Explore Himalaya Travel & Adventure - Private Day Tours,5.0,256,"['Bike Tours', 'Climbing Tours']",False,False,False,True,False,False,False,False,False,,,567,4.860258117590188
+Himalayan Wonders Day Tours,5.0,486,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,568,4.910368709448323
+Adventure White Himalaya Treks,5.0,103,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,569,4.777514292235493
+Himalayan Gateway Trek,5.0,135,"['River Rafting & Tubing', 'Historical & Heritage Tours']",False,False,False,True,False,False,False,False,False,,,570,4.802031130215838
+Seeing Hands Clinic,5.0,608,['Spas'],False,False,False,False,False,True,False,False,False,,,571,4.924692921385153
+Mountain Sun Valley Treks and Expedition,5.0,151,"['Taxis & Shuttles', 'Hiking & Camping Tours']",False,False,False,False,False,False,False,False,False,,,572,4.812369132645868
+Mountain Ram Adventures,5.0,217,"['Historical & Heritage Tours', 'Hiking & Camping Tours']",True,True,False,False,False,False,False,False,False,,,573,4.8456232593111
+Nepali Cooking Course - Day Class,5.0,279,['Cooking Classes'],False,False,False,False,False,False,True,False,False,,,574,4.867657076359015
+Saara Tourism Nepal-Kathmandu,5.0,82,"['Multi-day Tours', 'Motorcycle Tours']",True,False,False,False,False,False,False,False,False,,,575,4.757833087727145
+Hanuman Paragliding,5.0,116,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,576,4.788171544057341
+Middle Path Spa,5.0,188,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,577,4.832585974210085
+Amigo Treks & Expedition - Day Tours,5.0,297,"['Helicopter Tours', 'Adrenaline & Extreme Tours']",False,False,True,True,False,False,False,False,False,,,578,4.872922779762548
+Paddle Nepal - Day Tours,5.0,334,"['River Rafting & Tubing', 'Canyoning & Rappelling Tours']",False,False,False,True,False,False,False,False,False,,,579,4.882530288536226
+Nepal Trek Adventure and Expedition,5.0,127,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,580,4.796422827779265
+Orbit Nepal Adventure,5.0,167,"['Canyoning & Rappelling Tours', 'Hiking & Camping Tours']",False,False,False,True,False,False,False,False,False,,,581,4.821681011519749
+Adventure Vision Treks and Travels,5.0,186,"['Parasailing & Paragliding', 'Cultural Tours']",False,False,False,True,False,False,False,False,False,,,582,4.831605206968775
+SK Handicrafts Export,5.0,312,['Speciality & Gift Shops'],True,True,False,False,False,False,False,False,False,,,583,4.877001048425735
+Green Valley Nepal Treks & Research Hub - Day Tours,5.0,533,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,584,4.916488272744821
+Scenic Nepal Treks & Expedition,5.0,169,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,585,4.822780409094798
+Outfitter Nepal Treks and Expedition,5.0,433,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,586,4.902295108427173
+Trekking Guide Team Adventure,5.0,308,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,587,4.875939325990189
+Funny Nepal Treks & Expedition - Private Day Tours,5.0,245,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,588,4.8564189973573475
+Nature Lovers Treks & Tours,5.0,151,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,589,4.812369132645868
+Backstreet Academy,5.0,572,"['Cultural Tours', 'Shopping Tours']",False,True,False,False,False,False,False,False,True,,,590,4.920965842484126
+Pokhara Mountain Bike Adventure - Day Trips,5.0,285,['Bike Tours'],False,False,False,True,False,False,False,False,False,,,591,4.869460138030713
+Unique Adventure International P Ltd,5.0,446,"['Cultural Tours', 'Walking Tours']",False,True,False,False,False,False,False,False,True,,,592,4.904407140789396
+Frontiers Paragliding,5.0,392,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,593,4.894976978242177
+Mount Mania Treks & Expedition,5.0,94,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,594,4.769485344586871
+The Nepal Trekking Company,5.0,100,"['Helicopter Tours', 'Historical & Heritage Tours']",False,False,True,True,False,False,False,False,False,,,595,4.774900851343015
+Adventure Master Treks,5.0,172,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,596,4.824404320262125
+The Everest Holiday,5.0,145,"['Multi-day Tours', 'Historical & Heritage Tours']",True,False,False,False,False,False,False,False,False,,,597,4.808621437272042
+Ammonite Adventures,5.0,256,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,598,4.860258117590188
+Adventure Great Himalaya - Private Day Tours,5.0,200,['Private Tours'],False,False,True,False,False,False,False,False,False,,,599,4.8382387660677955
+Tribikram Yoga,5.0,140,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,600,4.80538205931027
+Nepal Private Guide Services,5.0,102,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,601,4.776649914247799
+Thamel Spa,5.0,304,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,602,4.8748591144592615
+Prime Himalayas,5.0,373,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,603,4.891200558726817
+Nepal Mountain Club Pvt Ltd,5.0,192,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,604,4.834513630137245
+Top of the World Adventure,5.0,222,"['Parasailing & Paragliding', 'City Tours']",False,False,False,True,False,False,False,False,False,,,605,4.847668558662559
+Team 5 Nepal Paragliding,5.0,344,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,606,4.884882533686624
+Himalaya Guide Nepal,5.0,114,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,607,4.786598914704477
+Mandala Studio Yoga & Spa,5.0,414,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,608,4.899034812498723
+Blue Mountain Travels - Private Mountain Flight Day Tours,5.0,341,"['Private Tours', 'Air Tours']",False,False,True,False,False,False,False,False,False,,,609,4.884186811339174
+Nepal Social Treks and Expedition,5.0,403,"['River Rafting & Tubing', 'Walking Tours']",False,False,False,True,False,False,False,False,False,,,610,4.897045863723282
+Purna Yoga Retreat,5.0,348,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,611,4.885797264226229
+Glorious Himalaya Trekking,5.0,95,"['Sightseeing Tours', 'Hiking & Camping Tours']",False,True,True,True,False,False,False,False,False,,,612,4.7704059523307185
+Ananda Natural Therapy,5.0,766,['Spas'],False,False,False,False,False,True,False,False,False,,,613,4.9376065266627505
+Himalayan Planet Adventures Day Tours,5.0,356,"['Sightseeing Tours', 'Day Trips']",False,True,True,True,False,False,False,False,False,,,614,4.887583796501128
+Himalayan Scenery Treks and Expedition,5.0,309,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,615,4.876206471289246
+Jiva Cafe & Spa,5.0,335,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,616,4.882769830030338
+Himalayan Social Journey,5.0,1531,"['Historical & Heritage Tours', 'Sightseeing Tours']",True,True,False,False,False,False,False,False,False,,,617,4.96591011829258
+Socialtours,5.0,402,"['City Tours', 'Shopping Tours']",True,True,False,False,True,False,False,False,False,,,618,4.896861157507791
+Mukti Yoga Retreat,5.0,81,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,619,4.756808667004653
+Movie Garden,5.0,324,"['Movie Theaters', 'Bars & Clubs']",False,True,False,False,True,False,False,False,False,,,620,4.880079909276916
+Kathmandu Urban Adventures,5.0,215,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,621,4.844789678093862
+Great Vision Trek & Expedition - Day Tours,5.0,298,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,622,4.873203059652086
+Tourist Link Treks and Expedition,5.0,118,"['Adrenaline & Extreme Tours', 'Climbing Tours']",False,False,True,True,False,False,False,False,False,,,623,4.789721164428985
+Explore Kathmandu,5.0,103,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,624,4.777514292235493
+Kinjjala Spa,5.0,103,['Spas'],False,False,False,False,False,True,False,False,False,,,625,4.777514292235493
+Himalayan Magic Treks,5.0,125,"['Cultural Tours', 'Climbing Tours']",False,True,False,False,False,False,False,False,True,,,626,4.794970748403667
+Zen Spa,4.5,247,['Spas'],False,False,False,False,False,True,False,False,False,,,627,4.550219506324393
+United Jungle Guide Service,5.0,106,"['4WD, ATV & Off-Road Tours', 'Walking Tours']",False,False,False,True,False,False,False,False,False,,,628,4.780067744584413
+Eyes On Nepal,5.0,136,"['Cultural Tours', 'Helicopter Tours']",False,True,False,False,False,False,False,False,True,,,629,4.80271051575495
+India Odyssey Tours - Day Tour of Kathmandu,5.0,102,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,630,4.776649914247799
+Himalayan Spirit Adventure Treks and Expeditions,5.0,448,"['Historical & Heritage Tours', 'Sightseeing Tours']",True,True,False,False,False,False,False,False,False,,,631,4.9047239913355085
+Royal Mountain Travel,5.0,110,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,632,4.783382548316458
+Aiming Adventure,5.0,83,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,633,4.758848914099759
+Phoenix Paragliding Adventures,5.0,192,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,634,4.834513630137245
+AVIA CLUB NEPAL,4.5,461,"['Parasailing & Paragliding', 'Adrenaline & Extreme Tours']",False,False,False,True,False,False,False,False,False,,,635,4.532784271144589
+High Himalayan Trekking and Expedition - Day Tours,5.0,105,"['River Rafting & Tubing', 'Cultural Tours']",False,False,False,True,False,False,False,False,False,,,636,4.779223131208469
+Nepal Intrepid Treks and Expedition,5.0,90,"['River Rafting & Tubing', 'Historical & Heritage Tours']",False,False,False,True,False,False,False,False,False,,,637,4.765727882621001
+iTour Nepal Private Day Tours,5.0,97,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,638,4.772225282803466
+Prana Treks & Expedition Pvt Ltd,5.0,95,"['Hiking & Camping Tours', 'Day Trips']",False,False,False,True,False,False,False,False,False,,,639,4.7704059523307185
+Tour Guide In Nepal,5.0,74,"['Private Tours', 'Self-Guided Tours & Rentals']",False,False,True,False,False,False,False,False,False,,,640,4.749387638856718
+Alpine Eco Trek & Expedition,5.0,107,"['City Tours', 'River Rafting & Tubing']",True,True,False,False,True,False,False,False,False,,,641,4.780905920211201
+My Everest Trip,5.0,126,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,642,4.795699368244874
+Mountain Treks Nepal,5.0,82,"['River Rafting & Tubing', 'Sightseeing Tours']",False,False,False,True,False,False,False,False,False,,,643,4.757833087727145
+Hikers Haven,5.0,70,"['Cultural Tours', 'Sightseeing Tours']",False,True,False,False,False,False,False,False,True,,,644,4.744940096133428
+Nepal Hidden Treks and Expedition P Ltd,5.0,115,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,645,4.787388137413914
+Nepal Planet Treks and Expedition P Ltd,5.0,87,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,646,4.7628284034584105
+GAP Year Nepal,5.0,99,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,647,4.774016006776488
+Karnali Excursions - Day Tours,5.0,169,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,648,4.822780409094798
+Alliance Adventure,5.0,81,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,649,4.756808667004653
+Kailash Journeys Pvt Ltd,4.5,251,"['Historical & Heritage Tours', 'Sightseeing Tours']",True,True,False,False,False,False,False,False,False,,,650,4.5497252125471785
+Annapurna Foothills Treks & Expedition Pvt Ltd,5.0,120,"['Multi-day Tours', 'Eco Tours']",True,False,False,False,False,False,False,False,False,,,651,4.791248277115326
+Icicles Adventure Treks & Tours Day Tours,5.0,174,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,652,4.825470494386352
+Seeing Hands,4.5,405,['Spas'],False,False,False,False,False,True,False,False,False,,,653,4.5360603932731225
+Cook With Delight,5.0,71,['Cooking Classes'],False,False,False,False,False,False,True,False,False,,,654,4.746066715672226
+Trekking and Tour for Fair Tourism,5.0,95,"['Parasailing & Paragliding', 'Walking Tours']",False,False,False,True,False,False,False,False,False,,,655,4.7704059523307185
+The Mountain House Treks & Expedition Pvt Ltd,5.0,118,"['Parasailing & Paragliding', '4WD, ATV & Off-Road Tours']",False,False,False,True,False,False,False,False,False,,,656,4.789721164428985
+Trek and Adventure Nepal,5.0,74,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,657,4.749387638856718
+Visit Heaven Treks,5.0,118,"['City Tours', 'Historical & Heritage Tours']",True,True,False,False,True,False,False,False,False,,,658,4.789721164428985
+Blue Sky Paragliding,5.0,144,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,659,4.807982217505688
+Manakamana Treks & Expedition Day Tours,5.0,147,"['Hiking & Camping Tours', 'Day Trips']",False,False,False,True,False,False,False,False,False,,,660,4.809887193621229
+Langtang Ri Trekking & Expedition,5.0,197,"['Hiking & Camping Tours', 'Nature & Wildlife Tours']",False,False,False,True,False,False,False,False,False,,,661,4.836861660606872
+Beyond The Limits Trek and Expedition P Ltd,5.0,113,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,662,4.785803810919387
+Ankit Treks,5.0,110,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,663,4.783382548316458
+Skylark Himalayan Tours & Travels,5.0,74,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,664,4.749387638856718
+3 Sisters Adventure Trekking,5.0,101,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,665,4.775778793684322
+Himalayan Joy Adventure,5.0,106,"['River Rafting & Tubing', 'Helicopter Tours']",False,False,False,True,False,False,False,False,False,,,666,4.780067744584413
+AGH Trekking,5.0,94,"['Historical & Heritage Tours', 'Hiking & Camping Tours']",True,True,False,False,False,False,False,False,False,,,667,4.769485344586871
+Nepal Tour Guide Team Trek & Expedition,5.0,104,"['Historical & Heritage Tours', 'Eco Tours']",True,True,False,False,False,False,False,False,False,,,668,4.77837200562811
+Nepal Tibet Tours & Treks,5.0,98,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,669,4.773124178267433
+Flyeast Nepal,5.0,110,"['Multi-day Tours', 'Adrenaline & Extreme Tours']",True,False,False,False,False,False,False,False,False,,,670,4.783382548316458
+Touch The Himalaya Treks & Expedition,5.0,138,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,671,4.804055393184243
+Marvel Adventure Pvt Ltd,5.0,81,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,672,4.756808667004653
+Unique Waymaker Treks & Expedition,5.0,196,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,673,4.83639740014883
+Luxury Holidays Nepal Pvt Ltd,5.0,140,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,674,4.80538205931027
+Budget Adventure Treks & Expeditions Private Day Tours,5.0,193,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,675,4.8349886278980065
+GN Reiki Meditation Center,5.0,96,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,676,4.77131923605137
+Nepalorama Trekking,5.0,78,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,677,4.753682734037285
+Remarkable Adventure Trek,5.0,74,"['River Rafting & Tubing', 'Sightseeing Tours']",False,False,False,True,False,False,False,False,False,,,678,4.749387638856718
+Nepal Spiritual Trekking Pvt Ltd - Day Tours,5.0,118,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,679,4.789721164428985
+Rapidrunner Expeditions - Day Tours,5.0,139,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,680,4.80472097946255
+Himalayan Dream Team,5.0,82,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,681,4.757833087727145
+Dolma Treks & Adventure,5.0,62,"['Multi-day Tours', 'Safaris']",True,False,False,False,False,False,False,False,False,,,682,4.735554008058631
+Himalayan Holyland Treks and Expedition,5.0,67,"['Multi-day Tours', 'Historical & Heritage Tours']",True,False,False,False,False,False,False,False,False,,,683,4.741499447052969
+Fewa Trail Treks and Expedition,5.0,99,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,684,4.774016006776488
+AM Travels and Tours,5.0,71,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,685,4.746066715672226
+High Pass Adventure Pvt Ltd,5.0,72,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,686,4.747183426246506
+Thin Air Adventure - Private Day Tours,5.0,88,"['Private Tours', 'Air Tours']",False,False,True,False,False,False,False,False,False,,,687,4.763802838311125
+Namche Bazaar,4.5,127,['Bars & Clubs'],False,False,False,False,True,False,False,False,False,,,688,4.5715596932934055
+Nepal Teahouse Trekking - Day Tours,5.0,80,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,689,4.7557755424008175
+Seeing Hands,5.0,107,['Spas'],False,False,False,False,False,True,False,False,False,,,690,4.780905920211201
+Himalayan Healers,5.0,77,['Spas'],False,False,False,False,False,True,False,False,False,,,691,4.752622821707522
+North Nepal Travels & Treks,5.0,72,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,692,4.747183426246506
+Sublime Trails,5.0,76,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,693,4.751553748273067
+Nepal Unique Treks & Expedition - Day Tours,5.0,86,"['Climbing Tours', 'Sightseeing Tours']",False,False,True,True,False,False,False,False,False,,,694,4.76184589520824
+Adventure White Mountain,5.0,64,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,695,4.73796470289934
+Royal Tenshi Treks Pvt Ltd,5.0,84,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,696,4.759856253823814
+Imperial Nepal Private Day Tours,5.0,217,"['City Tours', 'Hiking & Camping Tours']",True,True,False,False,True,False,False,False,False,,,697,4.8456232593111
+Bharal Adventure,5.0,76,"['Parasailing & Paragliding', 'Cultural Tours']",False,False,False,True,False,False,False,False,False,,,698,4.751553748273067
+Kathmandu Adventure Treks - Day Tour,5.0,102,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,699,4.776649914247799
+Cloudbase Paragliding Nepal,5.0,103,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,700,4.777514292235493
+Adventure Club Treks and Expedition Mountain Flight,5.0,103,"['Hiking & Camping Tours', 'Air Tours']",False,False,False,True,False,False,False,False,False,,,701,4.777514292235493
+Walk Mountain,5.0,144,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,702,4.807982217505688
+Sherpa Brothers Treks and Expedition,5.0,84,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,703,4.759856253823814
+Himalaya Trekking Team Pvt Ltd Private Day Tours,5.0,81,"['Cultural Tours', 'Climbing Tours']",False,True,False,False,False,False,False,False,True,,,704,4.756808667004653
+Sound Healing Nepal,5.0,64,['Lessons & Workshops'],False,False,False,False,False,False,False,True,False,,,705,4.73796470289934
+Swotah Travel and Adventure,5.0,70,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,706,4.744940096133428
+Life Dream Adventure Pvt Ltd Private Day Tours,5.0,96,"['Historical & Heritage Tours', 'Private Tours']",True,True,False,False,False,False,False,False,False,,,707,4.77131923605137
+Nepal Alternative Treks & Expeditions Pvt Ltd,5.0,163,"['City Tours', 'Sightseeing Tours']",True,True,False,False,True,False,False,False,False,,,708,4.819440781006859
+Mount Face Nepal Day Tours,5.0,81,"['City Tours', 'Sightseeing Tours']",True,True,False,False,True,False,False,False,False,,,709,4.756808667004653
+Earth Nepal Travel & Trek Day Tours,5.0,85,"['City Tours', 'Hiking & Camping Tours']",True,True,False,False,True,False,False,False,False,,,710,4.760855212808547
+Luxury Holiday Treks (P) Ltd,5.0,152,['City Tours'],True,True,False,False,True,False,False,False,False,,,711,4.812979524739903
+Sawar Meditation and Yoga Center,5.0,65,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,712,4.739153643147717
+Zam Zam Trekking,5.0,69,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,713,4.743803435153783
+Outdoor Himalayan Treks - Private Day Tours,5.0,351,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,714,4.886473828733946
+Wonderland Treks (Utsav),5.0,67,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,715,4.741499447052969
+Snowy Horizon Treks & Expedition,5.0,179,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,716,4.828080133100169
+AAA Treks & Expedition,5.0,63,"['Eco Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,717,4.73676487462063
+Crystal Mountain Treks,5.0,58,"['Multi-day Tours', 'Bike Tours']",True,False,False,False,False,False,False,False,False,,,718,4.730597055343158
+Himalayan Trip Nepal Private Day Tours,5.0,106,"['Walking Tours', 'Hiking & Camping Tours']",False,False,False,False,False,False,False,False,False,,,719,4.780067744584413
+Transport Hub Nepal,5.0,62,['Taxis & Shuttles'],False,False,False,False,False,False,False,False,False,,,720,4.735554008058631
+Holiday Hiking Team,5.0,73,"['Hiking & Camping Tours', 'Nature & Wildlife Tours']",False,False,False,True,False,False,False,False,False,,,721,4.7482903580124605
+Global Adventure Trekking,5.0,124,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,722,4.794236912846725
+Adventure Himalaya Nepal,5.0,66,"['Cultural Tours', 'Climbing Tours']",False,True,False,False,False,False,False,False,True,,,723,4.740331842904045
+Begnas Yoga & Retreat,5.0,64,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,724,4.73796470289934
+Nepal Spa and Wellness pvtltd,5.0,127,['Spas'],False,False,False,False,False,True,False,False,False,,,725,4.796422827779265
+Adventure Leaders Nepal,5.0,126,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,726,4.795699368244874
+Nepal Hiking Trek,5.0,79,"['City Tours', 'Helicopter Tours']",True,True,False,False,True,False,False,False,False,,,727,4.754733602514987
+Real Therapy & Beauty Point,5.0,144,['Spas'],False,False,False,False,False,True,False,False,False,,,728,4.807982217505688
+Nepal Mountain Trekkers - Day Tours,5.0,117,"['Cultural Tours', 'Helicopter Tours']",False,True,False,False,False,False,False,False,True,,,729,4.788949198689758
+Nepal Royal Tourism Holiday,5.0,72,['Boat Tours'],False,False,False,False,False,False,False,False,False,,,730,4.747183426246506
+Life Door Treks & Expedition,5.0,66,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,731,4.740331842904045
+Spiritual Excursion Private Limited,5.0,68,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,732,4.742656597884894
+Trek Nepal Himalayas,5.0,92,"['Multi-day Tours', 'Day Trips']",True,False,False,False,False,False,False,False,False,,,733,4.767621801773276
+Couch Adventure Nepal (CAN) - Kathmandu Branch,5.0,70,"['City Tours', 'Walking Tours']",True,True,False,False,True,False,False,False,False,,,734,4.744940096133428
+GRG's Adventure Kayaking - Day Tours,5.0,165,"['River Rafting & Tubing', 'Adrenaline & Extreme Tours']",False,False,False,True,False,False,False,False,False,,,735,4.82056788837462
+Step By Step Treks & Adventures PvtLtd,5.0,69,"['Cultural Tours', 'Helicopter Tours']",False,True,False,False,False,False,False,False,True,,,736,4.743803435153783
+Three Jewels Adventures,5.0,72,"['Helicopter Tours', 'Walking Tours']",False,False,True,True,False,False,False,False,False,,,737,4.747183426246506
+Wildlife Adventure Tours,5.0,64,['Nature & Wildlife Tours'],False,False,True,True,False,False,False,False,False,,,738,4.73796470289934
+Big Sky Treks and Expeditions,5.0,191,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,739,4.834035889847682
+Magic Himalaya Treks,5.0,73,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,740,4.7482903580124605
+Adventure Magic Treks & Expedition,5.0,190,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,741,4.833555383208446
+Nectar Spa,4.5,137,['Spas'],False,False,False,False,False,True,False,False,False,,,742,4.569112321141672
+Himalaya Heart Treks & Expeditions,5.0,202,"['Helicopter Tours', 'Eco Tours']",False,False,True,True,False,False,False,False,False,,,743,4.839143992422643
+Adventure Thirdpole Treks,5.0,142,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,744,4.806690881550731
+Asian Heritage Treks and Expeditions,5.0,246,['Eco Tours'],False,False,False,True,False,False,False,False,False,,,745,4.8567767032588876
+Mount Fuji Adventure Pvt Ltd,5.0,87,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,746,4.7628284034584105
+Himalayan Trekkers,5.0,167,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,747,4.821681011519749
+Nepal Promote Treks and Expedition,5.0,59,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,748,4.731853634093762
+Responsible Treks,5.0,65,"['Cultural Tours', 'Eco Tours']",False,True,False,False,False,False,False,False,True,,,749,4.739153643147717
+Social Tourism Nepal,5.0,54,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,750,4.725450719829116
+Himalayan Single Track,5.0,162,['Private Tours'],False,False,True,False,False,False,False,False,False,,,751,4.8188719006279195
+Himalaya Seekers Treks & Expedition,5.0,58,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,752,4.730597055343158
+Amazing Nepal Holidays,5.0,53,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,753,4.7241332669265805
+Malla Sisters Women Adventure Guides,5.0,69,['Eco Tours'],False,False,False,True,False,False,False,False,False,,,754,4.743803435153783
+Frolic Adventure Pvt Ltd,5.0,70,"['Historical & Heritage Tours', 'Sightseeing Tours']",True,True,False,False,False,False,False,False,False,,,755,4.744940096133428
+Nepal Mother House,5.0,91,"['Adrenaline & Extreme Tours', 'Private Tours']",False,False,True,True,False,False,False,False,False,,,756,4.766678685470823
+Alpine Club Of Himalaya - Private Day Trip,5.0,250,['Private Tours'],False,False,True,False,False,False,False,False,False,,,757,4.858189879544093
+Serene Himalaya Treks and Expedition Day Tours,5.0,74,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,758,4.749387638856718
+Nepal Footprint Holiday Treks - Day Tours,5.0,92,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,759,4.767621801773276
+Happy Nepal Trek,5.0,56,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,760,4.728048232342913
+Malama Spa,5.0,67,['Spas'],False,False,False,False,False,True,False,False,False,,,761,4.741499447052969
+Nepal Spirit Adventure - Private Day Tours,5.0,115,['Private Tours'],False,False,True,False,False,False,False,False,False,,,762,4.787388137413914
+Good Karma Trekking  - Day Tours,5.0,104,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,763,4.77837200562811
+Nepal Guide Treks and Expedition,5.0,139,"['Helicopter Tours', 'Climbing Tours']",False,False,True,True,False,False,False,False,False,,,764,4.80472097946255
+Nepal Hiking,5.0,166,"['Walking Tours', 'Eco Tours']",False,False,False,False,False,False,False,False,False,,,765,4.821126181658332
+Professional Freelancer Trekking Guide,5.0,90,"['Multi-day Tours', 'Walking Tours']",True,False,False,False,False,False,False,False,False,,,766,4.765727882621001
+Mt Everest Base Camp Trekking,5.0,59,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,767,4.731853634093762
+Kathmandu Car Services,5.0,55,['Taxis & Shuttles'],False,False,False,False,False,False,False,False,False,,,768,4.726755649057948
+JRN Treks and Expeditions Pvt Ltd,5.0,55,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,769,4.726755649057948
+Nepal Kanko Treks and Expedition,5.0,54,"['City Tours', 'Sightseeing Tours']",True,True,False,False,True,False,False,False,False,,,770,4.725450719829116
+Kamzang Journeys,5.0,77,['Other Outdoor Activities'],False,False,False,False,True,False,False,False,False,,,771,4.752622821707522
+Nepal Pioneer Treks and Expedition,5.0,62,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,772,4.735554008058631
+High Asia Tours - Private Day Tours,5.0,86,['Private Tours'],False,False,True,False,False,False,False,False,False,,,773,4.76184589520824
+Sabbatical Explore Nepal,5.0,39,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,774,4.704265707932847
+Sound of Himalaya,5.0,46,"['Paint & Pottery Studios', 'Eco Tours']",True,True,False,False,False,False,False,False,False,,,775,4.714544763140401
+Himalayan Sanctuary Adventure,5.0,88,"['Helicopter Tours', 'Sightseeing Tours']",False,False,True,True,False,False,False,False,False,,,776,4.763802838311125
+Vyas Treks & Expedition,5.0,82,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,777,4.757833087727145
+Corsa Nepal Adventure -Day Tour,5.0,82,"['Cultural Tours', 'Climbing Tours']",False,True,False,False,False,False,False,False,True,,,778,4.757833087727145
+Chitwan Jungle Safari,4.0,450,"['Safaris', 'Nature & Wildlife Tours']",False,False,True,True,False,False,False,False,False,,,779,4.161721173364615
+Nagarkot Everest View Paragliding,5.0,66,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,780,4.740331842904045
+Nepal Tourism Adventure Kathmandu,5.0,47,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,781,4.715955156911262
+Holidays to Nepal,5.0,67,"['City Tours', 'Historical & Heritage Tours']",True,True,False,False,True,False,False,False,False,,,782,4.741499447052969
+Glory Himalayan Club,5.0,79,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,783,4.754733602514987
+Everest Experience and Assistance,5.0,70,"['Helicopter Tours', 'Sightseeing Tours']",False,False,True,True,False,False,False,False,False,,,784,4.744940096133428
+Mountain King Adventure,5.0,71,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,785,4.746066715672226
+Nepal for Treks P LTD,5.0,56,"['Multi-day Tours', 'Eco Tours']",True,False,False,False,False,False,False,False,False,,,786,4.728048232342913
+Dal Bhat Power Adventures,5.0,51,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,787,4.721460061958671
+Nepal Vision Treks & Expeditions,5.0,84,"['City Tours', 'Helicopter Tours']",True,True,False,False,True,False,False,False,False,,,788,4.759856253823814
+Halesi Treks PvtLtd,5.0,60,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,789,4.733098545121488
+Himalayan Windows Tours,5.0,57,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,790,4.729328644066677
+Archaic Nepal Adventure,5.0,51,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,791,4.721460061958671
+Traveltimes Treks,5.0,68,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,792,4.742656597884894
+Swiss Family Treks & Expedition,5.0,55,"['Multi-day Tours', 'Biking Trails']",True,False,False,False,False,False,False,False,False,,,793,4.726755649057948
+Wilderness Excursion,5.0,79,"['Walking Tours', 'Hiking & Camping Tours']",False,False,False,False,False,False,False,False,False,,,794,4.754733602514987
+Starlink Tours & Travel,5.0,84,"['Parasailing & Paragliding', 'Multi-day Tours']",False,False,False,True,False,False,False,False,False,,,795,4.759856253823814
+Sunrise Adventure Trek,5.0,122,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,796,4.792753368954981
+Adam Treks & Expedition,5.0,68,"['Nature & Wildlife Tours', 'Day Trips']",False,False,True,True,False,False,False,False,False,,,797,4.742656597884894
+Sunshine Trekking,5.0,77,['Nature & Wildlife Tours'],False,False,True,True,False,False,False,False,False,,,798,4.752622821707522
+HighGround Adventures,4.0,418,['Zipline & Aerial Adventure Parks'],False,False,False,True,False,False,False,False,False,,,799,4.170746516405644
+Insight Adventures Nepal,5.0,47,"['Helicopter Tours', 'Climbing Tours']",False,False,True,True,False,False,False,False,False,,,800,4.715955156911262
+Snow Leopard Trek - Day Tours,5.0,60,"['Hiking & Camping Tours', 'Nature & Wildlife Tours']",False,False,False,True,False,False,False,False,False,,,801,4.733098545121488
+Buddha Air,4.0,399,['Air Tours'],False,False,True,False,False,False,False,False,False,,,802,4.176598282138512
+Nepal Yoga Academy,4.5,80,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,803,4.585847676779774
+Step On Himalaya,5.0,50,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,804,4.720103936959687
+Mountain Magic Treks,5.0,52,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,805,4.722803109192637
+Glacier Nepal Treks,5.0,50,"['City Tours', 'Helicopter Tours']",True,True,False,False,True,False,False,False,False,,,806,4.720103936959687
+Getaway Nepal Adventure,5.0,49,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,807,4.718734542246337
+Souvenir Trek Pvt Ltd,5.0,51,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,808,4.721460061958671
+Annapurna Yoga Ashram,5.0,107,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,809,4.780905920211201
+Trekking Trail Nepal - Day Activities,5.0,60,"['River Rafting & Tubing', 'Historical & Heritage Tours']",False,False,False,True,False,False,False,False,False,,,810,4.733098545121488
+Himalayan Dragon Paragliding,5.0,71,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,811,4.746066715672226
+Adventure Glacier Treks & Expedition,5.0,104,['Nature & Wildlife Tours'],False,False,True,True,False,False,False,False,False,,,812,4.77837200562811
+Apex Nepal Treks,5.0,41,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,813,4.707277350773944
+Nepal Myths and Mountain Trails - Day Tours,5.0,109,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,814,4.782563250406204
+Skyway Nepal Treks,5.0,48,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,815,4.717351682094348
+Moksha Ayurveda and Panchakarma Center,5.0,52,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,816,4.722803109192637
+Hi Nepal Travels & Treks,5.0,76,"['Sightseeing Tours', 'Hiking & Camping Tours']",False,True,True,True,False,False,False,False,False,,,817,4.751553748273067
+Mega Adventures International,5.0,59,"['City Tours', 'Helicopter Tours']",True,True,False,False,True,False,False,False,False,,,818,4.731853634093762
+Nepal Female Guide - Day Tours,5.0,69,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,819,4.743803435153783
+Exploring Nepal Treks and Adventures - Day Tours,5.0,76,['Walking Tours'],False,False,False,False,False,False,False,False,False,,,820,4.751553748273067
+Life Himalaya Trekking,5.0,69,"['Historical & Heritage Tours', 'Sightseeing Tours']",True,True,False,False,False,False,False,False,False,,,821,4.743803435153783
+Save Himalaya Treks & Expedition,5.0,115,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,822,4.787388137413914
+Himalayan Hero Adventures,5.0,62,"['Parasailing & Paragliding', 'City Tours']",False,False,False,True,False,False,False,False,False,,,823,4.735554008058631
+Oriental Journeys,5.0,44,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,824,4.7116815351911185
+Himalayan Recreation - Day Tours,5.0,248,"['City Tours', 'Helicopter Tours']",True,True,False,False,True,False,False,False,False,,,825,4.857486794617416
+Mount Glory Treks & Expedition,5.0,49,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,826,4.718734542246337
+Everest Trekking Routes Pvt Ltd,5.0,48,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,827,4.717351682094348
+ABC and EBC Nepal Trekking Adventures,5.0,108,"['City Tours', 'Hiking & Camping Tours']",True,True,False,False,True,False,False,False,False,,,828,4.781737731413388
+Goodday Nepal Excursion,5.0,53,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,829,4.7241332669265805
+First Environmental Trekking,5.0,99,"['Hiking & Camping Tours', 'Day Trips']",False,False,False,True,False,False,False,False,False,,,830,4.774016006776488
+Nature Explore,5.0,83,"['Helicopter Tours', 'Hiking & Camping Tours']",False,False,True,True,False,False,False,False,False,,,831,4.758848914099759
+Himalayan NamoBuddha Travel & Treks Pvt Ltd,5.0,53,"['City Tours', 'Day Trips']",True,True,False,False,True,False,False,False,False,,,832,4.7241332669265805
+Himalayan Trekking & Tours,5.0,153,"['Cultural Tours', 'Hiking & Camping Tours']",False,True,False,False,False,False,False,False,True,,,833,4.8135859583127365
+Mountain Amantes Adventure,5.0,45,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,834,4.7131202931619605
+AimWay Tours & Travels,5.0,61,"['City Tours', 'Bike Tours']",True,True,False,False,True,False,False,False,False,,,835,4.73433195018299
+Memory Nepal Travel & Treks,5.0,41,"['Multi-day Tours', 'Eco Tours']",True,False,False,False,False,False,False,False,False,,,836,4.707277350773944
+Sevenstar Adventure Holidays - Day Tours,5.0,61,"['River Rafting & Tubing', 'Hiking & Camping Tours']",False,False,False,True,False,False,False,False,False,,,837,4.73433195018299
+HoneyGuide | To the Mountains,5.0,36,"['Helicopter Tours', 'Taxis & Shuttles']",False,False,True,True,False,False,False,False,False,,,838,4.699630228888564
+Unique Nepal Adventure Treks & Expedition,5.0,55,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,839,4.726755649057948
+Corporate Adventure Treks,5.0,72,"['Helicopter Tours', 'Historical & Heritage Tours']",False,False,True,True,False,False,False,False,False,,,840,4.747183426246506
+Silver Spring Treks & Expedition,5.0,48,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,841,4.717351682094348
+Cosmic Trekking & Expedition Pvt Ltd,5.0,71,"['River Rafting & Tubing', 'Sightseeing Tours']",False,False,False,True,False,False,False,False,False,,,842,4.746066715672226
+Create Himalaya Adventure,5.0,47,"['River Rafting & Tubing', 'Walking Tours']",False,False,False,True,False,False,False,False,False,,,843,4.715955156911262
+Wild Nabin,5.0,39,['Nature & Wildlife Tours'],False,False,True,True,False,False,False,False,False,,,844,4.704265707932847
+The Chitwan Jungle Guides,5.0,61,"['Multi-day Tours', 'Walking Tours']",True,False,False,False,False,False,False,False,False,,,845,4.73433195018299
+Himalayan Mentor,5.0,85,"['Cultural Tours', 'Hiking & Camping Tours']",False,True,False,False,False,False,False,False,True,,,846,4.760855212808547
+Nepal Trek Hub,5.0,40,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,847,4.705779235943263
+Dragonfly Paragliding Nepal,5.0,43,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,848,4.710228273173069
+Shakti Travels and Tours,5.0,50,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,849,4.720103936959687
+Nepal Trekking Routes,5.0,46,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,850,4.714544763140401
+Asahi Treks & Expedition - Mountain Flight and Helicopter Day Tours,5.0,98,['Helicopter Tours'],False,False,True,True,False,False,False,False,False,,,851,4.773124178267433
+Mount Trails,5.0,68,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,852,4.742656597884894
+Nepal Mountain Hub Treks & Expedition,5.0,40,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,853,4.705779235943263
+Nepal River Runner,5.0,48,"['River Rafting & Tubing', 'Climbing Tours']",False,False,False,True,False,False,False,False,False,,,854,4.717351682094348
+Responsible Adventures,5.0,76,"['Cultural Tours', 'Eco Tours']",False,True,False,False,False,False,False,False,True,,,855,4.751553748273067
+Golden Himalayan Zone Treks,5.0,45,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,856,4.7131202931619605
+Nepal Climbing Adventure,5.0,42,"['Historical & Heritage Tours', 'Walking Tours']",True,True,False,False,False,False,False,False,False,,,857,4.708760286674862
+Attractive Travels and Tours,5.0,39,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,858,4.704265707932847
+Mardi Himal Treks & Expedition,5.0,152,"['4WD, ATV & Off-Road Tours', 'Climbing Tours']",False,False,False,True,False,False,False,False,False,,,859,4.812979524739903
+Summit Treks and Adventure,5.0,59,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,860,4.731853634093762
+Hike Himalaya Adventure - Private Day Tours,5.0,56,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,861,4.728048232342913
+Trekking Mart,5.0,76,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,862,4.751553748273067
+The Trek Nepal,5.0,38,"['Multi-day Tours', 'Safaris']",True,False,False,False,False,False,False,False,False,,,863,4.7027365276476925
+Northern Trekking Team,5.0,39,"['City Tours', 'Historical & Heritage Tours']",True,True,False,False,True,False,False,False,False,,,864,4.704265707932847
+Apex Asia Travel & Trekking,5.0,89,['Air Tours'],False,False,True,False,False,False,False,False,False,,,865,4.764769298869441
+Antique Nepal Treks - Day Tours,5.0,96,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,866,4.77131923605137
+Across Himalaya Tours & Treks Ltd,5.0,59,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,867,4.731853634093762
+Nepal Sanctuary Treks - Day Trip,5.0,80,"['Hiking & Camping Tours', 'Nature & Wildlife Tours']",False,False,False,True,False,False,False,False,False,,,868,4.7557755424008175
+Mountain Eco Treks & Expedition,5.0,68,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,869,4.742656597884894
+Apex the Asia Holidays,5.0,51,"['Multi-day Tours', 'Adrenaline & Extreme Tours']",True,False,False,False,False,False,False,False,False,,,870,4.721460061958671
+Adventure Pilgrims Trekking,5.0,110,"['River Rafting & Tubing', 'Helicopter Tours']",False,False,False,True,False,False,False,False,False,,,871,4.783382548316458
+Heritage Spa,5.0,64,['Spas'],False,False,False,False,False,True,False,False,False,,,872,4.73796470289934
+Sam's Bar,4.5,141,['Bars & Clubs'],False,False,False,False,True,False,False,False,False,,,873,4.568179612366977
+Himalayan Nepal Trek  - Private Day Tour,5.0,64,['Nature & Wildlife Tours'],False,False,True,True,False,False,False,False,False,,,874,4.73796470289934
+Manikang Nepal Treks and Adventure,5.0,45,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,875,4.7131202931619605
+Linkage Tours & Travels,5.0,40,"['Multi-day Tours', 'Canyoning & Rappelling Tours']",True,False,False,False,False,False,False,False,False,,,876,4.705779235943263
+Rediscover Nepal Treks & Tours Pvt Ltd,5.0,38,"['Multi-day Tours', 'Private Tours']",True,False,False,False,False,False,False,False,False,,,877,4.7027365276476925
+Eagle Eye Treks and Expedition,5.0,66,"['City Tours', 'River Rafting & Tubing']",True,True,False,False,True,False,False,False,False,,,878,4.740331842904045
+Admiral Adventure Treks,5.0,51,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,879,4.721460061958671
+Coldfeet Adventure - Kathmandu Valley Private Day Tour,5.0,79,['Private Tours'],False,False,True,False,False,False,False,False,False,,,880,4.754733602514987
+"Kanchan Yoga, Patan Lalitpur",5.0,38,"['Yoga & Pilates', 'Lessons & Workshops']",False,False,False,False,False,True,False,False,False,,,881,4.7027365276476925
+Treks Planner Nepal,5.0,45,"['City Tours', 'Helicopter Tours']",True,True,False,False,True,False,False,False,False,,,882,4.7131202931619605
+Welcome Nepal Treks - Day Tours,5.0,218,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,883,4.84603670125363
+Global Holidays Adventure,5.0,55,['Private Tours'],False,False,True,False,False,False,False,False,False,,,884,4.726755649057948
+Bhaktapur Tour Guide,5.0,38,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,885,4.7027365276476925
+Aim Nepal Adventure,5.0,37,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,886,4.701191451021851
+Nepal Excursion Treks Pvt Ltd,5.0,54,"['City Tours', 'Walking Tours']",True,True,False,False,True,False,False,False,False,,,887,4.725450719829116
+Wongchhu Peak Promotion,5.0,38,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,888,4.7027365276476925
+Rugged Trails Nepal,5.0,50,"['Historical & Heritage Tours', 'Walking Tours']",True,True,False,False,False,False,False,False,False,,,889,4.720103936959687
+Himalayan Adventure Nepal,5.0,35,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,890,4.698052606846318
+Iconic Nepal Tours & Treks,5.0,46,['Helicopter Tours'],False,False,True,True,False,False,False,False,False,,,891,4.714544763140401
+Shiva Excursion pvtltd,5.0,64,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,892,4.73796470289934
+Junket Nepal PvtLtd,5.0,44,['City Tours'],True,True,False,False,True,False,False,False,False,,,893,4.7116815351911185
+Awesome Nepal Treks Pvt Ltd,5.0,42,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,894,4.708760286674862
+Plan Himalaya,5.0,88,['Nature & Wildlife Tours'],False,False,True,True,False,False,False,False,False,,,895,4.763802838311125
+Umesh Adventures Nepal,5.0,76,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,896,4.751553748273067
+Adventure Altitude Treks & Expedition Pvt Ltd,5.0,35,"['Safaris', 'Climbing Tours']",False,False,True,True,False,False,False,False,False,,,897,4.698052606846318
+Caravana Himalaya Adventure,5.0,33,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,898,4.694847118421488
+Sky Bird Paragliding,5.0,143,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,899,4.807338713338398
+Himalaya Chyangpa Nepal Treks and Expedition Pvt Ltd,5.0,37,"['Climbing Tours', 'Hiking & Camping Tours']",False,False,True,True,False,False,False,False,False,,,900,4.701191451021851
+Manakamana Cable Car,4.5,122,['Taxis & Shuttles'],False,False,False,False,False,False,False,False,False,,,901,4.572849549838489
+Welcome To My Yard,5.0,77,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,902,4.752622821707522
+Himalayan Cashmere Manufacturing Company,5.0,45,['Speciality & Gift Shops'],True,True,False,False,False,False,False,False,False,,,903,4.7131202931619605
+Budget Trekking,5.0,53,"['Sightseeing Tours', 'Hiking & Camping Tours']",False,True,True,True,False,False,False,False,False,,,904,4.7241332669265805
+Beauty Nepal Adventure,5.0,135,"['Bike Tours', 'Climbing Tours']",False,False,False,True,False,False,False,False,False,,,905,4.802031130215838
+Lake Valley Paragliding,5.0,72,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,906,4.747183426246506
+Himalayan Wander Walkers,5.0,53,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,907,4.7241332669265805
+Mountain Kick,5.0,43,"['Cultural Tours', 'Bike Tours']",False,True,False,False,False,False,False,False,True,,,908,4.710228273173069
+"Charak Yoga, Thamel Kathmandu",5.0,67,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,909,4.741499447052969
+Museum of Nepali Art,5.0,48,['Art Museums'],True,True,False,False,False,False,False,False,False,,,910,4.717351682094348
+Team Ram Adventure Pvt Ltd,5.0,58,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,911,4.730597055343158
+Babu Adventure,5.0,48,"['Parasailing & Paragliding', 'Multi-day Tours']",False,False,False,True,False,False,False,False,False,,,912,4.717351682094348
+Nepal Vehicle Hiring,5.0,59,['Taxis & Shuttles'],False,False,False,False,False,False,False,False,False,,,913,4.731853634093762
+Mountain Experience,5.0,35,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,914,4.698052606846318
+Highland Expeditions,5.0,40,"['Helicopter Tours', 'Walking Tours']",False,False,True,True,False,False,False,False,False,,,915,4.705779235943263
+Utmost Adventure Trekking,5.0,59,"['Cultural Tours', 'Hiking & Camping Tours']",False,True,False,False,False,False,False,False,True,,,916,4.731853634093762
+Mission Summit Treks And Expedition,5.0,33,"['Multi-day Tours', 'Private Tours']",True,False,False,False,False,False,False,False,False,,,917,4.694847118421488
+Pristine Nepal,5.0,40,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,918,4.705779235943263
+Unlimited Trekking Nepal - Day Tours,5.0,70,"['4WD, ATV & Off-Road Tours', 'Hiking & Camping Tours']",False,False,False,True,False,False,False,False,False,,,919,4.744940096133428
+Adventure Team,5.0,52,"['Parasailing & Paragliding', 'City Tours']",False,False,False,True,False,False,False,False,False,,,920,4.722803109192637
+Nepal Boundary Trekking Pvt Ltd,5.0,38,"['Climbing Tours', 'Eco Tours']",False,False,True,True,False,False,False,False,False,,,921,4.7027365276476925
+Himalayan Magic Adventures,5.0,45,['Private Tours'],False,False,True,False,False,False,False,False,False,,,922,4.7131202931619605
+Nepal Trip Planner P Ltd,4.5,47,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,923,4.599844995542841
+KJ Adventure Nepal Private Limited,5.0,32,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,924,4.693218715796118
+Merit Adventure,5.0,34,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,925,4.696458325120637
+World Expeditions,4.5,74,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,926,4.588093097587112
+Authentic Adventures,5.0,45,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,927,4.7131202931619605
+View Nepal Treks & Expedition,5.0,81,"['Hiking & Camping Tours', 'Nature & Wildlife Tours']",False,False,False,True,False,False,False,False,False,,,928,4.756808667004653
+Jomsom Treks and Expedition - Private Day Tour,4.5,76,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,929,4.587331685471092
+Eco Holidays Nepal,5.0,195,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,930,4.8359304897569535
+Caravan Outdoors,5.0,43,"['City Tours', 'Sightseeing Tours']",True,True,False,False,True,False,False,False,False,,,931,4.710228273173069
+Bohemian Tours,5.0,82,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,932,4.757833087727145
+Master Himalaya,5.0,38,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,933,4.7027365276476925
+Nepalgram,5.0,67,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,934,4.741499447052969
+Mountain King Treks And Expedition,5.0,36,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,935,4.699630228888564
+Yak & Yeti Trekking Shop,4.5,59,['Speciality & Gift Shops'],True,True,False,False,False,False,False,False,False,,,936,4.594256499845601
+Nepal Tour & Trekking Service - Day Tours,5.0,75,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,937,4.750475394445593
+Adventure Feel Nepal Treks and Expeditions Pvt Ltd,5.0,36,"['Multi-day Tours', 'Climbing Tours']",True,False,False,False,False,False,False,False,False,,,938,4.699630228888564
+Gorkha International Travels - Kathmandu Day Tours,5.0,151,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,939,4.812369132645868
+Loyalty Spa,5.0,39,['Spas'],False,False,False,False,False,True,False,False,False,,,940,4.704265707932847
+Absolute HJ Sherpa Trekking Pvt Ltd,5.0,33,"['Hiking & Camping Tours', 'Bus Tours']",False,False,False,True,False,False,False,False,False,,,941,4.694847118421488
+Himalayan Threads Handicrafts Shop,5.0,35,['Speciality & Gift Shops'],True,True,False,False,False,False,False,False,False,,,942,4.698052606846318
+Aroma Nepal Treks & Expedition,5.0,61,"['City Tours', 'Climbing Tours']",True,True,False,False,True,False,False,False,False,,,943,4.73433195018299
+Dream Tibet Travel & Tours,5.0,51,"['Cultural Tours', 'Sightseeing Tours']",False,True,False,False,False,False,False,False,True,,,944,4.721460061958671
+Easy Treks & Expedition P Ltd,5.0,37,"['Multi-day Tours', 'Historical & Heritage Tours']",True,False,False,False,False,False,False,False,False,,,945,4.701191451021851
+Travhill,5.0,37,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,946,4.701191451021851
+Ayurveda Health Home,5.0,52,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,947,4.722803109192637
+Above the Himalaya Trekking - Private Day Tours,5.0,249,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,948,4.8578392063875775
+Nepal Lion Tours & Treks Pvt Ltd,5.0,112,"['Hiking & Camping Tours', 'Nature & Wildlife Tours']",False,False,False,True,False,False,False,False,False,,,949,4.785002760076509
+Extollo Adventures,5.0,36,"['Multi-day Tours', 'Historical & Heritage Tours']",True,False,False,False,False,False,False,False,False,,,950,4.699630228888564
+Ask The Nepal Adventure,5.0,57,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,951,4.729328644066677
+Walking The Himalaya Treks & Tours,5.0,35,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,952,4.698052606846318
+Women's Skills Development Organization,5.0,49,['Speciality & Gift Shops'],True,True,False,False,False,False,False,False,False,,,953,4.718734542246337
+Himalayan Advisor,5.0,33,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,954,4.694847118421488
+Monterosa Treks and Expedition- kailash Tour package,5.0,209,['Helicopter Tours'],False,False,True,True,False,False,False,False,False,,,955,4.842234032470068
+Silver Mountain Adventure Pvt Ltd - Private Day Tours,5.0,56,['Private Tours'],False,False,True,False,False,False,False,False,False,,,956,4.728048232342913
+Trek Mania Nepal,5.0,31,"['Multi-day Tours', 'Helicopter Tours']",True,False,False,False,False,False,False,False,False,,,957,4.69157284047715
+Exciting Himalaya,5.0,32,"['Helicopter Tours', 'Climbing Tours']",False,False,True,True,False,False,False,False,False,,,958,4.693218715796118
+Graceful Adventure Travel pvt ltd,5.0,36,"['Taxis & Shuttles', 'Private Tours']",False,False,False,False,False,False,False,False,False,,,959,4.699630228888564
+Himalayan Trekking Path,5.0,32,"['Multi-day Tours', 'Cultural Tours']",True,False,False,False,False,False,False,False,False,,,960,4.693218715796118
+"Himalayan Leisure, Inc",5.0,215,"['Helicopter Tours', 'Sightseeing Tours']",False,False,True,True,False,False,False,False,False,,,961,4.844789678093862
+Explore Nepal Adventure Holidays,5.0,30,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,962,4.689909209725761
+The Asia Adventure Nepal - Day Tours,5.0,58,['Sightseeing Tours'],False,True,True,True,False,False,False,False,False,,,963,4.730597055343158
+Allied Adventure Travels and Tours,5.0,33,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,964,4.694847118421488
+All Nepal Hiking,5.0,49,"['Multi-day Tours', 'Eco Tours']",True,False,False,False,False,False,False,False,False,,,965,4.718734542246337
+Asiana Trek & Tours,5.0,31,"['City Tours', 'Cultural Tours']",True,True,False,False,True,False,False,False,False,,,966,4.69157284047715
+Musical Adventure Trekking - Day Tours,5.0,42,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,967,4.708760286674862
+Mountain Hawk Trek - Private Day Tours,5.0,54,"['Hiking & Camping Tours', 'Private Tours']",False,False,False,True,False,False,False,False,False,,,968,4.725450719829116
+Friendship World Trek - Day Tours,5.0,56,"['Walking Tours', 'Climbing Tours']",False,False,False,False,False,False,False,False,False,,,969,4.728048232342913
+Himalayan Yogini,5.0,57,['Yoga & Pilates'],False,False,False,False,False,True,False,False,False,,,970,4.729328644066677
+Karmayogi Wellness,5.0,46,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,971,4.714544763140401
+Amore Treks,5.0,38,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,972,4.7027365276476925
+Tranquility Spa - Thamel,4.5,78,"['Yoga & Pilates', 'Spas']",False,False,False,False,False,True,False,False,False,,,973,4.586583322741364
+Trip Pokhara Pvt Ltd,5.0,24,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,974,4.679537933419724
+Adventure Exodus Pvt Ltd,5.0,36,"['City Tours', 'Multi-day Tours']",True,True,False,False,True,False,False,False,False,,,975,4.699630228888564
+Ace Vision Nepal,5.0,50,['Hiking & Camping Tours'],False,False,False,True,False,False,False,False,False,,,976,4.720103936959687
+Friendly Nepal Treks,5.0,30,"['Sightseeing Tours', 'Hiking & Camping Tours']",False,True,True,True,False,False,False,False,False,,,977,4.689909209725761
+Black Diamond Expedition - Private Day Tours,5.0,230,"['4WD, ATV & Off-Road Tours', 'Adrenaline & Extreme Tours']",False,False,False,True,False,False,False,False,False,,,978,4.850830651302039
+Austravel & Tours Nepal P Ltd - Private Day Tours,5.0,79,"['Cultural Tours', 'Sightseeing Tours']",False,True,False,False,False,False,False,False,True,,,979,4.754733602514987
+Info Nepal Tours & Treks,5.0,40,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,980,4.705779235943263
+Summitclimb and Summittrek,5.0,41,"['Climbing Tours', 'Hiking & Camping Tours']",False,False,True,True,False,False,False,False,False,,,981,4.707277350773944
+Tara Himalayan Vision,5.0,32,"['Multi-day Tours', 'Hiking & Camping Tours']",True,False,False,False,False,False,False,False,False,,,982,4.693218715796118
+Accent Himalaya,5.0,32,"['Multi-day Tours', 'Sightseeing Tours']",True,False,False,False,False,False,False,False,False,,,983,4.693218715796118
+Vespa Valley,5.0,41,"['Vespa, Scooter & Moped Tours']",False,False,False,False,True,False,False,False,False,,,984,4.707277350773944
+Aerolight Paragliding,5.0,42,['Parasailing & Paragliding'],False,False,False,True,False,False,False,False,False,,,985,4.708760286674862
+Local Women's Handicrafts,5.0,50,['Speciality & Gift Shops'],True,True,False,False,False,False,False,False,False,,,986,4.720103936959687
+The Chitwan Tiger Guide Service And Mini Library,5.0,37,"['Multi-day Tours', 'Walking Tours']",True,False,False,False,False,False,False,False,False,,,987,4.701191451021851
+Nepal Kameleon Holidays Pvt Ltd,5.0,35,['Walking Tours'],False,False,False,False,False,False,False,False,False,,,988,4.698052606846318
+Ever Wild Trek & Tours,5.0,39,"['Cultural Tours', 'Walking Tours']",False,True,False,False,False,False,False,False,True,,,989,4.704265707932847
+Bold Adventures Pvt Ltd - Day Tours,5.0,38,"['Cultural Tours', 'Historical & Heritage Tours']",False,True,False,False,False,False,False,False,True,,,990,4.7027365276476925
+Nepal Travel Advisor,5.0,27,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,991,4.684808864479631
+Adventure Gandaki Treks and Expedition,5.0,40,"['Parasailing & Paragliding', 'Multi-day Tours']",False,False,False,True,False,False,False,False,False,,,992,4.705779235943263
+Sarmila's Cooking Course Training,5.0,31,['Cooking Classes'],False,False,False,False,False,False,True,False,False,,,993,4.69157284047715
+Upper Himalayan Treks and Adventure Pvt Ltd,5.0,34,"['Climbing Tours', 'Hiking & Camping Tours']",False,False,True,True,False,False,False,False,False,,,994,4.696458325120637
+Eagle Treks and Expedition P Ltd & Heli Tour Private Day Tour,5.0,79,"['City Tours', 'Helicopter Tours']",True,True,False,False,True,False,False,False,False,,,995,4.754733602514987
+Hi Himalaya Nepal - Treks & Tours,5.0,30,"['Multi-day Tours', 'Walking Tours']",True,False,False,False,False,False,False,False,False,,,996,4.689909209725761
+Asian Hiking Team's Kathmandu Day Hiking,5.0,63,"['Climbing Tours', 'Hiking & Camping Tours']",False,False,True,True,False,False,False,False,False,,,997,4.73676487462063
+Annapurna Mountain Bike & Adventure,5.0,39,"['Bike Tours', 'Eco Tours']",False,False,False,True,False,False,False,False,False,,,998,4.704265707932847
+Tour Guide in Nepal,5.0,29,"['Multi-day Tours', '4WD, ATV & Off-Road Tours']",True,False,False,False,False,False,False,False,False,,,999,4.688227534669772
