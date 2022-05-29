@@ -1,6 +1,6 @@
 # Optimized Itinerary Recommendation with AI
 
-With our lifestyle becoming busier by the day, our time to travel and explore the world outside our window has become more limited. And, even when we finally get the chance to pack our bags, we are presented with a more confusing problem: where to go? There are a lot of options on the Internet and the information might just overwhelm us. Even with the help of travel agencies and our own research, we can fail to make smart decisions at times and hence, end up not getting the full experience of the trip we deserved to enjoy. Some popular existing systems: TripAdvisor, Welcome AI Itinerary App, GoogleTrips, etc. have been providing travel recommendations. The order in which to visit the recommended sites is prominent in order to minimize the travel cost and traversal time which is absent in most of the existing systems. Furthermore, it targets tourist areas where there are lots of sites to travel to and tourists need to figure out the best route to visit all the sites that suit their preferences. Hence, we want to present a solution in the form of the application we're worked on: "Optimized Itinerary Recommendation with AI".
+With our lifestyle becoming busier by the day, our time to travel and explore the world outside our window has become more limited. And, even when we finally get the chance to pack our bags, we are presented with a more confusing problem: where to go? There are a lot of options on the Internet and the information might just overwhelm us. Even with the help of travel agencies and our own research, we can fail to make smart decisions at times and hence, end up not getting the full experience of the trip we deserved to enjoy. Some popular existing systems: *TripAdvisor, Welcome AI Itinerary App, Google Trips,* etc. have been providing travel recommendations. The order in which to visit the recommended sites is prominent in order to minimize the travel cost and traversal time which is absent in most of the existing systems. Furthermore, it targets tourist areas where there are lots of sites to travel to and tourists need to figure out the best route to visit all the sites that suit their preferences. Hence, we want to present a solution in the form of the application we're worked on: **"Optimized Itinerary Recommendation with AI"**.
 
 ## What exactly is it though? 
 
@@ -14,6 +14,8 @@ It is a system that recommends the optimized itinerary connecting the best desti
 
 
 ```
+
+* There is a separate README file for every directory if you'd like. *
 
 ## What's inside the directories by the way ? 
 
