@@ -15,7 +15,7 @@ It is a system that recommends the optimized itinerary connecting the best desti
 
 ```
 
-* There is a separate README file for every directory if you'd like. *
+_ There is a separate README file for every directory if you'd like. _
 
 ## What's inside the directories by the way ? 
 
