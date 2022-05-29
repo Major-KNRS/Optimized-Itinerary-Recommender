@@ -6,6 +6,8 @@ With our lifestyle becoming busier by the day, our time to travel and explore th
 
 It is a system that recommends the optimized itinerary connecting the best destinations based on our travel preferences and overall statistics of the destinations. It is implemented on a user-friendly UI web platform integrated with map and  content-based, collaborative and hybrid filtering algorithms working behind the scenes to provide the best recommendations for the users. For the optimization of the routes, different approaches and heuristics such as Nearest Neighbor Heuristic, 2-opt, Dynamic Programming and Ant Colony Optimization are used and experimented upon. 2-opt and Ant Colony Optimization are observed to be suitable route optimization algorithms in  the production environment.
 
+![Route recommendation preview](./preview.png)
+
 ## How to run it ?
 
 ```bash
@@ -15,7 +17,7 @@ It is a system that recommends the optimized itinerary connecting the best desti
 
 ## What's inside the directories by the way ? 
 
-**Datasets** : All the datasets used in our system
+**Datasets** : contains all the datasets used in our system
 
 **Route_optimizer** : contains the implementation of route optimization techniques - Greedy (Nearest Neighbor Heuristic), Greedy improved with 2-opt technique, Dynamic Programming, Ant Colony Optimization 
 
